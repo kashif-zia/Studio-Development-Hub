@@ -278,7 +278,7 @@
 
     .sdh-mv {
     width: 100%;
-    background-image: url('/assets/images/sdh_mv.png');
+    // background-image: url('/assets/images/sdh_mv.png');
     // height: 730px;
     background-position: top center;
     background-repeat: no-repeat;
@@ -286,8 +286,10 @@
     z-index: 1;
     position: absolute;
     top:440px;
-    padding-top: 500px;
-   
+    // padding-top: 500px;
+ .sdh-image{
+    width: 100%;
+ }  
 }
 .problemSection{
     background: linear-gradient(180deg, rgba(68, 82, 219, 0.00) 0%, rgba(68, 82, 219, 0.40) 8.61%, #4452DB 19.45%, #4452DB 100%);
