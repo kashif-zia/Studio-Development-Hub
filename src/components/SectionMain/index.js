@@ -12,7 +12,7 @@ import oricobal from 'assets/images/brands/oricobalimorefinance.png'
 import maplefinance from 'assets/images/brands/maplefinance.png'
 import sellesasecorp from 'assets/images/brands/sclleasecorp.png'
 import yamahaimg from 'assets/images/brands/yamahafs.png'
-import sdhmv from 'assets/images/sdh_mv.png'
+import dancingImage from 'assets/images/dancing.svg'
 import { Autoplay} from 'swiper/modules';
 import 'swiper/css';
 
@@ -60,7 +60,7 @@ export default function index() {
                                 </div>
                             </div>                           
                         </div>
-                            <div className='brands-swiper'>
+                            <div className="companyLogo-Section">
                             <Swiper
                                 slidesPerView={3}
                                 spaceBetween={30}
@@ -70,15 +70,16 @@ export default function index() {
                                 }}
                                 modules={[Autoplay]}
                                 className="mySwiper">
-                                <SwiperSlide><img className='brand-img' src={embank} alt="bankimage"/></SwiperSlide>
-                                <SwiperSlide><img className='brand-img' src={haydockfinance} alt="financeimage"/></SwiperSlide>
-                                <SwiperSlide><img className='brand-img' src={ikanobank} alt="ikanobankimage"/></SwiperSlide>
-                                <SwiperSlide><img className='brand-img' src={oricobal} alt="oricobaimage"/></SwiperSlide>
-                                <SwiperSlide><img className='brand-img' src={maplefinance} alt="maplefinanceimage"/></SwiperSlide>
-                                <SwiperSlide><img className='brand-img' src={sellesasecorp} alt="ellesasecorpimage"/></SwiperSlide>
-                                <SwiperSlide><img className='brand-img' src={yamahaimg} alt="yamahaimage"/></SwiperSlide>
+                                <SwiperSlide><img className='brand-img' src={embank} alt="image" /></SwiperSlide>
+                                <SwiperSlide><img className='brand-img' src={haydockfinance} alt="image" /></SwiperSlide>
+                                <SwiperSlide><img className='brand-img' src={ikanobank} alt="image" /></SwiperSlide>
+                                <SwiperSlide><img className='brand-img' src={oricobal} alt="image" /></SwiperSlide>
+                                <SwiperSlide><img className='brand-img' src={maplefinance} alt="image" /></SwiperSlide>
+                                <SwiperSlide><img className='brand-img' src={sellesasecorp} alt="image" /></SwiperSlide>
+                                <SwiperSlide><img className='brand-img' src={yamahaimg} alt="image" /></SwiperSlide>
                             </Swiper>
                             </div>
+                            
                     </div>
                     <div className='col-md-3 custom-col-3 p-0'>
                         <section className='section-contact-form'>
@@ -129,14 +130,34 @@ export default function index() {
                             </form>
                         </section>
                     </div>
-                    <div class="sdh-mv">
-                        <img src={sdhmv} className="sdh-mv" alt="sdh mv" />
-                    </div>
+                   
                 </div>
-
-
-
+                <div className="row">
+                <div className="sdh-mv">
+                     
+                     </div>
+                     
+                     <div className="problemSection">
+                     <div className="aboutSdh">
+                                 <div className="">
+                                 <img src={dancingImage} alt="dancing image" />
+                                 </div>
+                                 <div className="about-p">
+                                <p>{"{About SDH }"}
+                                 </p>
+                                 <h2>Studio Development<br/>Hubとは？</h2>
+                                 <p>SDHはパキスタンを拠点としたオフショア開発サービスです。エンジニアの人数規模は単独から10人単位のチーム編成まで、
+                                    柔軟に対応いたします。当サービスの強みである日本トップクラスの高品質な開発モデルとプロジェクト管理、
+                                    そして迅速なコミュニケーションを駆使し、お客様のビジネスを成功へと導きます。
+                                 </p>
+                                 </div>
+                        </div>
+                     <p>{"{Problem }"}
+                                 </p>
+                     </div>
+                </div>
             </div>
+
 
 
 
