@@ -363,11 +363,10 @@
     // background-position: top center;
     // background-repeat: no-repeat;
     // background-size: cover;
-    width: 100%;
-    z-index: 1;
-    position: relative;
-    margin-top: -110px;
-    // padding-top: 500px;
+           width: 100%;
+		   z-index: 1;
+		   position: relative;
+ 		   margin-top: -270px;
  .sdh-image{
     width: 100%;
  }  
@@ -375,17 +374,52 @@
 .problemSection{
     background: linear-gradient(180deg, rgba(68, 82, 219, 0.00) 0%, rgba(68, 82, 219, 0.40) 8.61%, #4452DB 19.45%, #4452DB 100%);
     width: 100%;
-    margin-top: -150px;
+    margin-top: -129px;
     z-index: 1;
     .aboutSdh{
-        max-width: 680px;
-        margin: auto;
+          max-width: 838px;
+          margin: auto;
+        
+          margin-top: -90px;
+          margin-bottom: 294px;
      }
      .aboutSdh{
          display: flex;
      }
+     .aboutSdh-subtext{
+        color: #fff;
+     }
+     .aboutSdh-h2{
+        color:#fff;
+     }
+     .aboutSdh-text{
+        color: #fff;
+     }
 }
+.problecSection{
 
+.problemNotes{
+    background-color: #fff;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 536px;
+    height: 77px;
+    border-radius: 38.5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 26px;
+}
+.problemHeading{
+    margin-bottom: 29px;
+}
+.problemSub-text{
+    color:#fff;
+}
+.problemSub-h3{
+    color: #fff;
+}
+}
 @media only screen and (max-width:1200px) {
     .side-contact-form {
         display: none;
