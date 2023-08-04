@@ -12,6 +12,7 @@ import oricobal from 'assets/images/brands/oricobalimorefinance.png'
 import maplefinance from 'assets/images/brands/maplefinance.png'
 import sellesasecorp from 'assets/images/brands/sclleasecorp.png'
 import yamahaimg from 'assets/images/brands/yamahafs.png'
+import sdhmv from 'assets/images/sdh_mv.png'
 import { Autoplay} from 'swiper/modules';
 import 'swiper/css';
 
@@ -78,6 +79,7 @@ export default function index() {
                                 <SwiperSlide><img className='brand-img' src={yamahaimg} alt="image" /></SwiperSlide>
                             </Swiper>
                             </div>
+                            
                     </div>
                     <div className='col-md-3 custom-col-3 p-0'>
                         <section className='section-contact-form'>
@@ -128,6 +130,9 @@ export default function index() {
                             </form>
                         </section>
                     </div>
+                    <div class="sdh-mv">
+                            <img src={sdhmv} className="sdh-mv" alt="sdh mv" />
+                            </div>
                 </div>
             </div>
         </section>
