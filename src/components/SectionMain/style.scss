@@ -277,7 +277,6 @@
 }
 
     .sdh-mv {
-    width: 100%;
     // background-image: url('/assets/images/sdh_mv.png');
     // height: 730px;
     // background-position: top center;
@@ -286,7 +285,7 @@
     width: 100%;
     z-index: 1;
     position: relative;
-    top: -110px;
+    margin-top: -110px;
     // padding-top: 500px;
  .sdh-image{
     width: 100%;
