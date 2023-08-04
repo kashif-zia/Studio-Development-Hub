@@ -137,6 +137,12 @@ export default function index() {
 
 
             </div>
+
+
+
+
+
+
             <section className='section-questions'>
                 <div className='container'>
                     <div class="row">
@@ -151,8 +157,8 @@ export default function index() {
                             </div>
                             <div className='question-accordian'>
                                 <div class="accordion" id="accordionExample">
-                                    <div class="card">
-                                        <div class="card-header" id="headingOne">
+                                    <div class="card accordian-card">
+                                        <div class="card-header accordian-card-header" id="headingOne">
                                             <h2 class="mb-0">
                                                 <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                     <span className='question'>Q</span> エンジニアは何人から採用できますか？
@@ -166,8 +172,8 @@ export default function index() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingTwo">
+                                  <div class="card accordian-card">
+                                        <div class="card-header accordian-card-header" id="headingTwo">
                                             <h2 class="mb-0">
                                                 <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                <span className='question'>Q</span> 契約期間はどれくらいですか？
@@ -180,8 +186,8 @@ export default function index() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingThree">
+                                    <div class="card accordian-card">
+                                        <div class="card-header accordian-card-header" id="headingThree">
                                             <h2 class="mb-0">
                                                 <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                                     <span className='question'>Q</span>  どのような業種の人材がいますか？
@@ -194,102 +200,102 @@ export default function index() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingThree">
+                                    <div class="card accordian-card">
+                                        <div class="card-header accordian-card-header" id="headingFour">
                                             <h2 class="mb-0">
-                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                                     <span className='question'>Q</span> 月額の人材費用以外にも何かお金は発生しますか？
                                                 </button>
                                             </h2>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <span className='answer'>A</span>月額のエンジニアや人材の金額のみとなります。
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingThree">
+                                    <div class="card accordian-card">
+                                        <div class="card-header accordian-card-header" id="headingFive">
                                             <h2 class="mb-0">
-                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                                     <span className='question'>Q</span>  契約後キャンセルはできますか？
                                                 </button>
                                             </h2>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <span className='answer'>A</span> 契約期間中のキャンセルは受け付けておりません。
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingThree">
+                                    <div class="card accordian-card">
+                                        <div class="card-header accordian-card-header" id="headingSix">
                                             <h2 class="mb-0">
-                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                                                     <span className='question'>Q</span>どのようなスキルのエンジニアがいますか？
                                                 </button>
                                             </h2>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <span className='answer'>A</span>業務経験年数3-10年ほどのエンジニアが業務に対応します。
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingThree">
+                                    <div class="card accordian-card">
+                                        <div class="card-header accordian-card-header" id="headingSeven">
                                             <h2 class="mb-0">
-                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                                                     <span className='question'>Q</span>どのような開発技術に対応していますか？
                                                 </button>
                                             </h2>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <span className='answer'>A</span>AWS Amplify、Node.js、React.js、Vue.js、その他フロント開発言語に対応しています。
 
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingThree">
+                                    <div class="card accordian-card">
+                                        <div class="card-header accordian-card-header" id="headingEight">
                                             <h2 class="mb-0">
-                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                                                     <span className='question'>Q</span>就業時間は何時から何時ですか？
                                                 </button>
                                             </h2>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <span className='answer'>A</span>日本時間の13時から22時を基本としています。
 
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingThree">
+                                    <div class="card accordian-card">
+                                        <div class="card-header accordian-card-header" id="headingNine">
                                             <h2 class="mb-0">
-                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                                                     <span className='question'>Q</span>月の稼働時間はどれくらいですか？
                                                 </button>
                                             </h2>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <span className='answer'>A</span>月の稼働時間は160時間をベースとし、140-180時間の精算幅を設定しています。
 
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingThree">
+                                    <div class="card accordian-card">
+                                        <div class="card-header accordian-card-header" id="headingTen">
                                             <h2 class="mb-0">
-                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
                                                     <span className='question'>Q</span>24時間・土日対応は可能ですか？
                                                 </button>
                                             </h2>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <span className='answer'>A</span>対応可能です、特にカスタマーサポートや保守エンジニアなどでご相談いただきます。
 
@@ -297,97 +303,97 @@ export default function index() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingThree">
+                                    <div class="card accordian-card">
+                                        <div class="card-header accordian-card-header" id="headingEleven">
                                             <h2 class="mb-0">
-                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
                                                     <span className='question'>Q</span> コミュニケーションは何語ですか？
                                                 </button>
                                             </h2>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <span className='answer'>A</span> 日本語でのやりとりになりますが、英語をご希望でも対応できます。
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingThree">
+                                    <div class="card accordian-card">
+                                        <div class="card-header accordian-card-header" id="headingTwelve">
                                             <h2 class="mb-0">
-                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
                                                     <span className='question'>Q</span>  定例などはございますか？
                                                 </button>
                                             </h2>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <span className='answer'>A</span>  お客様の体制にお任せしますが、通常はSlackなどのテキストベースにて行なっています。
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingThree">
+                                    <div class="card accordian-card">
+                                        <div class="card-header accordian-card-header" id="headingThirteen">
                                             <h2 class="mb-0">
-                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
                                                     <span className='question'>Q</span>支払いはどのように行いますか？
                                                 </button>
                                             </h2>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <span className='answer'>A</span>銀行振込にてお支払い頂きます。
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingThree">
+                                    <div class="card accordian-card">
+                                        <div class="card-header accordian-card-header" id="headingFourteen">
                                             <h2 class="mb-0">
-                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
                                                     <span className='question'>Q</span>エンジニアの追加は可能ですか？
                                                 </button>
                                             </h2>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <span className='answer'>A</span>必要な人数をご指示いただきましたらすぐに対応します。
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingThree">
+                                    <div class="card accordian-card">
+                                        <div class="card-header accordian-card-header" id="headingFifteen">
                                             <h2 class="mb-0">
-                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
                                                     <span className='question'>Q</span> 電話での指示は可能ですか？
                                                 </button>
                                             </h2>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <span className='answer'>A</span>電話やZoomなどのツールを使用してご指示頂けます。
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="card">
-                                        <div class="card-header" id="headingThree">
+                                    <div class="card accordian-card">
+                                        <div class="card-header accordian-card-header" id="headingSixteen">
                                             <h2 class="mb-0">
-                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
                                                     <span className='question'>Q</span> プロジェクトの管理・進捗はどのように確認できますか？
                                                 </button>
                                             </h2>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div id="collapseSixteen" class="collapse" aria-labelledby="headingSixteen" data-parent="#accordionExample">
                                             <div class="card-body">
                                                 <span className='answer'>A</span> JiraやAsanaなどのプロジェクト管理ツールにてチケットを生成しています。
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> 
                                 </div>                                
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-                <section className='section-contact-form'>
+                <section className='section-main-contact-form'>
                     <div className='container'>
                         <div class="row">
                             <div className='col-md-10 mx-auto'>
@@ -408,10 +414,8 @@ export default function index() {
                                     </div>
                                     <div class="form-group">
                                         <label className='main-contact-label' for="phoneNumber">電話番号</label>
-                                        <input type="tel" class="form-control main-cntct-inputs" id="phoneNumber" />
-                                            
+                                        <input type="tel" class="form-control main-cntct-inputs" id="phoneNumber" />                                          
                                     </div>
-
                                     <div class="form-group">
                                         <label className='main-contact-label' for="emailAddress">メールアドレス</label>
                                         <input type="email" class="form-control main-cntct-inputs" id="emailAddress"/>

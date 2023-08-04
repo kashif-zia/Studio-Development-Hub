@@ -168,7 +168,7 @@
             width: 100%;
             height: 140px;
         }
-        .section-contact-form{
+        .section-main-contact-form{
             border-radius: 0px 0px 120px 120px;
             background: #4E4AE6;
             padding: 260px 0px 120px 0px;
@@ -255,6 +255,16 @@
             position: relative;
             z-index: 1;
             background-color: red;
+            .accordian-card{
+                border-top: 0px;
+                border-right: 0px;
+                border-bottom: 1px solid #DDDDE4;
+                border-left: 0px;
+                background-color: #FFFFFF;
+            }
+            .accordian-card-header{
+                border-bottom: 0px;
+            }
         }
 }
 .sdh-mv{
