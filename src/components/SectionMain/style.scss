@@ -280,12 +280,13 @@
     width: 100%;
     // background-image: url('/assets/images/sdh_mv.png');
     // height: 730px;
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    // background-position: top center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    width: 100%;
     z-index: 1;
-    position: absolute;
-    top:440px;
+    position: relative;
+    top: -110px;
     // padding-top: 500px;
  .sdh-image{
     width: 100%;
@@ -293,9 +294,8 @@
 }
 .problemSection{
     background: linear-gradient(180deg, rgba(68, 82, 219, 0.00) 0%, rgba(68, 82, 219, 0.40) 8.61%, #4452DB 19.45%, #4452DB 100%);
-    padding: 100px 0px;
     width: 100%;
-    margin-top: 110px;
+    margin-top: -365px;
     z-index: 1;
     .aboutSdh{
         max-width: 680px;

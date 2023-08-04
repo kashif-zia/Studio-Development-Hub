@@ -139,6 +139,7 @@ export default function index() {
                      </div>
                      
                      <div className="problemSection">
+                     <div className="col-md-9 custom-col-9 p-0">
                      <div className="aboutSdh">
                                  <div className="">
                                  <img src={dancingImage} alt="dancing image" />
@@ -155,6 +156,7 @@ export default function index() {
                         </div>
                      <p>{"{Problem }"}
                                  </p>
+                                 </div>
                      </div>
                 </div>
             </div>
