@@ -170,7 +170,7 @@ export default function index() {
             <section className='section-questions'>
                 <div className='container'>
                     <div className="row">
-                        <div className='col-md-10 mx-auto'>
+                        <div className='col-md-10'>
                             <div className='section-question-header'>
                             <div className='question-section-title'>
                                 <h2>{"{ Question }"}</h2>
@@ -185,14 +185,14 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingOne">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                    <span className='question'>Q</span> エンジニアは何人から採用できますか？
+                                                    <div className='question'>Q</div> エンジニアは何人から採用できますか？
                                                 </button>
                                             </h2>
                                         </div>
 
                                         <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                             <div className="card-body">
-                                                <span className='answer'>A</span>  エンジニアは1人から採用可能です。また2-10人ほどのチーム単位でも採用可能です。
+                                                <div className='answer'>A</div>  エンジニアは1人から採用可能です。また2-10人ほどのチーム単位でも採用可能です。
                                             </div>
                                         </div>
                                     </div>
@@ -200,13 +200,13 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingTwo">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                               <span className='question'>Q</span> 契約期間はどれくらいですか？
+                                               <div className='question'>Q</div> 契約期間はどれくらいですか？
                                                 </button>
                                             </h2>
                                         </div>
                                         <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                                             <div className="card-body">
-                                                <span className='answer'>A</span> 契約期間は半年契約及び1年契約の２種類がございます。
+                                                <div className='answer'>A</div> 契約期間は半年契約及び1年契約の２種類がございます。
                                             </div>
                                         </div>
                                     </div>
@@ -214,13 +214,13 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingThree">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                    <span className='question'>Q</span>  どのような業種の人材がいますか？
+                                                    <div className='question'>Q</div>  どのような業種の人材がいますか？
                                                 </button>
                                             </h2>
                                         </div>
                                         <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                             <div className="card-body">
-                                                <span className='answer'>A</span> アプリ、システム開発エンジニア、プロジェクトマネージャー、カスタマーサポート、保守エンジニア、テストQAエンジニアが在籍しています。
+                                                <div className='answer'>A</div> アプリ、システム開発エンジニア、プロジェクトマネージャー、カスタマーサポート、保守エンジニア、テストQAエンジニアが在籍しています。
                                             </div>
                                         </div>
                                     </div>
@@ -228,13 +228,13 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingFour">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                    <span className='question'>Q</span> 月額の人材費用以外にも何かお金は発生しますか？
+                                                    <div className='question'>Q</div> 月額の人材費用以外にも何かお金は発生しますか？
                                                 </button>
                                             </h2>
                                         </div>
                                         <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                                             <div className="card-body">
-                                                <span className='answer'>A</span>月額のエンジニアや人材の金額のみとなります。
+                                                <div className='answer'>A</div>月額のエンジニアや人材の金額のみとなります。
                                             </div>
                                         </div>
                                     </div>
@@ -242,13 +242,13 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingFive">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                                    <span className='question'>Q</span>  契約後キャンセルはできますか？
+                                                    <div className='question'>Q</div>  契約後キャンセルはできますか？
                                                 </button>
                                             </h2>
                                         </div>
                                         <div id="collapseFive" className="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
                                             <div className="card-body">
-                                                <span className='answer'>A</span> 契約期間中のキャンセルは受け付けておりません。
+                                                <div className='answer'>A</div> 契約期間中のキャンセルは受け付けておりません。
                                             </div>
                                         </div>
                                     </div>
@@ -256,13 +256,13 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingSix">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                                    <span className='question'>Q</span>どのようなスキルのエンジニアがいますか？
+                                                    <div className='question'>Q</div>どのようなスキルのエンジニアがいますか？
                                                 </button>
                                             </h2>
                                         </div>
                                         <div id="collapseSix" className="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
                                             <div className="card-body">
-                                                <span className='answer'>A</span>業務経験年数3-10年ほどのエンジニアが業務に対応します。
+                                                <div className='answer'>A</div>業務経験年数3-10年ほどのエンジニアが業務に対応します。
                                             </div>
                                         </div>
                                     </div>
@@ -270,13 +270,13 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingSeven">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                                    <span className='question'>Q</span>どのような開発技術に対応していますか？
+                                                    <div className='question'>Q</div>どのような開発技術に対応していますか？
                                                 </button>
                                             </h2>
                                         </div>
                                         <div id="collapseSeven" className="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
                                             <div className="card-body">
-                                                <span className='answer'>A</span>AWS Amplify、Node.js、React.js、Vue.js、その他フロント開発言語に対応しています。
+                                                <div className='answer'>A</div>AWS Amplify、Node.js、React.js、Vue.js、その他フロント開発言語に対応しています。
 
                                             </div>
                                         </div>
@@ -285,13 +285,13 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingEight">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                                    <span className='question'>Q</span>就業時間は何時から何時ですか？
+                                                    <div className='question'>Q</div>就業時間は何時から何時ですか？
                                                 </button>
                                             </h2>
                                         </div>
                                         <div id="collapseEight" className="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
                                             <div className="card-body">
-                                                <span className='answer'>A</span>日本時間の13時から22時を基本としています。
+                                                <div className='answer'>A</div>日本時間の13時から22時を基本としています。
 
                                             </div>
                                         </div>
@@ -300,13 +300,13 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingNine">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                                    <span className='question'>Q</span>月の稼働時間はどれくらいですか？
+                                                    <div className='question'>Q</div>月の稼働時間はどれくらいですか？
                                                 </button>
                                             </h2>
                                         </div>
                                         <div id="collapseNine" className="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
                                             <div className="card-body">
-                                                <span className='answer'>A</span>月の稼働時間は160時間をベースとし、140-180時間の精算幅を設定しています。
+                                                <div className='answer'>A</div>月の稼働時間は160時間をベースとし、140-180時間の精算幅を設定しています。
 
                                             </div>
                                         </div>
@@ -315,13 +315,13 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingTen">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                                    <span className='question'>Q</span>24時間・土日対応は可能ですか？
+                                                    <div className='question'>Q</div>24時間・土日対応は可能ですか？
                                                 </button>
                                             </h2>
                                         </div>
                                         <div id="collapseTen" className="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
                                             <div className="card-body">
-                                                <span className='answer'>A</span>対応可能です、特にカスタマーサポートや保守エンジニアなどでご相談いただきます。
+                                                <div className='answer'>A</div>対応可能です、特にカスタマーサポートや保守エンジニアなどでご相談いただきます。
 
 
                                             </div>
@@ -331,13 +331,13 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingEleven">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-                                                    <span className='question'>Q</span> コミュニケーションは何語ですか？
+                                                    <div className='question'>Q</div> コミュニケーションは何語ですか？
                                                 </button>
                                             </h2>
                                         </div>
                                         <div id="collapseEleven" className="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
                                             <div className="card-body">
-                                                <span className='answer'>A</span> 日本語でのやりとりになりますが、英語をご希望でも対応できます。
+                                                <div className='answer'>A</div> 日本語でのやりとりになりますが、英語をご希望でも対応できます。
                                             </div>
                                         </div>
                                     </div>
@@ -345,13 +345,13 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingTwelve">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-                                                    <span className='question'>Q</span>  定例などはございますか？
+                                                    <div className='question'>Q</div>  定例などはございますか？
                                                 </button>
                                             </h2>
                                         </div>
                                         <div id="collapseTwelve" className="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">
                                             <div className="card-body">
-                                                <span className='answer'>A</span>  お客様の体制にお任せしますが、通常はSlackなどのテキストベースにて行なっています。
+                                                <div className='answer'>A</div>  お客様の体制にお任せしますが、通常はSlackなどのテキストベースにて行なっています。
                                             </div>
                                         </div>
                                     </div>
@@ -359,13 +359,13 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingThirteen">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-                                                    <span className='question'>Q</span>支払いはどのように行いますか？
+                                                    <div className='question'>Q</div>支払いはどのように行いますか？
                                                 </button>
                                             </h2>
                                         </div>
                                         <div id="collapseThirteen" className="collapse" aria-labelledby="headingThirteen" data-parent="#accordionExample">
                                             <div className="card-body">
-                                                <span className='answer'>A</span>銀行振込にてお支払い頂きます。
+                                                <div className='answer'>A</div>銀行振込にてお支払い頂きます。
                                             </div>
                                         </div>
                                     </div>
@@ -373,13 +373,13 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingFourteen">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
-                                                    <span className='question'>Q</span>エンジニアの追加は可能ですか？
+                                                    <div className='question'>Q</div>エンジニアの追加は可能ですか？
                                                 </button>
                                             </h2>
                                         </div>
                                         <div id="collapseFourteen" className="collapse" aria-labelledby="headingFourteen" data-parent="#accordionExample">
                                             <div className="card-body">
-                                                <span className='answer'>A</span>必要な人数をご指示いただきましたらすぐに対応します。
+                                                <div className='answer'>A</div>必要な人数をご指示いただきましたらすぐに対応します。
                                             </div>
                                         </div>
                                     </div>
@@ -387,13 +387,13 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingFifteen">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
-                                                    <span className='question'>Q</span> 電話での指示は可能ですか？
+                                                    <div className='question'>Q</div> 電話での指示は可能ですか？
                                                 </button>
                                             </h2>
                                         </div>
                                         <div id="collapseFifteen" className="collapse" aria-labelledby="headingFifteen" data-parent="#accordionExample">
                                             <div className="card-body">
-                                                <span className='answer'>A</span>電話やZoomなどのツールを使用してご指示頂けます。
+                                                <div className='answer'>A</div>電話やZoomなどのツールを使用してご指示頂けます。
                                             </div>
                                         </div>
                                     </div>
@@ -401,13 +401,13 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingSixteen">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
-                                                    <span className='question'>Q</span> プロジェクトの管理・進捗はどのように確認できますか？
+                                                    <div className='question'>Q</div> プロジェクトの管理・進捗はどのように確認できますか？
                                                 </button>
                                             </h2>
                                         </div>
                                         <div id="collapseSixteen" className="collapse" aria-labelledby="headingSixteen" data-parent="#accordionExample">
                                             <div className="card-body">
-                                                <span className='answer'>A</span> JiraやAsanaなどのプロジェクト管理ツールにてチケットを生成しています。
+                                                <div className='answer'>A</div> JiraやAsanaなどのプロジェクト管理ツールにてチケットを生成しています。
                                             </div>
                                         </div>
                                     </div>  

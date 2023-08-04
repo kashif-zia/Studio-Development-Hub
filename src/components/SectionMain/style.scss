@@ -272,7 +272,88 @@
         margin-bottom: -160px;
         position: relative;
         z-index: 1;
-
+   
+            .accordian-card{
+                width: 100%;
+                min-width: 952px;
+                border-bottom: 1px solid #DDDDE4;
+                border-left: 0px;
+                border-top: 0px;    
+                border-right: 0px;
+                background-color: #fff;
+                .accordian-card-header{
+                    border-bottom: 0px;
+                    background-color: #ffff;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    button{
+                        padding-left: 0px;
+                        color: var(--gray, #333);
+                        font-feature-settings: 'palt'on;
+                        font-family: Noto Sans JP;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 0.8px;
+                    }
+                    button:focus{
+                        box-shadow: none;
+                        text-decoration: none;
+                    }
+                    .question{
+                        background: #4E4AE6;
+                        width: 30px;
+                        height: 30px;
+                        padding: 7px;
+                        border-radius: 50%;
+                        display: inline-flex;
+                        text-align: center;
+                        margin: 0px auto;
+                        justify-content: center;
+                        align-items: center;
+                        color:  #FFF;
+                        font-family: Roboto;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 1.47px;
+                        margin-right: 16px;
+                    }
+                }
+                .answer{
+                    background: #302CA9;
+                    width: 30px;
+                    height: 30px;
+                    padding: 7px;
+                    border-radius: 50%;
+                    display: inline-flex;
+                    text-align: center;
+                    margin: 0px auto;
+                    justify-content: center;
+                    align-items: center;
+                    color: #FFF;
+                    font-family: Roboto;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 1.47px;
+                    margin-right: 16px;
+                }
+                .card-body{
+                    padding: 0.5rem 0px 0.5rem 0;
+                    color: var(--gray, #333);
+                    font-feature-settings: 'palt'on;
+                    font-family: Noto Sans JP;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 0.8px;
+                }
+            }
     }
 }
 
