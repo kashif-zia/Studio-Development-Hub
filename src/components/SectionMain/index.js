@@ -157,7 +157,13 @@ export default function index() {
                      </div>
                 </div>
             </div>
-            
+
+
+
+
+
+
+
             <section className='section-questions'>
                 <div className='container'>
                     <div className="row">
@@ -401,7 +407,7 @@ export default function index() {
                                                 <span className='answer'>A</span> JiraやAsanaなどのプロジェクト管理ツールにてチケットを生成しています。
                                             </div>
                                         </div>
-                                    </div> 
+                                    </div>  
                                 </div>                                
                             </div>
                         </div>
