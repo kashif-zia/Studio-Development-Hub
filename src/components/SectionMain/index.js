@@ -61,7 +61,7 @@ export default function index() {
                                 </div>
                             </div>                           
                         </div>
-                            <div className="companyLogo-Section">
+                            <div className="companyLogo-Section pr-4">
                             <Swiper
                                 slidesPerView={3}
                                 spaceBetween={30}
@@ -145,27 +145,27 @@ export default function index() {
                                  <img src={dancingImage} alt="dancing image" />
                                  </div>
                                  <div className="about-p">
-                                <p>{"{About SDH }"}
+                                <p className="aboutSdh-subtext">{"{About SDH }"}
                                  </p>
-                                 <h2>Studio Development<br/>Hubとは？</h2>
-                                 <p>SDHはパキスタンを拠点としたオフショア開発サービスです。エンジニアの人数規模は単独から10人単位のチーム編成まで、
+                                 <h2 className="aboutSdh-h2">Studio Development<br/>Hubとは？</h2>
+                                 <p className="aboutSdh-text">SDHはパキスタンを拠点としたオフショア開発サービスです。エンジニアの人数規模は単独から10人単位のチーム編成まで、
                                     柔軟に対応いたします。当サービスの強みである日本トップクラスの高品質な開発モデルとプロジェクト管理、
                                     そして迅速なコミュニケーションを駆使し、お客様のビジネスを成功へと導きます。
                                  </p>
                                  </div>
                         </div>
-                     <p>{"{Problem }"}
-                                 </p>
+                        <div className="problecSection col-md-9 custom-col-9">
+                            <div className="problemHeading">
+                                  <p className="problemSub-text text-center">{"{Problem }"}</p>
+                                  <h3 className="problemSub-h3 text-center">こんなお悩みありませんか？</h3>
+                                  </div>
+                                  <div className="problemNotes">開発の品質は担保されるのだろうか</div>
+                               
+                        </div>
                                  </div>
                      </div>
                 </div>
             </div>
-
-
-
-
-
-
 
             <section className='section-questions'>
                 <div className='container'>
