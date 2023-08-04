@@ -61,7 +61,6 @@ export default function index() {
                             </div>                           
                         </div>
                             <div className="companyLogo-Section">
-                            <div className='brands-swiper'>
                             <Swiper
                                 slidesPerView={3}
                                 spaceBetween={30}
@@ -71,15 +70,16 @@ export default function index() {
                                 }}
                                 modules={[Autoplay]}
                                 className="mySwiper">
-                                <SwiperSlide><img className='brand-img' src={embank} alt="bankimage"/></SwiperSlide>
-                                <SwiperSlide><img className='brand-img' src={haydockfinance} alt="financeimage"/></SwiperSlide>
-                                <SwiperSlide><img className='brand-img' src={ikanobank} alt="ikanobankimage"/></SwiperSlide>
-                                <SwiperSlide><img className='brand-img' src={oricobal} alt="oricobaimage"/></SwiperSlide>
-                                <SwiperSlide><img className='brand-img' src={maplefinance} alt="maplefinanceimage"/></SwiperSlide>
-                                <SwiperSlide><img className='brand-img' src={sellesasecorp} alt="ellesasecorpimage"/></SwiperSlide>
-                                <SwiperSlide><img className='brand-img' src={yamahaimg} alt="yamahaimage"/></SwiperSlide>
+                                <SwiperSlide><img className='brand-img' src={embank} alt="image" /></SwiperSlide>
+                                <SwiperSlide><img className='brand-img' src={haydockfinance} alt="image" /></SwiperSlide>
+                                <SwiperSlide><img className='brand-img' src={ikanobank} alt="image" /></SwiperSlide>
+                                <SwiperSlide><img className='brand-img' src={oricobal} alt="image" /></SwiperSlide>
+                                <SwiperSlide><img className='brand-img' src={maplefinance} alt="image" /></SwiperSlide>
+                                <SwiperSlide><img className='brand-img' src={sellesasecorp} alt="image" /></SwiperSlide>
+                                <SwiperSlide><img className='brand-img' src={yamahaimg} alt="image" /></SwiperSlide>
                             </Swiper>
                             </div>
+                            
                     </div>
                     <div className='col-md-3 custom-col-3 p-0'>
                         <section className='section-contact-form'>
@@ -130,8 +130,15 @@ export default function index() {
                             </form>
                         </section>
                     </div>
-                    <div className="sdh-mv">
-                        <div className="aboutSdh">
+                   
+                </div>
+                <div className="row">
+                <div className="sdh-mv">
+                     
+                     </div>
+                     
+                     <div className="problemSection">
+                     <div className="aboutSdh">
                                  <div className="">
                                  <img src={dancingImage} alt="dancing image" />
                                  </div>
@@ -145,18 +152,12 @@ export default function index() {
                                  </p>
                                  </div>
                         </div>
-                     </div>
-                     <div className="problemSection">
-                  
                      <p>{"{Problem }"}
                                  </p>
                      </div>
                 </div>
-
-
-
             </div>
-            </div>
+            
             <section className='section-questions'>
                 <div className='container'>
                     <div class="row">
@@ -407,7 +408,7 @@ export default function index() {
                     </div>
                 </div>
             </section>
-                <section className='section-contact-form'>
+                <section className='section-main-contact-form'>
                     <div className='container'>
                         <div class="row">
                             <div className='col-md-10 mx-auto'>
