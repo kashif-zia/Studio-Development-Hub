@@ -1,0 +1,126 @@
+@import "../../assets/styles/variables";
+
+header {
+    padding: 32px 32px 0px 32px;
+    background: #F5F4F6;
+    .navbar{
+        background: #F5F4F6;
+        width: 100%;
+        max-width: 1076px;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: end;
+        align-items: center;
+    }
+    .navbar-light .navbar-nav .nav-link {
+      color: $navlink;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 14px;
+        letter-spacing: 0.7px;
+        padding: 0px 32px 0px 0px;
+        display: flex;
+        align-items: center;
+    }
+    .navbar-collapse.collapse.show .navbar-nav{
+        padding:80px 0px;
+    }
+    .navbar-collapse.collapse.show .navbar-nav .nav-link{
+        padding: 24px 0px;
+        border-bottom: 1px solid #DDDDE4;
+    }
+    .navbar-collapse.collapse.show .navbar-nav .nav-link:first-child{
+        padding: 24px 0px;
+        border-top: 1px solid #DDDDE4;
+    }
+    .navbar-light .navbar-nav .nav-link:last-child {
+     padding-right: 36px;
+    }
+    .navbar-light .navbar-nav .nav-link {
+    .dot{
+        width: 6px;
+        height: 6px;
+        border-radius: 3.5px;
+        background: #0015E2;
+        display: inline-flex;
+        margin-right: 6px;
+    }
+    }
+    .lang-button {
+        border-radius: 27.5px;
+        background: #F0F0F0;
+        height: 39px;
+        width: 101px;
+        border: none;
+    }
+    .lang-button {
+    .lang-en,
+    .lang-slash {
+        color: #A9D1D3;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height:15px;
+        letter-spacing: 0.75px;
+    }
+    .lang-jp{
+        color: #0015E2;
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        letter-spacing: 0.75px;
+    }
+
+    }
+    // .navbar-light .navbar-toggler {
+    //     color: rgba(0, 0, 0, 0.5);
+    //     border-color: none;
+    //     background: #302CA9;
+    //     height: 48px;
+    //     width: 48px;
+    //     border-radius: 50%;
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    // }
+}
+.mobile-nav{
+    .inquiry-bitton{
+        border-radius: 43.5px;
+        background: #FF6200;
+        box-shadow: 0px 4px 30px 0px rgba(27, 183, 193, 0.20);
+        color:#fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+        width: 240px;
+        height: 50px;
+        border: none;
+
+    }
+}
+
+@media only screen and (max-width:767px){
+    header{
+        .navbar {
+            background: #F5F4F6;
+            width: 100%;
+          
+        }
+        padding: 16px;
+        .navbar-brand img{
+            width: 195px;
+            height: auto;
+        }
+        .lang-button{
+            display: none;
+        }
+
+    }
+}

@@ -1,0 +1,215 @@
+@import "../../assets/styles/variables";
+
+.hero-section {
+    // padding: 24px 77px 0px 80px;
+    //  background-image: url(/assets/images/sdh_mv.png);
+    //  background-size: cover;
+    //  background-position: 9px 526px;
+    //  background-repeat: no-repeat;
+    
+    .offshore-title h1 {
+        color: #0116E0;
+        font-kerning: none;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 33px;
+        letter-spacing: 0.66px;
+        margin-bottom: 20px;
+    }
+
+    .population-title p {
+        color: $gray;
+        font-kerning: none;
+        // font-feature-settings: 'pcap'on , 'liga'off;
+        // font-family: Noto Sans JP;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0.75px;
+    }
+
+    .offshore-development-title p {
+        color: $gray;
+        font-kerning: none;
+        // font-feature-settings: 'pcap'on,
+        // 'liga'off;
+        // font-family: Noto Sans JP;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: 1.2px;
+    }
+
+    .offshore-development-desc p {
+        color: $dark-blue;
+        font-family: Noto Sans JP;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        /* 28.8px */
+        letter-spacing: 0.9px;
+    }
+
+    .section-main-contact-button .main-contact-btn {
+        // width: 300px;
+        // height: 65px;
+        padding: 24.5px 102px;
+        border-radius: 43.5px;
+        background: #FF6200;
+        box-shadow: 0px 4px 30px 0px rgba(27, 183, 193, 0.20);
+        border: none;
+        color: #FFF;
+        // font-family: Noto Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+    }
+
+    .people-image {
+        width: 100%;
+    }
+
+    .arrow-icon {
+        margin-left: -52px;
+    }
+    .hero-section-content{
+        padding: 24px 77px 0px 80px;
+        background:#F5F4F6;
+    }
+        .section-contact-form {
+
+            .side-contact-form {
+                border-radius: 0px 0px 0px 64px;
+                background: #0015E2;
+                padding: 37px 24px 0px 25px;
+            }
+
+            .side-contact-form-header {
+                .contct-title p {
+                    color: #FFF;
+                    text-align: center;
+                    // font-family: Roboto Condensed;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 21px;
+                    letter-spacing: 1.575px;
+                    margin: 0px;
+                }
+
+                .contct-heading p {
+                    color: #FFF;
+                    // font-family: Noto Sans JP;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 28px;
+                    margin: 12px 0px 24px;
+                }
+
+                .contct-desc p {
+                    color: #FFF;
+                    //   font-family: Noto Sans JP;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 20.8px;
+                    margin-bottom: 24px;
+                    text-align: left;
+                }
+            }
+
+            .contac-submit-button {
+                border-radius: 27.5px;
+                background: #FF6200;
+                box-shadow: 0px 4px 30px 0px rgba(27, 183, 193, 0.20);
+                width: 160px;
+                height: 36px;
+                margin: 0px auto;
+                display: block;
+                color: #FFF;
+                // font-family: Roboto;
+                font-size: 13px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 13px;
+                letter-spacing: 0.65px;
+            }
+
+            .form-control {
+                border-radius: 8px;
+                border: 1px solid #C0C0C0;
+                background: #FFF;
+                // width: 250px;
+                height: 32px;
+            }
+
+            .side-contact-label {
+                color: #FFF;
+                // font-family: Noto Sans JP;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px;
+                opacity: 0.8999999761581421;
+
+            }
+
+            .contact-text-area {
+                height: 80px;
+            }
+        }
+        .brand-img{
+            width: 100%;
+            height: 140px;
+        }
+}
+@media only screen and (max-width:1200px) {
+    .side-contact-form {
+        display: none;
+    }
+}
+@media only screen and (max-width:768px) {
+  
+
+    .hero-section {
+        .offshore-title h1 {
+            font-size: 16px;
+            margin-bottom: 12px;
+            line-height: 24px;
+
+        }
+
+        .population-title p {
+            font-size: 18px;
+            line-height: 25.2px;
+            margin-bottom: 8px;
+        }
+
+        .offshore-development-title p {
+            font-size: 26px;
+            line-height: 36.4px;
+            margin-bottom: 24px;
+        }
+
+        .offshore-development-desc p {
+            font-size: 13px;
+            line-height: 20.8px;
+            margin-bottom: 40px;
+        }
+       .section-main-contact-button .main-contact-btn {
+           padding: 17px 72px;
+        }
+        .arrow-icon{
+            display: none;
+        }
+        .hero-section-content{
+            padding: 44px 16px;
+        }
+    }
+}
