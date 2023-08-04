@@ -431,34 +431,34 @@ export default function index() {
                                 </div>
                                 <form className='main-contact-form'>
                                     <div className="form-group">
-                                        <label className='main-contact-label' for="name">氏名(漢字)</label>
+                                        <label className='main-contact-label' htmlFor="name">氏名(漢字)</label>
                                         <input type="text" className="form-control main-cntct-inputs" id="name" />
                                     </div>
                                     <div className="form-group">
-                                        <label className='main-contact-label' for="phoneNumber">電話番号</label>
+                                        <label className='main-contact-label' htmlFor="phoneNumber">電話番号</label>
                                         <input type="tel" className="form-control main-cntct-inputs" id="phoneNumber" />
                                             
                                     </div>
 
                                     <div className="form-group">
-                                        <label className='main-contact-label' for="emailAddress">メールアドレス</label>
+                                        <label className='main-contact-label' htmlFor="emailAddress">メールアドレス</label>
                                         <input type="email" className="form-control main-cntct-inputs" id="emailAddress"/>
                                     </div>
 
                                     <div className="form-group">
-                                        <label className='main-contact-label' for="companyName">会社名</label>
+                                        <label className='main-contact-label' htmlFor="companyName">会社名</label>
                                         <input type="text" className="form-control main-cntct-inputs" id="companyName" />
                                     </div>
                                     <div className="form-group">
-                                        <label className='main-contact-label' for="department">部署</label>
+                                        <label className='main-contact-label' htmlFor="department">部署</label>
                                         <input type="text" className="form-control main-cntct-inputs" id="department" />
                                     </div>
                                     <div className="form-group">
-                                        <label className='main-contact-label' for="post">役職</label>
+                                        <label className='main-contact-label' htmlFor="post">役職</label>
                                         <input type="text" className="form-control main-cntct-inputs" id="post" />
                                     </div>
                                     <div className="form-group">
-                                        <label className='main-contact-label' for="message">メッセージ</label>
+                                        <label className='main-contact-label' htmlFor="message">メッセージ</label>
                                         <textarea className='form-control contact-form-textarea' />
                                     </div>
                                     <button type="submit" className="btn main-contact-submit-btn">送信する</button>
