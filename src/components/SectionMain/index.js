@@ -23,12 +23,12 @@ import 'swiper/css'
 export default function index() {
     return (
         <section className='hero-section'>
-            <div class="container-fluid">
-                <div class="row">
+            <div className="container-fluid">
+                <div className="row">
                     <div className='col-md-9 custom-col-9 p-0'>
                         <Header />
                         <div className='hero-section-content'>
-                            <div class="row align-items-center">
+                            <div className="row align-items-center">
                                 <div className='col-md-6'>
                                     <div className='section-main-col-left-content'>
                                         <div className='offshore-title'>
