@@ -353,7 +353,21 @@
 
 
             }
-
+            .accordian-card-header [aria-expanded="flase"] .openIcon img{
+                display: none;
+              }
+              
+              .accordian-card-header [aria-expanded="false"] .clsoeIcon img{
+                display: none;
+              }
+              
+              .accordian-card-header [aria-expanded="true"] .openIcon {
+                display: none;
+              }
+              
+              .accordian-card-header [aria-expanded="true"] .clsoeIcon img {
+                display: block;
+              }
             .answer {
                 background: #302CA9;
                 width: 30px;
