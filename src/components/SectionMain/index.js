@@ -140,9 +140,9 @@ export default function index() {
                      </div>
                      
                      <div className="problemSection">
-                     <div className="col-md-9 custom-col-9 p-0">
+                     <div className="col-md-9 custom-col-9">
                      <div className="aboutSdh">
-                                 <div className="">
+                                 <div className="dancing-img">
                                  <img src={dancingImage} alt="dancing image" />
                                  </div>
                                  <div className="about-p">
@@ -160,7 +160,7 @@ export default function index() {
                                   <p className="problemSub-text text-center">{"{Problem }"}</p>
                                   <h3 className="problemSub-h3 text-center">こんなお悩みありませんか？</h3>
                                   </div>
-                                  <div className="problemNotes">開発の品質は担保されるのだろうか</div>
+                                  <div className="problemNotes"><i className="fa fa-check-circle"></i> 開発の品質は担保されるのだろうか</div>
                                
                         </div>
                         </div>
