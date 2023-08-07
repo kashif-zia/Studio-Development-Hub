@@ -142,9 +142,7 @@ export default function index() {
                     </div>
                 </div>
                 <div className="row">
-                <div className="sdh-mv">
-                {/* <img src={sdhImage} className="sdh-image" alt="sdhImage" /> */}
-                     </div>              
+                <div className="sdh-mv"></div>              
                      <div className="problemSection">
                      <div className="col-md-9 custom-col-9">
                      <div className="aboutSdh">
@@ -163,9 +161,9 @@ export default function index() {
                                  <p className="aboutSdh-mobileText">またすべての案件にプロジェクトマネージャーをアサインしており、プロジェクト管理を徹底し、弊社ならではの強みを発揮しています。そして現在も複数の企業がSDHサービスを利用し、ボトムラインの改善を実感しています。特に同程度の品質で日本人エンジニアに比べて約60%のコスト削減を実現しています。</p>
                                  </div>
                         </div>
-                        <div className="col-md-12">
+                        <div className="col-md-12 p-0">
                             <div className="problemHeading">
-                                  <p className="problemSub-text text-center">{"{Problem }"}</p>
+                                  <p className="problemSub-text text-center">{"{ Problem }"}</p>
                                   <h3 className="problemSub-h3 text-center">こんなお悩みありませんか？</h3>
                                   </div>
                                   <div className="problemBox">
@@ -189,17 +187,33 @@ export default function index() {
                                   </div>
                                   </div> 
                         </div>
+                        <div className="down-arrow">
+                               <img src={downArrow} className="downarrow" alt="down arrow" />
+                       </div>
                         </div>
-                         <div className="down-arrow">
-                <img src={downArrow} className="downarrow" alt="down arrow" />
-                </div>
                      </div>
-                </div>
-               
-            </div>
-           <section className="solution-section">
+                </div>  
+                <div className="row">
+                    <div className="col-md-9 custom-col-9 p-0">
+                    <section className="solution-section">
+         
+                   
+         <div className="container">
+         <p className="solution-subtext">{"{ Solution }"}</p>
+           <div className="row">
 
-           </section>
+             <div className="col-md-6">
+                  dsf
+             </div>
+             <div className="col-md-6">
+                  dsf
+             </div>
+      </div>
+      </div>
+</section>
+                    </div>    
+                </div>       
+            </div>
             <section className='section-questions'>
                 <div className='container'>
                     <div className="row">
