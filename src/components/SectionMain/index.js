@@ -200,6 +200,29 @@ export default function index() {
            <section className="solution-section">
 
            </section>
+           <div className='row'>
+                <div className='col-md-9 custom-col-9 p-0'>
+           <section className='section-process'>
+                    <div className='col-md-12 p-0'>
+                            <div className='section-process-header'>
+                                <div className='section-process-title'>
+                                    <h2>{"{ Process }"}</h2>
+                                </div>
+                                <div className='section-process-heading'>
+                                    <p>利用までの流れ</p>
+                                </div>
+                            </div>
+                            <div className='process-sontent'>
+                                
+                            </div>
+
+                    </div>
+            </section>
+                
+            </div>
+           </div>
+            <div className='row'>
+                <div className='col-md-9 custom-col-9 p-0'>
             <section className='section-questions'>
                 <div className='container'>
                     <div className="row">
@@ -230,7 +253,6 @@ export default function index() {
                                                 </button>
                                             </h2>
                                         </div>
-
                                         <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                                             <div className="card-body">
                                                 <div className='answer'>A</div>  エンジニアは1人から採用可能です。また2-10人ほどのチーム単位でも採用可能です。
@@ -578,6 +600,9 @@ export default function index() {
                     </div>
                 </div>
             </section>
+
+                </div>
+           </div>
                 <section className='section-main-contact-form'>
                     <div className='container'>
                         <div className="row">
