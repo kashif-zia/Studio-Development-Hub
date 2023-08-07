@@ -15,6 +15,9 @@ import yamahaimg from 'assets/images/brands/yamahafs.png'
 import dancingImage from 'assets/images/dancing.svg'
 import checkIcon from 'assets/images/check_circle.svg'
 import { Autoplay} from 'swiper/modules'
+import dotsimage from 'assets/images/dotsimage.svg'
+import downArrow from 'assets/images/down-arrow.svg'
+import problemImage from 'assets/images/problemImage.png'
 import closeIcon from 'assets/images/closeButton.svg' 
 import openIcon from 'assets/images/OpenButton.svg'
 import contactCatImagePc from 'assets/images/contactCatImg.svg'
@@ -165,8 +168,26 @@ export default function index() {
                                   <p className="problemSub-text text-center">{"{Problem }"}</p>
                                   <h3 className="problemSub-h3 text-center">こんなお悩みありませんか？</h3>
                                   </div>
-                                  <div className="problemNotes"> <img src={checkIcon} className="checkIcon" alt="check-icon" /> 開発の品質は担保されるのだろうか</div>
-                               
+                                  <div className="problemBox">
+                                  <div className="fancyListBox">
+                                  <div className="position-relative d-flex justify-content-end">
+                                  <div className="problemNotes"> <img src={checkIcon} Class="checkIcon" alt="check-icon" /> 開発の品質は担保されるのだろうか</div>
+                                  <img src={dotsimage} alt="dots image" className="dotImage"/>
+                                  </div>
+                                  <div className="position-relative d-flex justify-content-end">
+                                  <div className="problemNotes"> <img src={checkIcon} Class="checkIcon" alt="check-icon" /> 開発の品質は担保されるのだろうか</div>
+                                  <img src={dotsimage} alt="dots image" className="dotImage"/>
+                                  </div>
+                                  <div className="position-relative d-flex justify-content-end">
+                                  <div className="problemNotes"> <img src={checkIcon} Class="checkIcon" alt="check-icon" /> 開発の品質は担保されるのだろうか</div>
+                                  <img src={dotsimage} alt="dots image" className="dotImage"/>
+                                  </div>
+                                  
+                                  </div>
+                                  <div className="twoPersonImage">
+                                    <img src={problemImage} alt="problemImage" />
+                                  </div>
+                                  </div> 
                         </div>
                         </div>
                          <div className="down-arrow">
