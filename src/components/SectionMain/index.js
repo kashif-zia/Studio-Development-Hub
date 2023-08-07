@@ -16,6 +16,7 @@ import dancingImage from 'assets/images/dancing.svg'
 import sdhImage from 'assets/images/sdh_mv.png'
 import { Autoplay} from 'swiper/modules';
 import closeIcon from 'assets/images/closeButton.png'
+import openIcon from 'assets/images/OpenButton.png'
 import 'swiper/css';
 
 // Import Swiper styles
@@ -187,8 +188,11 @@ export default function index() {
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                     <div className='question'>Q</div> エンジニアは何人から採用できますか？
-                                                    <div className='openClsoeIcon'>
-                                                        <img src={closeIcon} alt="" />                                                     
+                                                    <div className='clsoeIcon'>
+                                                        <img src={closeIcon} alt="closeIcon" />                                                     
+                                                    </div>
+                                                    <div className='openIcon'>
+                                                        <img src={openIcon} alt="openIcon" />                                                     
                                                     </div>
                                                 </button>
                                             </h2>
@@ -200,11 +204,17 @@ export default function index() {
                                             </div>
                                         </div>
                                     </div>
-                                  {/* <div className="card accordian-card">
+                                 <div className="card accordian-card">
                                         <div className="card-header accordian-card-header" id="headingTwo">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                <div className='question'>Q</div> 契約期間はどれくらいですか？
+                                                    <div className='clsoeIcon'>
+                                                        <img className='closeIcon-img' src={closeIcon} alt="closeIcon" />
+                                                    </div>
+                                                    <div className='openIcon'>
+                                                        <img className='openIcon-img' src={openIcon} alt="openIcon" />
+                                                    </div>
                                                 </button>
                                             </h2>
                                         </div>
@@ -214,7 +224,7 @@ export default function index() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="card accordian-card">
+                                    {/*  <div className="card accordian-card">
                                         <div className="card-header accordian-card-header" id="headingThree">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">

@@ -353,6 +353,9 @@
                     letter-spacing: 0.8px;
                     display: flex;
                 }
+              .text-left[aria-expanded="true"] .closeIcon {
+                      display: none!important;
+              }
             }
     }
 }
