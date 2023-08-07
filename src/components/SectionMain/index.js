@@ -15,11 +15,12 @@ import yamahaimg from 'assets/images/brands/yamahafs.png'
 import dancingImage from 'assets/images/dancing.svg'
 import checkIcon from 'assets/images/check_circle.svg'
 import { Autoplay} from 'swiper/modules'
-import closeIcon from 'assets/images/closeButton.png'
-import dotsimage from 'assets/images/dotsimage.svg'
-import downArrow from 'assets/images/down-arrow.svg'
-import problemImage from 'assets/images/problemImage.png'
-import openIcon from 'assets/images/OpenButton.png'
+import closeIcon from 'assets/images/closeButton.svg' 
+import openIcon from 'assets/images/OpenButton.svg'
+import contactCatImagePc from 'assets/images/contactCatImg.svg'
+import contactCatImageSp from 'assets/images/cat.svg'
+import netsoIcon from 'assets/images/netsol.png'
+
 import 'swiper/css';
 
 // Import Swiper styles
@@ -164,26 +165,8 @@ export default function index() {
                                   <p className="problemSub-text text-center">{"{Problem }"}</p>
                                   <h3 className="problemSub-h3 text-center">こんなお悩みありませんか？</h3>
                                   </div>
-                                  <div className="problemBox">
-                                  <div className="fancyListBox">
-                                  <div className="position-relative d-flex justify-content-end">
-                                  <div className="problemNotes"> <img src={checkIcon} Class="checkIcon" alt="check-icon" /> 開発の品質は担保されるのだろうか</div>
-                                  <img src={dotsimage} alt="dots image" className="dotImage"/>
-                                  </div>
-                                  <div className="position-relative d-flex justify-content-end">
-                                  <div className="problemNotes"> <img src={checkIcon} Class="checkIcon" alt="check-icon" /> 開発の品質は担保されるのだろうか</div>
-                                  <img src={dotsimage} alt="dots image" className="dotImage"/>
-                                  </div>
-                                  <div className="position-relative d-flex justify-content-end">
-                                  <div className="problemNotes"> <img src={checkIcon} Class="checkIcon" alt="check-icon" /> 開発の品質は担保されるのだろうか</div>
-                                  <img src={dotsimage} alt="dots image" className="dotImage"/>
-                                  </div>
-                                  
-                                  </div>
-                                  <div className="twoPersonImage">
-                                    <img src={problemImage} alt="problemImage" />
-                                  </div>
-                                  </div>
+                                  <div className="problemNotes"> <img src={checkIcon} className="checkIcon" alt="check-icon" /> 開発の品質は担保されるのだろうか</div>
+                               
                         </div>
                         </div>
                          <div className="down-arrow">
@@ -620,12 +603,57 @@ export default function index() {
                                         <label className='main-contact-label' htmlFor="message">メッセージ</label>
                                         <textarea className='form-control contact-form-textarea' />
                                     </div>
+                                    <div>
+                                        
+                            <img className='contactCatImageSp' src={contactCatImageSp} alt="image" />
                                     <button type="submit" className="btn main-contact-submit-btn">送信する</button>
+                                    </div>
                                 </form>
+                            <img className='contactCatImagePc' src={contactCatImagePc} alt="contactCatImage" />
                             </div>
                         </div>
                     </div>
                 </section>
+                <footer>
+                    <div className="container">
+                        <div className='footer-content'>
+                            <div class="row">
+                                <div className='col-md-12 h-100'>
+                                <div className='footer-left-col-content'>
+                                  <div className='footer-logo'>
+                                    <div className='netsolLogo'>
+                                      <img src={netsoIcon} alt="image" />
+                                    </div>
+                                    <div className='netsologoContent'>
+                                            <h3>IDENBRIDはNETSOLと提携しています</h3>                                        
+                                    </div>
+                                  </div>
+                                  <div className='development-title'>
+                                        <p>Studio Development Hub</p>
+                                        <div className='footer-links'>
+                                            <div className='footer-link'>
+                                                <a href="#"><span className='footer-link-dot'></span> SDHとは</a>
+                                            </div>
+                                            <div className='footer-link'>
+                                                <a href="#"><span className='footer-link-dot'></span> ソリューション</a>
+                                            </div>
+                                            <div className='footer-link'>
+                                                <a href="#"><span className='footer-link-dot'></span> ご利用の流れ</a>
+                                            </div>
+                                            <div className='footer-link'>
+                                                <a href="#"><span className='footer-link-dot'></span> よくある質問</a>
+                                            </div>
+                                        </div>
+                                  </div>
+                                  <div className='development-sub-title'>
+                                        <p>©Studio Development Hub︎</p>
+                                  </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
         </section>
     )
 }
