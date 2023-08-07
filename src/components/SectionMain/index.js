@@ -187,9 +187,13 @@ export default function index() {
                                   </div>
                                   </div> 
                         </div>
+                  
+                        <div className="col-md-12 p-0">                        
                         <div className="down-arrow">
                                <img src={downArrow} className="downarrow" alt="down arrow" />
                        </div>
+                       </div>
+                     
                         </div>
                      </div>
                 </div>  
@@ -198,8 +202,9 @@ export default function index() {
                     <section className="solution-section">
          
                    
-         <div className="container">
+         <div className="container-fluid">
          <p className="solution-subtext">{"{ Solution }"}</p>
+         <h2 className="solution-h2">SDHが解決できること</h2>
            <div className="row">
 
              <div className="col-md-6">
@@ -213,9 +218,8 @@ export default function index() {
 </section>
                     </div>    
                 </div>       
-            </div>
-       
-           <div className='row'>
+            
+                <div className='row'>
                 <div className='col-md-9 custom-col-9 p-0'>
            <section className='section-process'>
                     <div className='col-md-12 p-0'>
@@ -618,6 +622,9 @@ export default function index() {
 
                 </div>
            </div>
+            </div>
+       
+          
                 <section className='section-main-contact-form'>
                     <div className='container'>
                         <div className="row">
