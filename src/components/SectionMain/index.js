@@ -13,8 +13,8 @@ import maplefinance from 'assets/images/brands/maplefinance.png'
 import sellesasecorp from 'assets/images/brands/sclleasecorp.png'
 import yamahaimg from 'assets/images/brands/yamahafs.png'
 import dancingImage from 'assets/images/dancing.svg'
-import sdhImage from 'assets/images/sdh_mv.png'
-import { Autoplay} from 'swiper/modules';
+import checkIcon from 'assets/images/check_circle.svg'
+import { Autoplay} from 'swiper/modules'
 import closeIcon from 'assets/images/closeButton.png'
 import openIcon from 'assets/images/OpenButton.png'
 import 'swiper/css';
@@ -137,7 +137,7 @@ export default function index() {
                 </div>
                 <div className="row">
                 <div className="sdh-mv">
-                <img src={sdhImage} className="sdh-image" alt="sdhImage" />
+                {/* <img src={sdhImage} className="sdh-image" alt="sdhImage" /> */}
                      </div>
                      
                      <div className="problemSection">
@@ -154,6 +154,8 @@ export default function index() {
                                     柔軟に対応いたします。当サービスの強みである日本トップクラスの高品質な開発モデルとプロジェクト管理、
                                     そして迅速なコミュニケーションを駆使し、お客様のビジネスを成功へと導きます。
                                  </p>
+                                 <p className="aboutSdh-mobileText">SDHは月額料金で高品質なオフショアエンジニアを提供するサービスです。1人からの採用だけでなく、2-10人のチーム単位も対応可能です。当サービスの強みは日本式の高品質な開発とプロジェクト管理、そしてスムーズなコミュニケーションです。コミュニケーションは即時レスポンス対応を徹底しており、SlackやLINEなどのプラットフォームを使用しています。AsanaやJiraを活用してプロジェクトはチケット管理をし、毎日のクライアントへのレポート提出も欠かしません。</p>
+                                 <p className="aboutSdh-mobileText">またすべての案件にプロジェクトマネージャーをアサインしており、プロジェクト管理を徹底し、弊社ならではの強みを発揮しています。そして現在も複数の企業がSDHサービスを利用し、ボトムラインの改善を実感しています。特に同程度の品質で日本人エンジニアに比べて約60%のコスト削減を実現しています。</p>
                                  </div>
                         </div>
                         <div className="problecSection col-md-9 custom-col-9">
@@ -161,7 +163,7 @@ export default function index() {
                                   <p className="problemSub-text text-center">{"{Problem }"}</p>
                                   <h3 className="problemSub-h3 text-center">こんなお悩みありませんか？</h3>
                                   </div>
-                                  <div className="problemNotes"><i className="fa fa-check-circle"></i> 開発の品質は担保されるのだろうか</div>
+                                  <div className="problemNotes"> <img src={checkIcon} Class="checkIcon" alt="check-icon" /> 開発の品質は担保されるのだろうか</div>
                                
                         </div>
                         </div>

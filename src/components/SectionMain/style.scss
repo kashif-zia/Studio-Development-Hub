@@ -73,6 +73,7 @@
             font-weight: 700;
             line-height: 16px;
         }
+        
     }
 
     .companyLogo-Section {
@@ -405,11 +406,11 @@
 }
 
 .sdh-mv {
-    // background-image: url('/assets/images/sdh_mv.png');
-    // height: 730px;
-    // background-position: top center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
+    background-image: url('/assets/images/sdh_mv.png');
+    height: 730px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     z-index: 1;
     position: relative;
@@ -449,6 +450,9 @@
     .aboutSdh-text {
         color: #fff;
     }
+    .aboutSdh-mobileText{
+        display: none;
+    }
 }
 
 .problecSection {
@@ -470,7 +474,8 @@
     }
 
     .problemSub-text {
-        color: #fff;
+        color: #D8DBFF;
+        font-size: 20px;
     }
 
     .problemSub-h3 {
@@ -544,6 +549,11 @@
             .aboutSdh {
                 flex-direction: row-reverse;
                 margin-top: 340px;
+                .aboutSdh-mobileText{
+                    color: #fff;
+                    display: block;
+                }
+                
             }
 
             .dancing-img {
@@ -557,6 +567,10 @@
             .aboutSdh-h2{
                 font-size: 22px;
             }
+            
+        }
+        .sdh-mv{
+            height: 290px;
         }
     }
 }
