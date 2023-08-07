@@ -338,7 +338,7 @@
                     margin-right: 16px;
                 }
 
-                .card-body{
+                .card-body {
                     padding: 0.5rem 0px 0.5rem 0;
                     color: #333;
                     font-feature-settings: 'palt'on;
@@ -350,7 +350,7 @@
                     letter-spacing: 0.8px;
                     display: flex;
                 }
-            
+
 
             }
 
@@ -386,6 +386,28 @@
                 letter-spacing: 0.8px;
                 display: flex;
             }
+        }
+
+        .question-section-title h2 {
+            color: #0015E2;
+            text-align: center;
+            // font-family: Roboto Condensed;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: 2.1px;
+        }
+
+        .question-section-heading p {
+            color: #333;
+            text-align: center;
+            // font-family: Noto Sans JP;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 56px;
+            letter-spacing: 3.36px;
         }
     }
 }
@@ -540,7 +562,8 @@
                     width: 79px;
                 }
             }
-            .aboutSdh-h2{
+
+            .aboutSdh-h2 {
                 font-size: 22px;
             }
         }
