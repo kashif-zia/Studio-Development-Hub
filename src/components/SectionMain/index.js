@@ -15,6 +15,7 @@ import yamahaimg from 'assets/images/brands/yamahafs.png'
 import dancingImage from 'assets/images/dancing.svg'
 import sdhImage from 'assets/images/sdh_mv.png'
 import { Autoplay} from 'swiper/modules';
+import closeIcon from 'assets/images/closeButton.png'
 import 'swiper/css';
 
 // Import Swiper styles
@@ -162,7 +163,7 @@ export default function index() {
                                   <div className="problemNotes">開発の品質は担保されるのだろうか</div>
                                
                         </div>
-                                 </div>
+                        </div>
                      </div>
                 </div>
             </div>
@@ -186,6 +187,9 @@ export default function index() {
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                     <div className='question'>Q</div> エンジニアは何人から採用できますか？
+                                                    <div className='openClsoeIcon'>
+                                                        <img src={closeIcon} alt="" />                                                     
+                                                    </div>
                                                 </button>
                                             </h2>
                                         </div>
@@ -196,7 +200,7 @@ export default function index() {
                                             </div>
                                         </div>
                                     </div>
-                                  <div className="card accordian-card">
+                                  {/* <div className="card accordian-card">
                                         <div className="card-header accordian-card-header" id="headingTwo">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -410,7 +414,7 @@ export default function index() {
                                                 <div className='answer'>A</div> JiraやAsanaなどのプロジェクト管理ツールにてチケットを生成しています。
                                             </div>
                                         </div>
-                                    </div>  
+                                    </div>   */}
                                 </div>                                
                             </div>
                         </div>

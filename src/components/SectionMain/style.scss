@@ -275,7 +275,7 @@
    
             .accordian-card{
                 width: 100%;
-                min-width: 952px;
+                // min-width: 952px;
                 border-bottom: 1px solid #DDDDE4;
                 border-left: 0px;
                 border-top: 0px;    
@@ -330,7 +330,6 @@
                     border-radius: 50%;
                     display: inline-flex;
                     text-align: center;
-                    margin: 0px auto;
                     justify-content: center;
                     align-items: center;
                     color: #FFF;
@@ -352,6 +351,7 @@
                     font-weight: 400;
                     line-height: normal;
                     letter-spacing: 0.8px;
+                    display: flex;
                 }
             }
     }
