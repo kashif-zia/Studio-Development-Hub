@@ -79,13 +79,15 @@
         position: relative;
         z-index: 2;
 
-       
+
     }
+
     .people-image {
         width: 100%;
         position: relative;
         z-index: 2;
     }
+
     .arrow-icon {
         margin-left: -52px;
     }
@@ -186,60 +188,68 @@
         width: 100%;
         height: 140px;
     }
-    .section-main-contact-form{
+
+    .section-main-contact-form {
         border-radius: 0px 0px 120px 120px;
         background: #4E4AE6;
         padding: 260px 0px 120px 0px;
-          .contact-form-title h2 {
-              color: #FFF;
-              text-align: center;
-              // font-family: Roboto Condensed;
-              font-size: 20px;
-              font-style: normal;
-              font-weight: 500;
-              line-height: 28px;
-              letter-spacing: 2.1px;
-          }
-          .contact-form-heading p{
-             color: #FFF;
-             text-align: center;
-             font-family: Noto Sans JP;
-             font-size: 32px;
-             font-style: normal;
-             font-weight: 700;
-             line-height: 56px;
-             letter-spacing: 3.36px;
-          }
-          .contact-form-desc p{
-           color: #FFF;
-           text-align: center;
-        //    font-family: Noto Sans JP;
-           font-size: 15px;
-           font-style: normal;
-           font-weight: 400;
-           line-height: 30px;
-          }
-          .main-contact-label{
-           color: #2C2C2C;
-           font-family: Noto Sans JP;
-           font-size: 15px;
-           font-style: normal;
-           font-weight: 500;
-           line-height:20px;
-          }
-          .main-cntct-inputs {
+
+        .contact-form-title h2 {
+            color: #FFF;
+            text-align: center;
+            // font-family: Roboto Condensed;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: 2.1px;
+        }
+
+        .contact-form-heading p {
+            color: #FFF;
+            text-align: center;
+            font-family: Noto Sans JP;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 56px;
+            letter-spacing: 3.36px;
+        }
+
+        .contact-form-desc p {
+            color: #FFF;
+            text-align: center;
+            //    font-family: Noto Sans JP;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+        }
+
+        .main-contact-label {
+            color: #2C2C2C;
+            font-family: Noto Sans JP;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+        }
+
+        .main-cntct-inputs {
             height: 40px;
             border-radius: 8px;
             border: 1px solid #DFDFDF;
             background: #FAFAFA;
-          }
-          .contact-form-textarea {
+        }
+
+        .contact-form-textarea {
             border-radius: 8px;
             border: 1px solid #DFDFDF;
             background: #FAFAFA;
             height: 120px;
-          }
-          .main-contact-submit-btn{
+        }
+
+        .main-contact-submit-btn {
             border-radius: 30px;
             background: #FF6200;
             box-shadow: 0px 4px 30px 0px rgba(27, 183, 193, 0.20);
@@ -256,80 +266,66 @@
             display: flex;
             justify-content: center;
             align-items: center;
-          }
+        }
     }
-    .main-contact-form{
+
+    .main-contact-form {
         padding: 80px;
         border-radius: 48px;
         background: #FFF;
         box-shadow: 0px 4px 30px 0px rgba(24, 131, 138, 0.15);
-      
+
     }
-    .section-questions{
+
+    .section-questions {
         border-radius: 120px 0px 0px 120px;
         background: #FFF;
         padding: 120px 0px 160px;
         margin-bottom: -160px;
         position: relative;
         z-index: 1;
-   
-            .accordian-card{
-                width: 100%;
-                // min-width: 952px;
-                border-bottom: 1px solid #DDDDE4;
-                border-left: 0px;
-                border-top: 0px;    
-                border-right: 0px;
-                background-color: #fff;
-                .accordian-card-header{
-                    border-bottom: 0px;
-                    background-color: #ffff;
+
+        .accordian-card {
+            width: 100%;
+            // min-width: 952px;
+            border-bottom: 1px solid #DDDDE4;
+            border-left: 0px;
+            border-top: 0px;
+            border-right: 0px;
+            background-color: #fff;
+
+            .accordian-card-header {
+                border-bottom: 0px;
+                background-color: #ffff;
+                padding-left: 0px;
+                padding-right: 0px;
+
+                button {
                     padding-left: 0px;
-                    padding-right: 0px;
-                    button{
-                        padding-left: 0px;
-                        color: var(--gray, #333);
-                        font-feature-settings: 'palt'on;
-                        font-family: Noto Sans JP;
-                        font-size: 16px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: normal;
-                        letter-spacing: 0.8px;
-                    }
-                    button:focus{
-                        box-shadow: none;
-                        text-decoration: none;
-                    }
-                    .question{
-                        background: #4E4AE6;
-                        width: 30px;
-                        height: 30px;
-                        padding: 7px;
-                        border-radius: 50%;
-                        display: inline-flex;
-                        text-align: center;
-                        margin: 0px auto;
-                        justify-content: center;
-                        align-items: center;
-                        color:  #FFF;
-                        font-family: Roboto;
-                        font-size: 14px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: normal;
-                        letter-spacing: 1.47px;
-                        margin-right: 16px;
-                    }
+                    color: var(--gray, #333);
+                    font-feature-settings: 'palt'on;
+                    font-family: Noto Sans JP;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 0.8px;
                 }
-                .answer{
-                    background: #302CA9;
+
+                button:focus {
+                    box-shadow: none;
+                    text-decoration: none;
+                }
+
+                .question {
+                    background: #4E4AE6;
                     width: 30px;
                     height: 30px;
                     padding: 7px;
                     border-radius: 50%;
                     display: inline-flex;
                     text-align: center;
+                    margin: 0px auto;
                     justify-content: center;
                     align-items: center;
                     color: #FFF;
@@ -341,84 +337,118 @@
                     letter-spacing: 1.47px;
                     margin-right: 16px;
                 }
-                .card-body{
-                    padding: 0.5rem 0px 0.5rem 0;
-                    color: #333;
-                    font-feature-settings: 'palt'on;
-                    font-family: Noto Sans JP;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: normal;
-                    letter-spacing: 0.8px;
-                    display: flex;
-                }
             }
+
+            .answer {
+                background: #302CA9;
+                width: 30px;
+                height: 30px;
+                padding: 7px;
+                border-radius: 50%;
+                display: inline-flex;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                color: #FFF;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 1.47px;
+                margin-right: 16px;
+            }
+
+            .card-body {
+                padding: 0.5rem 0px 0.5rem 0;
+                color: #333;
+                font-feature-settings: 'palt'on;
+                font-family: Noto Sans JP;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 0.8px;
+                display: flex;
+            }
+        }
     }
 }
 
-    .sdh-mv {
+.sdh-mv {
     // background-image: url('/assets/images/sdh_mv.png');
     // height: 730px;
     // background-position: top center;
     // background-repeat: no-repeat;
     // background-size: cover;
-           width: 100%;
-		   z-index: 1;
-		   position: relative;
- 		   margin-top: -270px;
- .sdh-image{
     width: 100%;
- }  
+    z-index: 1;
+    position: relative;
+    margin-top: -270px;
+
+    .sdh-image {
+        width: 100%;
+    }
 }
-.problemSection{
+
+.problemSection {
     background: linear-gradient(180deg, rgba(68, 82, 219, 0.00) 0%, rgba(68, 82, 219, 0.40) 8.61%, #4452DB 19.45%, #4452DB 100%);
     width: 100%;
     margin-top: -129px;
     z-index: 1;
-    .aboutSdh{
-          max-width: 838px;
-          margin: auto;
-        
-          margin-top: -90px;
-          margin-bottom: 294px;
-     }
-     .aboutSdh{
-         display: flex;
-     }
-     .aboutSdh-subtext{
-        color: #fff;
-     }
-     .aboutSdh-h2{
-        color:#fff;
-     }
-     .aboutSdh-text{
-        color: #fff;
-     }
-}
-.problecSection{
 
-.problemNotes{
-    background-color: #fff;
-    border-radius: 20px;
-    width: 100%;
-    max-width: 536px;
-    height: 77px;
-    border-radius: 38.5px;
-    display: inline-flex;
-    align-items: center;
-    padding: 32px 26px;
+    .aboutSdh {
+        max-width: 838px;
+        margin: auto;
+
+        margin-top: -90px;
+        margin-bottom: 294px;
+    }
+
+    .aboutSdh {
+        display: flex;
+    }
+
+    .aboutSdh-subtext {
+        color: #fff;
+    }
+
+    .aboutSdh-h2 {
+        color: #fff;
+    }
+
+    .aboutSdh-text {
+        color: #fff;
+    }
 }
-.problemHeading{
-    margin-bottom: 29px;
+
+.problecSection {
+
+    .problemNotes {
+        background-color: #fff;
+        border-radius: 20px;
+        width: 100%;
+        max-width: 536px;
+        height: 77px;
+        border-radius: 38.5px;
+        display: inline-flex;
+        align-items: center;
+        padding: 32px 26px;
+    }
+
+    .problemHeading {
+        margin-bottom: 29px;
+    }
+
+    .problemSub-text {
+        color: #fff;
+    }
+
+    .problemSub-h3 {
+        color: #fff;
+    }
 }
-.problemSub-text{
-    color:#fff;
-}
-.problemSub-h3{
-    color: #fff;
-}
-}
+
 @media only screen and (max-width:1200px) {
     .side-contact-form {
         display: none;
@@ -465,27 +495,39 @@
         .hero-section-content {
             padding: 44px 16px;
         }
-        .companyLogo-Section{
+
+        .companyLogo-Section {
             display: none;
         }
-        .hero-section-content{ 
-     .people-image{
-            height: 334px;
-            object-fit: contain;
-        }
-    }
-    .problemSection{
-        background: linear-gradient(180deg, rgba(68, 82, 219, 0.00) 0%, rgba(68, 82, 219, 0.40) 6.02%, #4452DB 15.05%, #4452DB 100%);
 
-        margin-top: -236px;
-        .aboutSdh{
-            flex-direction: row-reverse;
-            margin-top: 340px;
+        .hero-section-content {
+            .people-image {
+                height: 334px;
+                object-fit: contain;
+            }
         }
-        .dancing-img img{
-            width: 79px;
+
+        .problemSection {
+            background: linear-gradient(180deg, rgba(68, 82, 219, 0.00) 0%, rgba(68, 82, 219, 0.40) 6.02%, #4452DB 15.05%, #4452DB 100%);
+
+            margin-top: -236px;
+
+            .aboutSdh {
+                flex-direction: row-reverse;
+                margin-top: 340px;
+            }
+
+            .dancing-img {
+                width: 20%;
+                position: absolute;
+
+                img {
+                    width: 79px;
+                }
+            }
+            .aboutSdh-h2{
+                font-size: 22px;
+            }
         }
-    }
     }
 }
-
