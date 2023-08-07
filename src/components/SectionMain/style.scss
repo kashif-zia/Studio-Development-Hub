@@ -73,7 +73,7 @@
             font-weight: 700;
             line-height: 16px;
         }
-        
+
     }
 
     .companyLogo-Section {
@@ -194,6 +194,8 @@
         border-radius: 0px 0px 120px 120px;
         background: #4E4AE6;
         padding: 260px 0px 120px 0px;
+        position: relative;
+        margin-bottom: -160px;
 
         .contact-form-title h2 {
             color: #FFF;
@@ -268,6 +270,7 @@
             justify-content: center;
             align-items: center;
         }
+
     }
 
     .main-contact-form {
@@ -301,7 +304,7 @@
 
                 button {
                     padding-left: 0px;
-                    color:#333;
+                    color: #333;
                     font-feature-settings: 'palt'on;
                     font-family: Noto Sans JP;
                     font-size: 16px;
@@ -312,6 +315,10 @@
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
+                }
+
+                button:hover {
+                    text-decoration: none;
                 }
 
                 button:focus {
@@ -352,24 +359,26 @@
                     letter-spacing: 0.8px;
                     display: flex;
                 }
-            
+
 
             }
-            .accordian-card-header [aria-expanded="flase"] .openIcon img{
+
+            .accordian-card-header [aria-expanded="flase"] .openIcon img {
                 display: none;
-              }
-              
-              .accordian-card-header [aria-expanded="false"] .clsoeIcon img{
+            }
+
+            .accordian-card-header [aria-expanded="false"] .clsoeIcon img {
                 display: none;
-              }
-              
-              .accordian-card-header [aria-expanded="true"] .openIcon {
+            }
+
+            .accordian-card-header [aria-expanded="true"] .openIcon {
                 display: none;
-              }
-              
-              .accordian-card-header [aria-expanded="true"] .clsoeIcon img {
+            }
+
+            .accordian-card-header [aria-expanded="true"] .clsoeIcon img {
                 display: block;
-              }
+            }
+
             .answer {
                 background: #302CA9;
                 width: 30px;
@@ -426,6 +435,99 @@
             letter-spacing: 3.36px;
         }
     }
+
+    .contactCatImagePc {
+        position: absolute;
+        right: -68px;
+        bottom: -90px;
+    }
+
+    .contactCatImageSp {
+        position: absolute;
+        width: 79px;
+        height: 112px;
+        left: 11px;
+        bottom: -5px;
+        display: none;
+    }
+
+    footer {
+        background: #212D3B;
+        padding: 200px 0px 200px 0px;
+
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            column-gap: 26px;
+            margin-bottom: 117px;
+        }
+
+        .netsologoContent h3 {
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 15px;
+            letter-spacing: 0.75px;
+        }
+
+        .development-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .development-title p {
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 1.1px;
+            margin-bottom: 32px;
+        }
+
+        .development-sub-title p {
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 11px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 11px;
+            letter-spacing: 1.1px;
+            opacity: 0.8;
+        }
+
+        .footer-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px;
+            margin-bottom: 32px;
+
+            .footer-link a {
+                color: #FFF;
+                font-family: Roboto;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 15px;
+                letter-spacing: 0.75px;
+            }
+        }
+
+        .footer-link-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 3.5px;
+            background: #fff;
+            display: inline-flex;
+            margin-right: 6px;
+        }
+
+    }
 }
 
 .sdh-mv {
@@ -473,7 +575,8 @@
     .aboutSdh-text {
         color: #fff;
     }
-    .aboutSdh-mobileText{
+
+    .aboutSdh-mobileText {
         display: none;
     }
 }
@@ -572,11 +675,12 @@
             .aboutSdh {
                 flex-direction: row-reverse;
                 margin-top: 340px;
-                .aboutSdh-mobileText{
+
+                .aboutSdh-mobileText {
                     color: #fff;
                     display: block;
                 }
-                
+
             }
 
             .dancing-img {
@@ -591,22 +695,44 @@
             .aboutSdh-h2 {
                 font-size: 22px;
             }
-            
+
         }
-        .sdh-mv{
+
+        .sdh-mv {
             height: 290px;
         }
+
         .main-contact-form {
             padding: 0px;
             background: transparent;
-  
-            .main-contact-label{
+
+            .main-contact-label {
                 color: #FFF;
             }
         }
-    .section-main-contact-form{
-        border-radius: 0px 0px 64px 64px;
-        background: #4E4AE6;
-    }
+
+        .section-main-contact-form {
+            border-radius: 0px 0px 64px 64px;
+            background: #4E4AE6;
+            position: relative;
+        }
+        .contactCatImagePc {
+            display: none;
+        }
+
+        .contactCatImageSp {
+            display: block;
+        }
+        footer{
+
+            .development-title p 
+            ,.footer-links                                                                                                                                                                                            {
+                margin-bottom: 48px;
+            }
+            .footer-links{
+                column-gap: 32px;
+                row-gap: 16px;
+            }
+        }
     }
 }
