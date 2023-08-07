@@ -406,7 +406,6 @@
     height: 77px;
     border-radius: 38.5px;
     display: inline-flex;
-    justify-content: center;
     align-items: center;
     padding: 32px 26px;
 }
@@ -466,6 +465,27 @@
         .hero-section-content {
             padding: 44px 16px;
         }
+        .companyLogo-Section{
+            display: none;
+        }
+        .hero-section-content{ 
+     .people-image{
+            height: 334px;
+            object-fit: contain;
+        }
+    }
+    .problemSection{
+        background: linear-gradient(180deg, rgba(68, 82, 219, 0.00) 0%, rgba(68, 82, 219, 0.40) 6.02%, #4452DB 15.05%, #4452DB 100%);
+
+        margin-top: -236px;
+        .aboutSdh{
+            flex-direction: row-reverse;
+            margin-top: 340px;
+        }
+        .dancing-img img{
+            width: 79px;
+        }
+    }
     }
 }
 
