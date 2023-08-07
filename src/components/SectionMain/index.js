@@ -185,11 +185,13 @@ export default function index() {
                             </div>
                             <div className='question-accordian'>
                                 <div className="accordion" id="accordionExample">
-                                    <div className="card accordian-card">
+                                <div className="card accordian-card">
                                         <div className="card-header accordian-card-header" id="headingOne">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                    <div className='question'>Q</div> エンジニアは何人から採用できますか？
+                                                    <div>
+                                                        <div className='question'>Q</div> エンジニアは何人から採用できますか？
+                                                    </div>
                                                     <div className='clsoeIcon question-icon'>
                                                         <img src={closeIcon} alt="closeIcon" />                                                     
                                                     </div>
@@ -210,7 +212,9 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingTwo">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                    <div>
                                                <div className='question'>Q</div> 契約期間はどれくらいですか？
+                                                    </div>
                                                     <div className='clsoeIcon question-icon'>
                                                         <img src={closeIcon} alt="closeIcon" />
                                                     </div>
@@ -230,7 +234,9 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingThree">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                    <div>
                                                     <div className='question'>Q</div>  どのような業種の人材がいますか？
+                                                    </div>
                                                       <div className='clsoeIcon question-icon'>
                                                         <img src={closeIcon} alt="closeIcon" />                                                     
                                                     </div>
@@ -250,7 +256,9 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingFour">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                    <div>
                                                     <div className='question'>Q</div> 月額の人材費用以外にも何かお金は発生しますか？
+                                                    </div>
                                                       <div className='clsoeIcon question-icon'>
                                                         <img src={closeIcon} alt="closeIcon" />                                                     
                                                     </div>
@@ -270,7 +278,9 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingFive">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                                    <div>
                                                     <div className='question'>Q</div>  契約後キャンセルはできますか？
+                                                    </div>
                                                       <div className='clsoeIcon question-icon'>
                                                         <img src={closeIcon} alt="closeIcon" />                                                     
                                                     </div>
@@ -290,7 +300,9 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingSix">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                                    <div>
                                                     <div className='question'>Q</div>どのようなスキルのエンジニアがいますか？
+                                                    </div>
                                                       <div className='clsoeIcon question-icon'>
                                                         <img src={closeIcon} alt="closeIcon" />                                                     
                                                     </div>
@@ -310,7 +322,9 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingSeven">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                                    <div>
                                                     <div className='question'>Q</div>どのような開発技術に対応していますか？
+                                                    </div>
                                                       <div className='clsoeIcon question-icon'>
                                                         <img src={closeIcon} alt="closeIcon" />                                                     
                                                     </div>
@@ -331,7 +345,9 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingEight">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                                    <div>
                                                     <div className='question'>Q</div>就業時間は何時から何時ですか？
+                                                    </div>
                                                       <div className='clsoeIcon question-icon'>
                                                         <img src={closeIcon} alt="closeIcon" />                                                     
                                                     </div>
@@ -352,7 +368,9 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingNine">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                                    <div>
                                                     <div className='question'>Q</div>月の稼働時間はどれくらいですか？
+                                                    </div>
                                                       <div className='clsoeIcon question-icon'>
                                                         <img src={closeIcon} alt="closeIcon" />                                                     
                                                     </div>
@@ -373,7 +391,9 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingTen">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                                    <div>
                                                     <div className='question'>Q</div>24時間・土日対応は可能ですか？
+                                                    </div>
                                                       <div className='clsoeIcon question-icon'>
                                                         <img src={closeIcon} alt="closeIcon" />                                                     
                                                     </div>
@@ -395,7 +415,9 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingEleven">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                                    <div>
                                                     <div className='question'>Q</div> コミュニケーションは何語ですか？
+                                                    </div>
                                                       <div className='clsoeIcon question-icon'>
                                                         <img src={closeIcon} alt="closeIcon" />                                                     
                                                     </div>
@@ -415,7 +437,9 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingTwelve">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                                                    <div>
                                                     <div className='question'>Q</div>  定例などはございますか？
+                                                    </div>
                                                       <div className='clsoeIcon question-icon'>
                                                         <img src={closeIcon} alt="closeIcon" />                                                     
                                                     </div>
@@ -435,7 +459,9 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingThirteen">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                                                    <div>
                                                     <div className='question'>Q</div>支払いはどのように行いますか？
+                                                    </div>
                                                       <div className='clsoeIcon question-icon'>
                                                         <img src={closeIcon} alt="closeIcon" />                                                     
                                                     </div>
@@ -455,7 +481,9 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingFourteen">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                                                    <div>
                                                     <div className='question'>Q</div>エンジニアの追加は可能ですか？
+                                                    </div>
                                                       <div className='clsoeIcon question-icon'>
                                                         <img src={closeIcon} alt="closeIcon" />                                                     
                                                     </div>
@@ -475,7 +503,9 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingFifteen">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                                                    <div>
                                                     <div className='question'>Q</div> 電話での指示は可能ですか？
+                                                    </div>
                                                       <div className='clsoeIcon question-icon'>
                                                         <img src={closeIcon} alt="closeIcon" />                                                     
                                                     </div>
@@ -495,7 +525,9 @@ export default function index() {
                                         <div className="card-header accordian-card-header" id="headingSixteen">
                                             <h2 className="mb-0">
                                                 <button className="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">
+                                                    <div>
                                                     <div className='question'>Q</div> プロジェクトの管理・進捗はどのように確認できますか？
+                                                    </div>
                                                       <div className='clsoeIcon question-icon'>
                                                         <img src={closeIcon} alt="closeIcon" />                                                     
                                                     </div>

@@ -309,6 +309,9 @@
                     font-weight: 700;
                     line-height: normal;
                     letter-spacing: 0.8px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
                 }
 
                 button:focus {
@@ -349,11 +352,7 @@
                     letter-spacing: 0.8px;
                     display: flex;
                 }
-                .question-icon{
-                    display: flex;
-                    justify-content: right;
-                    margin-top: -10px;
-                }
+            
 
             }
             .accordian-card-header [aria-expanded="flase"] .openIcon img{
