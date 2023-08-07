@@ -183,6 +183,7 @@
         .contact-text-area {
             height: 80px;
         }
+        
     }
 
     .brand-img {
@@ -433,11 +434,11 @@
     height: 730px;
     background-position: top center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     width: 100%;
     z-index: 1;
     position: relative;
-    margin-top: -270px;
+    margin-top: -320px;
 
     .sdh-image {
         width: 100%;
@@ -447,15 +448,16 @@
 .problemSection {
     background: linear-gradient(180deg, rgba(68, 82, 219, 0.00) 0%, rgba(68, 82, 219, 0.40) 8.61%, #4452DB 19.45%, #4452DB 100%);
     width: 100%;
-    margin-top: -129px;
+    margin-top: -190px;
     z-index: 1;
+    padding-bottom: 100px;
 
     .aboutSdh {
         max-width: 838px;
         margin: auto;
 
         margin-top: -90px;
-        margin-bottom: 294px;
+        margin-bottom: 170px;
     }
 
     .aboutSdh {
@@ -476,9 +478,24 @@
     .aboutSdh-mobileText{
         display: none;
     }
+    .fancyListBox{
+        width: 50%;
+    }
+    .problemBox{
+        display: flex;
+        justify-content:center;
+    }
+    .down-arrow{
+        position: absolute;
+        margin-bottom: 10px;
+    }
+    .down-arrow img{
+        z-index: 4;
+        position: relative;
+    }
 }
 
-.problecSection {
+.problemSection {
 
     .problemNotes {
         background-color: #fff;
@@ -490,6 +507,9 @@
         display: inline-flex;
         align-items: center;
         padding: 32px 26px;
+        font-size: 20px;
+        color: #081E3A;
+
     }
 
     .problemHeading {
@@ -504,8 +524,23 @@
     .problemSub-h3 {
         color: #fff;
     }
+    .checkIcon{
+        margin-right: 8px;
+    }
+    .dotImage{
+        margin-top: 30px;
+        margin-bottom: -30px;
+        margin-left: -20px;
+    }
 }
+@media only screen and (max-width: 2100px) and (min-width: 1400px)  {
+    .sdh-mv{
+        height: 900px;
+        margin-top: -380px;
+    }
 
+
+}
 @media only screen and (max-width:1200px) {
     .side-contact-form {
         display: none;
@@ -567,7 +602,7 @@
         .problemSection {
             background: linear-gradient(180deg, rgba(68, 82, 219, 0.00) 0%, rgba(68, 82, 219, 0.40) 6.02%, #4452DB 15.05%, #4452DB 100%);
 
-            margin-top: -236px;
+            margin-top: -346px;
 
             .aboutSdh {
                 flex-direction: row-reverse;
@@ -576,6 +611,7 @@
                     color: #fff;
                     display: block;
                 }
+                
                 
             }
 
@@ -591,6 +627,14 @@
             .aboutSdh-h2 {
                 font-size: 22px;
             }
+            .problemBox{
+                flex-direction: column;
+               
+            }
+            .fancyListBox{
+                width: 100%;   
+            }
+            
             
         }
         .sdh-mv{

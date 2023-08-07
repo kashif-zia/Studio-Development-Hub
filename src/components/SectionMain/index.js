@@ -16,6 +16,9 @@ import dancingImage from 'assets/images/dancing.svg'
 import checkIcon from 'assets/images/check_circle.svg'
 import { Autoplay} from 'swiper/modules'
 import closeIcon from 'assets/images/closeButton.png'
+import dotsimage from 'assets/images/dotsimage.svg'
+import downArrow from 'assets/images/down-arrow.svg'
+import problemImage from 'assets/images/problemImage.png'
 import openIcon from 'assets/images/OpenButton.png'
 import 'swiper/css';
 
@@ -133,13 +136,11 @@ export default function index() {
                             </form>
                         </section>
                     </div>
-                   
                 </div>
                 <div className="row">
                 <div className="sdh-mv">
                 {/* <img src={sdhImage} className="sdh-image" alt="sdhImage" /> */}
-                     </div>
-                     
+                     </div>              
                      <div className="problemSection">
                      <div className="col-md-9 custom-col-9">
                      <div className="aboutSdh">
@@ -158,19 +159,43 @@ export default function index() {
                                  <p className="aboutSdh-mobileText">またすべての案件にプロジェクトマネージャーをアサインしており、プロジェクト管理を徹底し、弊社ならではの強みを発揮しています。そして現在も複数の企業がSDHサービスを利用し、ボトムラインの改善を実感しています。特に同程度の品質で日本人エンジニアに比べて約60%のコスト削減を実現しています。</p>
                                  </div>
                         </div>
-                        <div className="problecSection col-md-9 custom-col-9">
+                        <div className="col-md-12">
                             <div className="problemHeading">
                                   <p className="problemSub-text text-center">{"{Problem }"}</p>
                                   <h3 className="problemSub-h3 text-center">こんなお悩みありませんか？</h3>
                                   </div>
+                                  <div className="problemBox">
+                                  <div className="fancyListBox">
+                                  <div className="position-relative d-flex justify-content-end">
                                   <div className="problemNotes"> <img src={checkIcon} Class="checkIcon" alt="check-icon" /> 開発の品質は担保されるのだろうか</div>
-                               
+                                  <img src={dotsimage} alt="dots image" className="dotImage"/>
+                                  </div>
+                                  <div className="position-relative d-flex justify-content-end">
+                                  <div className="problemNotes"> <img src={checkIcon} Class="checkIcon" alt="check-icon" /> 開発の品質は担保されるのだろうか</div>
+                                  <img src={dotsimage} alt="dots image" className="dotImage"/>
+                                  </div>
+                                  <div className="position-relative d-flex justify-content-end">
+                                  <div className="problemNotes"> <img src={checkIcon} Class="checkIcon" alt="check-icon" /> 開発の品質は担保されるのだろうか</div>
+                                  <img src={dotsimage} alt="dots image" className="dotImage"/>
+                                  </div>
+                                  
+                                  </div>
+                                  <div className="twoPersonImage">
+                                    <img src={problemImage} alt="problemImage" />
+                                  </div>
+                                  </div>
                         </div>
                         </div>
+                         <div className="down-arrow">
+                <img src={downArrow} className="downarrow" alt="down arrow" />
+                </div>
                      </div>
                 </div>
+               
             </div>
+           <section className="solution-section">
 
+           </section>
             <section className='section-questions'>
                 <div className='container'>
                     <div className="row">
