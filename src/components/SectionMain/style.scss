@@ -183,7 +183,7 @@
         .contact-text-area {
             height: 80px;
         }
-        
+
     }
 
     .brand-img {
@@ -529,10 +529,9 @@
         }
 
     }
-    .section-process{
 
-
-        .process-sontent{
+    .section-process {
+        .process-sontent {
             padding: 56px 110px 71px 56px;
             background: red;
         }
@@ -589,23 +588,31 @@
     .aboutSdh-mobileText {
         display: none;
     }
-    .fancyListBox{
-        width: 50%;
+
+    .fancyListBox {
+        width: 66%;
     }
-    .problemBox{
+
+    .problemBox {
         display: flex;
-        justify-content:center;
+        justify-content: center;
+        max-width: 991px;
+        margin: auto;
     }
-    .down-arrow{
+
+    .down-arrow {
         position: absolute;
-        margin-bottom: 40px;
         width: 100%;
     }
-    .down-arrow img{
+
+    .down-arrow img {
         z-index: 4;
         position: relative;
         left: 50%;
         cursor: pointer;
+    }
+    .twoPersonImage{
+        margin-top: 40px;
     }
 }
 
@@ -638,28 +645,87 @@
     .problemSub-h3 {
         color: #fff;
     }
-    .checkIcon{
+
+    .checkIcon {
         margin-right: 8px;
     }
-    .dotImage{
+
+    .dotImage {
         margin-top: 30px;
         margin-bottom: -30px;
         margin-left: -20px;
     }
 }
-.solution-section{
-    .solution-subtext{
+
+.solution-section {
+    padding: 160px 0px 80px;
+
+    .sdh-container {
+        max-width: 991px;
+        margin: 0 auto;
+        padding: 0px 15px;
+    }
+
+    .solution-subtext {
         text-align: center;
+        font-size: 20px;
+        color: #0015E2;
+    }
+
+    .solution-h2 {
+        font-size: 32px;
+        color: #081E3A;
+        text-align: center;
+        margin-bottom: 64px;
+    }
+
+    .divider {
+        width: 64px;
+        height: 2px;
+        background-color: #0015E2;
+        display: block;
+    }
+
+    .sdh-h3 {
+        margin-top: 0px;
+        margin-bottom: 31px;
+        color: #3B3B3D;
+        font-size: 28px;
+        line-height: 42px;
+        font-weight: 700;
+    }
+
+    .sdh-p {
+        margin-top: 31px;
+        margin-bottom: 0px;
+        width: 100%;
+        max-width: 72%;
+        font-size: 13px;
+        line-height: 26px;
+
+    }
+
+    .sdhImage {
+        width: 100%;
+    }
+
+    .sdh-right-text {
+        padding-left: 35px;
+    }
+    .second-row{
+        margin-top: 100px;
     }
 }
-@media only screen and (max-width: 2100px) and (min-width: 1400px)  {
-    .sdh-mv{
+
+@media only screen and (max-width: 2100px) and (min-width: 1400px) {
+    .sdh-mv {
         height: 900px;
         margin-top: -380px;
     }
 
 
 }
+
 @media only screen and (max-width:1200px) {
     .side-contact-form {
         display: none;
@@ -745,15 +811,17 @@
             .aboutSdh-h2 {
                 font-size: 22px;
             }
-            .problemBox{
+
+            .problemBox {
                 flex-direction: column;
-               
+
             }
-            .fancyListBox{
-                width: 100%;   
+
+            .fancyListBox {
+                width: 100%;
             }
-            
-            
+
+
         }
 
         .sdh-mv {
@@ -774,6 +842,7 @@
             background: #4E4AE6;
             position: relative;
         }
+
         .contactCatImagePc {
             display: none;
         }
@@ -781,13 +850,15 @@
         .contactCatImageSp {
             display: block;
         }
-        footer{
 
-            .development-title p 
-            ,.footer-links                                                                                                                                                                                            {
+        footer {
+
+            .development-title p,
+            .footer-links {
                 margin-bottom: 48px;
             }
-            .footer-links{
+
+            .footer-links {
                 column-gap: 32px;
                 row-gap: 16px;
             }
