@@ -361,14 +361,14 @@ export default function index() {
                   <div className="col-md-5 p-0">
                     <div className="third-lefttext">
                       <h3 className="sdh-h3">
-                      日本語での
+                        日本語での
                         <br />
                         コミュニケーション
                       </h3>
                       <div className="divider"></div>
                       <p className="sdh-cummination-p">
-                      プロジェクト管理においては、常に日本語でのコミュニケーションが可能です。SlackやLINEなどのプラットフォームを使用して、即時レスポンス対応を徹底しております。
-また、日次進捗レポートもご提出しているため、開発状況がわからなくなることはございません。
+                        プロジェクト管理においては、常に日本語でのコミュニケーションが可能です。SlackやLINEなどのプラットフォームを使用して、即時レスポンス対応を徹底しております。
+                        また、日次進捗レポートもご提出しているため、開発状況がわからなくなることはございません。
                       </p>
                     </div>
                   </div>
@@ -387,76 +387,84 @@ export default function index() {
 
         <div className="row">
           <div className="col-md-9 custom-col-9 p-0">
-          <section className='section-process'>
-                            <div className='section-process-content'>
-                            <div className='section-process-header'>
-                                <div className='section-process-title'>
-                                    <h2>{"{ Process }"}</h2>
-                                </div>
-                                <div className='section-process-heading'>
-                                    <p>利用までの流れ</p>
-                                </div>
-                            </div>
-                            <div className='process-sontent d-flex'>
-                                    <div className='process-sontent-left'>
-                                        <div className='process-step'>
-                                            <h4> step 01</h4>
-                                            <div className='line-img'>
-                                                <img src={lineImage} alt="image" />
-                                            </div>
-                                        </div>
-                                        <div className='process-step'>
-                                            <h4> step 02</h4>
-                                            <div className='line-img'>
-                                                <img src={lineImage} alt="image" />
-                                            </div>
-                                        </div>
-                                        <div className='process-step'>
-                                            <h4> step 03</h4>
-                                            <div className='line-img'>
-                                                <img src={lineImage} alt="image" />
-                                            </div>
-                                        </div>
-                                        <div className='process-step'>
-                                            <h4> step 04</h4>
-                                        </div>
-                                    </div>
-                                    <div className='process-sontent-right'>
-                                        <div className='process-step-content'>
-                                        <div className='step-content-title'>
-                                            <h4>お問い合わせ</h4>
-                                        </div>
-                                        <div className='step-content-desc'>
-                                            <p>問い合わせフォームから、貴社のご要望をお聞かせください。ご相談ベースも承っております。</p>
-                                        </div>
-                                    </div>
-                                        <div className='process-step-content'>
-                                        <div className='step-content-title'>
-                                            <h4>お問い合わせ</h4>
-                                        </div>
-                                        <div className='step-content-desc'>
-                                            <p>問い合わせフォームから、貴社のご要望をお聞かせください。ご相談ベースも承っております。</p>
-                                        </div>
-                                    </div>
-                                        <div className='process-step-content'>
-                                        <div className='step-content-title'>
-                                            <h4>お問い合わせ</h4>
-                                        </div>
-                                        <div className='step-content-desc'>
-                                            <p>問い合わせフォームから、貴社のご要望をお聞かせください。ご相談ベースも承っております。</p>
-                                        </div>
-                                    </div>
-                                        <div className='process-step-content'>
-                                        <div className='step-content-title'>
-                                            <h4>お問い合わせ</h4>
-                                        </div>
-                                        <div className='step-content-desc'>
-                                            <p>問い合わせフォームから、貴社のご要望をお聞かせください。ご相談ベースも承っております。</p>
-                                        </div>
-                                    </div>
-                                    </div>
-                            </div>
+            <section className="section-process">
+              <div className="section-process-content">
+                <div className="section-process-header">
+                  <div className="section-process-title">
+                    <h2>{"{ Process }"}</h2>
+                  </div>
+                  <div className="section-process-heading">
+                    <p>利用までの流れ</p>
+                  </div>
+                </div>
+                <div className="process-sontent d-flex">
+                  <div className="process-sontent-left">
+                    <div className="process-step">
+                      <h4> step 01</h4>
+                      <div className="line-img">
+                        <img src={lineImage} alt="image" />
+                      </div>
                     </div>
+                    <div className="process-step">
+                      <h4> step 02</h4>
+                      <div className="line-img">
+                        <img src={lineImage} alt="image" />
+                      </div>
+                    </div>
+                    <div className="process-step">
+                      <h4> step 03</h4>
+                      <div className="line-img">
+                        <img src={lineImage} alt="image" />
+                      </div>
+                    </div>
+                    <div className="process-step">
+                      <h4> step 04</h4>
+                    </div>
+                  </div>
+                  <div className="process-sontent-right">
+                    <div className="process-step-content">
+                      <div className="step-content-title">
+                        <h4>お問い合わせ</h4>
+                      </div>
+                      <div className="step-content-desc">
+                        <p>
+                          問い合わせフォームから、貴社のご要望をお聞かせください。ご相談ベースも承っております。
+                        </p>
+                      </div>
+                    </div>
+                    <div className="process-step-content">
+                      <div className="step-content-title">
+                        <h4>お問い合わせ</h4>
+                      </div>
+                      <div className="step-content-desc">
+                        <p>
+                          問い合わせフォームから、貴社のご要望をお聞かせください。ご相談ベースも承っております。
+                        </p>
+                      </div>
+                    </div>
+                    <div className="process-step-content">
+                      <div className="step-content-title">
+                        <h4>お問い合わせ</h4>
+                      </div>
+                      <div className="step-content-desc">
+                        <p>
+                          問い合わせフォームから、貴社のご要望をお聞かせください。ご相談ベースも承っております。
+                        </p>
+                      </div>
+                    </div>
+                    <div className="process-step-content">
+                      <div className="step-content-title">
+                        <h4>お問い合わせ</h4>
+                      </div>
+                      <div className="step-content-desc">
+                        <p>
+                          問い合わせフォームから、貴社のご要望をお聞かせください。ご相談ベースも承っております。
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </section>
           </div>
         </div>
