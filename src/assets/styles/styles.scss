@@ -11,7 +11,7 @@
     outline: none;
 }
 body{
-      background: #F5F4F6;
+      background: #F5F4F6 !important;
 }
 a {
     color: initial;
@@ -21,10 +21,6 @@ a {
 a:hover {
     color: initial;
     text-decoration: none;
-}
-
-body {
-    background-color: white !important;
 }
 
 .custom-col-3 {
