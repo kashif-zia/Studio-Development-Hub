@@ -352,7 +352,7 @@ export default function index() {
                 <div className='process-content d-flex'>
                   <div className='process-content-left'>
                     <div className='process-step'>
-                      <div>
+                      <div className="step-title">
                       <h4> step 01</h4>
                       <div className='line-img'>
                         <img src={lineImage} alt='image' />
@@ -368,7 +368,7 @@ export default function index() {
                       </div>
                     </div>
                     <div className='process-step'>
-                      <div>
+                      <div className="step-title">
                       <h4> step 02</h4>
                       <div className='line-img'>
                         <img src={lineImage} alt='image' />
@@ -376,15 +376,15 @@ export default function index() {
                       </div>
                       <div>
                         <div className='step-content-title'>
-                          <h4>お問い合わせ</h4>
+                          <h4>ヒアリング</h4>
                         </div>
                         <div className='step-content-desc'>
-                          <p>問い合わせフォームから、貴社のご要望をお聞かせください。ご相談ベースも承っております。</p>
+                          <p>現在の開発体制や成果イメージなどをヒアリング後、お客様に合った最適なご提案いたします。</p>
                         </div>
                       </div>
                     </div>
                     <div className='process-step'>
-                      <div>
+                      <div className="step-title">
                       <h4> step 03</h4>
                       <div className='line-img'>
                         <img src={lineImage} alt='image' />
@@ -393,61 +393,27 @@ export default function index() {
                       </div>
                       <div>
                         <div className='step-content-title'>
-                          <h4>お問い合わせ</h4>
+                          <h4>見積もり　</h4>
                         </div>
                         <div className='step-content-desc'>
-                          <p>問い合わせフォームから、貴社のご要望をお聞かせください。ご相談ベースも承っております。</p>
+                          <p>必要な人数、月数、期間などからお見積りを提出します。</p>
                         </div>
                       </div>
                     </div>
                     <div className='process-step'>
-                      <div>
+                      <div className="step-title">
                       <h4> step 04</h4>
                       </div>
                       <div>
                         <div className='step-content-title'>
-                          <h4>お問い合わせ</h4>
+                          <h4>ご契約＆開発開始</h4>
                         </div>
                         <div className='step-content-desc'>
-                          <p>問い合わせフォームから、貴社のご要望をお聞かせください。ご相談ベースも承っております。</p>
+                          <p>ご契約後、キックオフミーティングを設定しプロジェクト開始となります。</p>
                         </div>
                       </div>
                     </div> 
                   </div>
-                  {/* <div className='process-content-right'>
-                    <div className='process-step-content'>
-                      <div className='step-content-title'>
-                        <h4>お問い合わせ</h4>
-                      </div>
-                      <div className='step-content-desc'>
-                        <p>問い合わせフォームから、貴社のご要望をお聞かせください。ご相談ベースも承っております。</p>
-                      </div>
-                    </div>
-                    <div className='process-step-content'>
-                      <div className='step-content-title'>
-                        <h4>お問い合わせ</h4>
-                      </div>
-                      <div className='step-content-desc'>
-                        <p>問い合わせフォームから、貴社のご要望をお聞かせください。ご相談ベースも承っております。</p>
-                      </div>
-                    </div>
-                    <div className='process-step-content'>
-                      <div className='step-content-title'>
-                        <h4>お問い合わせ</h4>
-                      </div>
-                      <div className='step-content-desc'>
-                        <p>問い合わせフォームから、貴社のご要望をお聞かせください。ご相談ベースも承っております。</p>
-                      </div>
-                    </div>
-                    <div className='process-step-content'>
-                      <div className='step-content-title'>
-                        <h4>お問い合わせ</h4>
-                      </div>
-                      <div className='step-content-desc'>
-                        <p>問い合わせフォームから、貴社のご要望をお聞かせください。ご相談ベースも承っております。</p>
-                      </div>
-                    </div>
-                  </div> */}
                 </div>
               </div>
             </section>
