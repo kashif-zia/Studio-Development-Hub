@@ -85,11 +85,29 @@ export default function index() {
             </div>
             <div className="companyLogo-Section pr-4">
               <Swiper
-                slidesPerView={3}
-                spaceBetween={30}
+                slidesPerView={5}
+                spaceBetween={60}
                 loop={true}
                 autoplay={{
                   delay: 2500,
+                }}
+                breakpoints={{
+                  640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                  },
+                  768: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                  },
+                  1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 60,
+                  },
+                  1500: {
+                    slidesPerView: 5,
+                    spaceBetween: 60,
+                  },
                 }}
                 modules={[Autoplay]}
                 className="mySwiper"
@@ -324,7 +342,7 @@ export default function index() {
                       </p>
                     </div>
                   </div>
-                  <div className="col-md-6 p-0">
+                  <div className="col-md-6 custom-padding">
                     <img
                       src={sdhImage01}
                       className="sdhImage"
@@ -333,14 +351,14 @@ export default function index() {
                   </div>
                 </div>
                 <div className="row second-row">
-                  <div className="col-md-6 p-0">
+                  <div className="col-md-6 custom-padding">
                     <img
                       src={sdhImage02}
                       className="sdhImage"
                       alt="sdhImage02"
                     />
                   </div>
-                  <div className="col-md-6 p-0">
+                  <div className="col-md-6 custom-padding">
                     <div className="sdh-right-text">
                       <h3 className="sdh-h3">
                         柔軟なチーム規模と
@@ -358,7 +376,7 @@ export default function index() {
                   </div>
                 </div>
                 <div className="row second-row">
-                  <div className="col-md-5 p-0">
+                  <div className="col-md-5 custom-padding">
                     <div className="third-lefttext">
                       <h3 className="sdh-h3">
                         日本語での
@@ -368,11 +386,12 @@ export default function index() {
                       <div className="divider"></div>
                       <p className="sdh-cummination-p">
                         プロジェクト管理においては、常に日本語でのコミュニケーションが可能です。SlackやLINEなどのプラットフォームを使用して、即時レスポンス対応を徹底しております。
+                        <br />
                         また、日次進捗レポートもご提出しているため、開発状況がわからなくなることはございません。
                       </p>
                     </div>
                   </div>
-                  <div className="col-md-7 p-0">
+                  <div className="col-md-7 custom-padding">
                     <img
                       src={sdhImage03}
                       className="sdhImage"

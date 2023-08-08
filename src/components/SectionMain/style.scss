@@ -225,6 +225,7 @@
       line-height: 30px;
     }
 
+
     .main-contact-label {
       color: #2c2c2c;
       font-family: Noto Sans JP;
@@ -232,6 +233,11 @@
       font-style: normal;
       font-weight: 500;
       line-height: 20px;
+
+    .brand-img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
     }
 
     .main-cntct-inputs {
@@ -772,10 +778,32 @@
     width: 100%;
   }
 
+
   .sdh-right-text {
     padding-left: 35px;
   }
 
+    .sdhImage {
+        width: 100%;
+    }
+
+    .sdh-right-text {
+        padding-left: 35px;
+    }
+
+    .second-row {
+        margin-top: 100px;
+    }
+
+    .sdh-cummination-p {
+        padding-right: 50px;
+        margin-top: 31px;
+        font-size: 13px;
+        line-height: 26px;
+    }
+    .custom-padding{
+        padding: 0px;
+    }
   .second-row {
     margin-top: 100px;
   }
@@ -904,6 +932,7 @@
       }
     }
 
+
     .section-main-contact-form {
       border-radius: 0px 0px 64px 64px;
       background: #4e4ae6;
@@ -912,6 +941,164 @@
 
     .contactCatImagePc {
       display: none;
+    }
+  }
+}
+
+@media only screen and (max-width:768px) {
+
+
+    .hero-section {
+        .offshore-title h1 {
+            font-size: 16px;
+            margin-bottom: 12px;
+            line-height: 24px;
+
+        }
+
+        .population-title p {
+            font-size: 18px;
+            line-height: 25.2px;
+            margin-bottom: 8px;
+        }
+
+        .offshore-development-title p {
+            font-size: 26px;
+            line-height: 36.4px;
+            margin-bottom: 24px;
+        }
+
+        .offshore-development-desc p {
+            font-size: 13px;
+            line-height: 20.8px;
+            margin-bottom: 40px;
+        }
+
+        .section-main-contact-button .main-contact-btn {
+            padding: 17px 72px;
+        }
+
+        .arrow-icon {
+            display: none;
+        }
+
+        .hero-section-content {
+            padding: 44px 16px;
+        }
+
+        .companyLogo-Section {
+            display: none;
+        }
+
+        .hero-section-content {
+            .people-image {
+                height: 334px;
+                object-fit: contain;
+            }
+        }
+
+        .problemSection {
+            background: linear-gradient(180deg, rgba(68, 82, 219, 0.00) 0%, rgba(68, 82, 219, 0.40) 6.02%, #4452DB 15.05%, #4452DB 100%);
+
+            margin-top: -346px;
+
+            .aboutSdh {
+                flex-direction: row-reverse;
+                margin-top: 340px;
+
+                .aboutSdh-mobileText {
+                    color: #fff;
+                    display: block;
+                }
+                .twoPersonImage img{
+                    margin: auto;
+                    display: flex;
+                }
+            }
+
+            .dancing-img {
+                width: 20%;
+                position: absolute;
+
+                img {
+                    width: 79px;
+                }
+            }
+
+            .aboutSdh-h2 {
+                font-size: 22px;
+            }
+
+            .problemBox {
+                flex-direction: column;
+
+            }
+
+            .fancyListBox {
+                width: 100%;
+            }
+
+
+        }
+
+        .sdh-mv {
+            height: 290px;
+        }
+
+        .main-contact-form {
+            padding: 0px;
+            background: transparent;
+
+            .main-contact-label {
+                color: #FFF;
+            }
+        }
+
+        .section-main-contact-form {
+            border-radius: 0px 0px 64px 64px;
+            background: #4E4AE6;
+            position: relative;
+        }
+
+        .contactCatImagePc {
+            display: none;
+        }
+
+        .contactCatImageSp {
+            display: block;
+        }
+
+        footer {
+
+            .development-title p,
+            .footer-links {
+                margin-bottom: 48px;
+            }
+
+            .footer-links {
+                column-gap: 32px;
+                row-gap: 16px;
+            }
+        }
+    }
+    .solution-section{
+        .sdh-left-text{
+            margin-bottom:30px;
+        }
+        .second-row{
+            flex-direction: column-reverse;
+        }
+       .sdh-right-text {
+            padding-left: 0px;
+            margin-bottom: 52px;
+        }
+        .sdh-p {
+         max-width: 100%;
+        }
+        .custom-padding{
+            padding: 0px 15px;
+        }
+        
     }
 
     .contactCatImageSp {
