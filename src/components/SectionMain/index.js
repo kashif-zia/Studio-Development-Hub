@@ -23,6 +23,7 @@ import openIcon from 'assets/images/OpenButton.svg'
 import contactCatImagePc from 'assets/images/contactCatImg.svg'
 import contactCatImageSp from 'assets/images/cat.svg'
 import netsoIcon from 'assets/images/netsol.png'
+import lineImage from 'assets/images/line.png'
 
 import 'swiper/css';
 
@@ -76,7 +77,7 @@ export default function index() {
                                 spaceBetween={30}
                                 loop={true}
                                 autoplay={{
-                                    delay: 2500,
+                                delay: 2500,
                                 }}
                                 modules={[Autoplay]}
                                 className="mySwiper">
@@ -89,8 +90,7 @@ export default function index() {
                                 <SwiperSlide><img className='brand-img' src={yamahaimg} alt="image" /></SwiperSlide>
                             </Swiper>
                             </div>
-                            
-                    </div>
+                        </div>
                     <div className='col-md-3 custom-col-3 p-0'>
                         <section className='section-contact-form'>
                             <form className='side-contact-form'>
@@ -169,15 +169,15 @@ export default function index() {
                                   <div className="problemBox">
                                   <div className="fancyListBox">
                                   <div className="position-relative d-flex justify-content-end">
-                                  <div className="problemNotes"> <img src={checkIcon} Class="checkIcon" alt="check-icon" /> 開発の品質は担保されるのだろうか</div>
+                                  <div className="problemNotes"> <img src={checkIcon} className="checkIcon" alt="check-icon" /> 開発の品質は担保されるのだろうか</div>
                                   <img src={dotsimage} alt="dots image" className="dotImage"/>
                                   </div>
                                   <div className="position-relative d-flex justify-content-end">
-                                  <div className="problemNotes"> <img src={checkIcon} Class="checkIcon" alt="check-icon" /> 開発の品質は担保されるのだろうか</div>
+                                  <div className="problemNotes"> <img src={checkIcon} className="checkIcon" alt="check-icon" /> 開発の品質は担保されるのだろうか</div>
                                   <img src={dotsimage} alt="dots image" className="dotImage"/>
                                   </div>
                                   <div className="position-relative d-flex justify-content-end">
-                                  <div className="problemNotes"> <img src={checkIcon} Class="checkIcon" alt="check-icon" /> 開発の品質は担保されるのだろうか</div>
+                                  <div className="problemNotes"> <img src={checkIcon} className="checkIcon" alt="check-icon" /> 開発の品質は担保されるのだろうか</div>
                                   <img src={dotsimage} alt="dots image" className="dotImage"/>
                                   </div>
                                   
@@ -200,8 +200,6 @@ export default function index() {
                 <div className="row">
                     <div className="col-md-9 custom-col-9 p-0">
                     <section className="solution-section">
-         
-                   
          <div className="container-fluid">
          <p className="solution-subtext">{"{ Solution }"}</p>
          <h2 className="solution-h2">SDHが解決できること</h2>
@@ -222,7 +220,7 @@ export default function index() {
                 <div className='row'>
                 <div className='col-md-9 custom-col-9 p-0'>
            <section className='section-process'>
-                    <div className='col-md-12 p-0'>
+                            <div className='section-process-content'>
                             <div className='section-process-header'>
                                 <div className='section-process-title'>
                                     <h2>{"{ Process }"}</h2>
@@ -231,10 +229,65 @@ export default function index() {
                                     <p>利用までの流れ</p>
                                 </div>
                             </div>
-                            <div className='process-sontent'>
-                                
+                            <div className='process-sontent d-flex'>
+                                    <div className='process-sontent-left'>
+                                        <div className='process-step'>
+                                            <h4> step 01</h4>
+                                            <div className='line-img'>
+                                                <img src={lineImage} alt="image" />
+                                            </div>
+                                        </div>
+                                        <div className='process-step'>
+                                            <h4> step 02</h4>
+                                            <div className='line-img'>
+                                                <img src={lineImage} alt="image" />
+                                            </div>
+                                        </div>
+                                        <div className='process-step'>
+                                            <h4> step 03</h4>
+                                            <div className='line-img'>
+                                                <img src={lineImage} alt="image" />
+                                            </div>
+                                        </div>
+                                        <div className='process-step'>
+                                            <h4> step 04</h4>
+                                        </div>
+                                    </div>
+                                    <div className='process-sontent-right'>
+                                        <div className='process-step-content'>
+                                        <div className='step-content-title'>
+                                            <h4>お問い合わせ</h4>                                            
+                                        </div>
+                                        <div className='step-content-desc'>
+                                            <p>問い合わせフォームから、貴社のご要望をお聞かせください。ご相談ベースも承っております。</p>                                            
+                                        </div>
+                                    </div>
+                                        <div className='process-step-content'>
+                                        <div className='step-content-title'>
+                                            <h4>お問い合わせ</h4>                                            
+                                        </div>
+                                        <div className='step-content-desc'>
+                                            <p>問い合わせフォームから、貴社のご要望をお聞かせください。ご相談ベースも承っております。</p>                                            
+                                        </div>
+                                    </div>
+                                        <div className='process-step-content'>
+                                        <div className='step-content-title'>
+                                            <h4>お問い合わせ</h4>                                            
+                                        </div>
+                                        <div className='step-content-desc'>
+                                            <p>問い合わせフォームから、貴社のご要望をお聞かせください。ご相談ベースも承っております。</p>                                            
+                                        </div>
+                                    </div>
+                                        <div className='process-step-content'>
+                                        <div className='step-content-title'>
+                                            <h4>お問い合わせ</h4>                                            
+                                        </div>
+                                        <div className='step-content-desc'>
+                                            <p>問い合わせフォームから、貴社のご要望をお聞かせください。ご相談ベースも承っております。</p>                                            
+                                        </div>
+                                    </div>
+                                    </div>
                             </div>
-
                     </div>
             </section>
                 
@@ -685,7 +738,7 @@ export default function index() {
                 <footer>
                     <div className="container">
                         <div className='footer-content'>
-                            <div class="row">
+                            <div className="row">
                                 <div className='col-md-12 h-100'>
                                 <div className='footer-left-col-content'>
                                   <div className='footer-logo'>
