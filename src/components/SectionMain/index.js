@@ -397,8 +397,8 @@ export default function index() {
                     <p>利用までの流れ</p>
                   </div>
                 </div>
-                <div className="process-sontent d-flex">
-                  <div className="process-sontent-left">
+                <div className="process-content d-flex">
+                  <div className="process-content-left">
                     <div className="process-step">
                       <h4> step 01</h4>
                       <div className="line-img">
@@ -421,7 +421,7 @@ export default function index() {
                       <h4> step 04</h4>
                     </div>
                   </div>
-                  <div className="process-sontent-right">
+                  <div className="process-content-right">
                     <div className="process-step-content">
                       <div className="step-content-title">
                         <h4>お問い合わせ</h4>

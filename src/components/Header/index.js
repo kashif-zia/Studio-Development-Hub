@@ -9,7 +9,7 @@ export default function Header() {
                 <div className="container-fluid p-0">     
                         <nav className="navbar navbar-expand-lg navbar-light main-navbar p-0">
                             <a className="navbar-brand p-0" href="javascript:void(0)">
-                                <img src={mainLogo} alt="Main logo image" />
+                                <img src={mainLogo} alt="Main logo" />
                             </a>
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
