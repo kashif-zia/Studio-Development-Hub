@@ -564,35 +564,25 @@
     
   }
 
-  .process-content {
+  .process-content{
     padding: 56px 110px 71px 56px;
     border-radius: 27.5px;
     background: #fff;
     width: 766px;
     height: auto;
     margin: 0px auto;
-
-    .process-step h4 {
-      color: #0015e2;
-      font-family: Roboto;
-      font-size: 15px;
-      font-style: normal;
-      font-weight: 600;
-      letter-spacing: 0.75px;
-    }
-
     .line-img {
       display: flex;
       justify-content: center;
       margin: 12px 0px;
     }
-  }
+  
 
-  .process-content-right {
-    .process-step-content {
-      margin: 0px 0px 64px 23px;
-    }
-  }
+  // .process-content-right {
+  //   .process-step-content {
+  //     margin: 0px 0px 64px 23px;
+  //   }
+  // }
    .process-content-left {
      .process-step {
        display: flex;
@@ -619,7 +609,16 @@
           line-height: 30px;
           margin-bottom: 0px;
         }
+           .process-step h5{
+             color: #0015e2;
+             font-family: Roboto;
+             font-size: 15px;
+             font-style: normal;
+             font-weight: 600;
+             letter-spacing: 0.75px;
+           }
    }
+  }
 }
 
 .sdh-mv {
