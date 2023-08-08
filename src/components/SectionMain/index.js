@@ -395,7 +395,7 @@ export default function index() {
                           <h4>見積もり</h4>
                         </div>
                         <div className='step-content-desc'>
-                          <p>問い合わせフォームから、貴社のご要望をお聞かせください。ご相談ベースも承っております。</p>
+                          <p>必要な人数、月数、期間などからお見積りを提出します。</p>
                         </div>
                       </div>
                     </div>
