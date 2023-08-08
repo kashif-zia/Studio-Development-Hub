@@ -578,35 +578,28 @@
       font-size: 15px;
       font-style: normal;
       font-weight: 600;
-      line-height: 15px;
       letter-spacing: 0.75px;
     }
 
-    // .line-img {
-    //   display: flex;
-    //   justify-content: center;
-    // }
+    .line-img {
+      display: flex;
+      justify-content: center;
+      margin: 12px 0px;
+    }
   }
 
   .process-content-right {
     .process-step-content {
       margin: 0px 0px 64px 23px;
-
-     
-      .step-content-desc p {
-        color: #414141;
-        // font-family: Noto Sans JP;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
-        margin-bottom: 0px;
-      }
     }
   }
    .process-content-left {
      .process-step {
        display: flex;
+       .step-title {
+        width: 15%;
+
+       }
      }
       .step-content-title h4 {
         color: #333;
@@ -993,8 +986,10 @@
        padding: 32px 20px 80px 20px;
        
 
-        .process-step h4 {
-        line-height: 18px;
+        .process-step{
+          .step-title{
+            margin-right: 19px;
+          }
         }
 
         .line-img {
@@ -1010,10 +1005,17 @@
             line-height: 21px;
           }
 
-          .step-content-desc p {
-            font-size: 13px;
-            line-height: 22.75px;
-          }
+        }
+      }
+      .process-content-left{
+        .step-content-title h4{
+          font-size: 15px;
+          line-height: 21px;
+          letter-spacing: 0.75px;
+        }
+        .step-content-desc p {
+          font-size: 13px;
+          line-height: 22.75px;
         }
       }
     }
