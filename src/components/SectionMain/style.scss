@@ -699,14 +699,16 @@
   .down-arrow img {
     z-index: 4;
     position: relative;
-    left: 50%;
+    left: 45%;
     cursor: pointer;
+    bottom: -45px;
   }
 
   .twoPersonImage {
     margin-top: 40px;
+    text-align: center;
     img{
-        width: 100%;
+        width: 200px;
     }
   }
 }
@@ -752,6 +754,8 @@
 
 .solution-section {
   padding: 160px 0px 80px;
+  background-color: #EEEFF5;
+  border-radius: 0px 0px 0px 120px;
 
   .sdh-container {
     max-width: 991px;
@@ -909,6 +913,7 @@
           margin: auto;
           display: flex;
         }
+       
       }
 
       .dancing-img {
@@ -932,10 +937,14 @@
       .fancyListBox {
         width: 100%;
       }
-
-
+      .down-arrow img {
+        display: none;
+        }
+       
     }
-
+    .solution-section{
+        padding: 100px 0px;
+    }
     .sdh-mv {
       height: 290px;
     }
@@ -977,28 +986,11 @@
     }
     .section-process {
       padding: 120px 16px;
-
-      .section-process-header {
-        .section-process-title h2 {
-        
-        }
-
-        .section-process-heading p {
-        
-        }
-      }
-
       .process-content {
        width: 100%;
        padding: 32px 20px 80px 20px;
-       
-
         .process-step h4 {
         line-height: 18px;
-        }
-
-        .line-img {
-         
         }
       }
 
