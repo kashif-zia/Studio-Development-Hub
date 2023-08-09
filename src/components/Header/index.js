@@ -18,13 +18,16 @@ export default function Header() {
                             </button>
                             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                                 <div className="navbar-nav">
-                                    <a className="nav-link" href="javascript:void(0)">
+                                <a className="nav-link" href="#aboutSdh">
                                         <span className='dot'></span> SDHとは</a>
-                                    <a className="nav-link" href="javascript:void(0)">
+
+                                  <a className="nav-link" href="#solution-section">
                                         <span className='dot'></span>ソリューション</a>
-                                    <a className="nav-link" href="javascript:void(0)">
+
+                                <a className="nav-link" href="#section-process">
                                         <span className='dot'></span>ご利用の流れ</a>
-                                    <a className="nav-link" href="javascript:void(0)">
+
+                                <a className="nav-link" href="#section-questions">
                                         <span className='dot'></span>よくある質問</a>
                                 </div>
                                 <button className='lang-button'>

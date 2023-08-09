@@ -221,7 +221,7 @@ export default function index() {
           <div className='sdh-mv'></div>
           <div className='problemSection'>
             <div className='col-md-9 custom-col-9'>
-              <div className='aboutSdh'>
+              <div className='aboutSdh' id="aboutSdh">
                 <div className='dancing-img'>
                   <img src={dancingImage} alt='dancing image' />
                 </div>
@@ -363,7 +363,7 @@ export default function index() {
 
         <div className='row'>
           <div className='col-md-9 custom-col-9 p-0'>
-            <section className='section-process'>
+            <section className='section-process' id="section-process">
               <div className='section-process-content'>
                 <div className='section-process-header'>
                   <div className='section-process-title'>
@@ -448,7 +448,7 @@ export default function index() {
         </div>
         <div className='row'>
           <div className='col-md-9 custom-col-9 p-0 bg-blue'>
-            <section className='section-questions'>
+            <section className='section-questions' id="section-questions">
               <div className='container'>
                 <div className='row'>
                   <div className='col-md-10 mx-auto'>
@@ -1107,23 +1107,23 @@ export default function index() {
                     <p>Studio Development Hub</p>
                     <div className='footer-links'>
                       <div className='footer-link'>
-                        <a href='#'>
+                        <a href="#aboutSdh">
                           <span className='footer-link-dot'></span> SDHとは
                         </a>
                       </div>
                       <div className='footer-link'>
-                        <a href='#'>
+                        <a href="#solution-section">
                           <span className='footer-link-dot'></span>
                           ソリューション
                         </a>
                       </div>
                       <div className='footer-link'>
-                        <a href='#'>
+                        <a href="#section-process">
                           <span className='footer-link-dot'></span> ご利用の流れ
                         </a>
                       </div>
                       <div className='footer-link'>
-                        <a href='#'>
+                        <a href="#section-questions">
                           <span className='footer-link-dot'></span> よくある質問
                         </a>
                       </div>
