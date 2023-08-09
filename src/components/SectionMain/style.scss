@@ -8,6 +8,7 @@
   //  background-repeat: no-repeat;
 
   .offshore-title h1 {
+    font-family: 'NotoSansJP-Bold';
     color: #0116E0;
     font-kerning: none;
     font-size: 22px;
@@ -21,11 +22,8 @@
   .population-title p {
     color: $gray;
     font-kerning: none;
-    // font-feature-settings: 'pcap'on , 'liga'off;
-    // font-family: Noto Sans JP;
+  font-family: 'NotoSansJP-Bold';
     font-size: 25px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 35px;
     letter-spacing: 0.75px;
   }
@@ -33,22 +31,16 @@
   .offshore-development-title p {
     color: $gray;
     font-kerning: none;
-    // font-feature-settings: 'pcap'on,
-    // 'liga'off;
-    // font-family: Noto Sans JP;
+    font-family: 'NotoSansJP-Bold';
     font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 56px;
     letter-spacing: 1.2px;
   }
 
   .offshore-development-desc p {
     color: $dark-blue;
-    font-family: Noto Sans JP;
+     font-family: 'NotoSansJP-Regular';
     font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 160%;
     /* 28.8px */
     letter-spacing: 0.9px;
@@ -67,10 +59,8 @@
       box-shadow: 0px 4px 30px 0px rgba(27, 183, 193, 0.20);
       border: none;
       color: #FFF;
-      // font-family: Noto Sans;
+     font-family: 'NotoSans-Bold';
       font-size: 16px;
-      font-style: normal;
-      font-weight: 700;
       line-height: 16px;
     }
 
