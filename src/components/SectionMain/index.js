@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "components/Header";
 import "./style.scss";
-import peopleImage from "assets/images/people.png";
+import peopleImage from "assets/images/people.svg";
 import rigtharrow from "assets/images/right-arrow-circle.svg";
 import catImage from "assets/images/side-contact-img.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -334,7 +334,7 @@ export default function index() {
                   </div>
                 </div>
                 <div className='row second-row'>
-                  <div className='col-md-5 custom-padding'>
+                  <div className='col-md-6 custom-padding'>
                     <div className='third-lefttext'>
                       <h3 className='sdh-h3'>
                         日本語での
@@ -349,7 +349,7 @@ export default function index() {
                       </p>
                     </div>
                   </div>
-                  <div className='col-md-7 custom-padding'>
+                  <div className='col-md-6 custom-padding'>
                     <img src={sdhImage03} className='sdhImage' alt='sdhImage03' />
                   </div>
                 </div>
