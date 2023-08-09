@@ -84,7 +84,7 @@
   }
 
   .hero-section-content {
-    padding: 24px 77px 0px 80px;
+    padding: 24px 67px 0px 80px;
     background: #f5f4f6;
     margin-bottom: 75px;
   }
@@ -175,6 +175,14 @@
 
     .contact-text-area {
       height: 80px;
+    }
+    .contact-announcement-image{
+      position: relative;
+    right: -25px;
+    margin-top: 20px;
+    img{
+      width: 100%;
+    }
     }
   }
 
@@ -828,7 +836,7 @@
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1050px) {
   .side-contact-form {
     display: none;
   }
