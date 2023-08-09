@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.scss'
-import mainLogo from 'assets/images/main-logo.svg'
+import mainLogo from 'assets/images/main-logo.svg';
+import humbgermenu from 'assets/images/humbger_menu.svg';
 
 export default function Header() {
     return (
@@ -11,8 +12,9 @@ export default function Header() {
                             <a className="navbar-brand p-0" href="javascript:void(0)">
                                 <img src={mainLogo} alt="Main logo" />
                             </a>
-                            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                                <span className="navbar-toggler-icon"></span>
+                            <button className="navbar-toggler border-0 p-0"  type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                             
+                             <img src={  humbgermenu } alt="Main logo" />
                             </button>
                             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                                 <div className="navbar-nav">
