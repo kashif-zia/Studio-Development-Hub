@@ -109,10 +109,8 @@
       .contct-title p {
         color: #fff;
         text-align: center;
-        // font-family: Roboto Condensed;
+         font-family: 'RobotoCondensed-Regular';
         font-size: 15px;
-        font-style: normal;
-        font-weight: 500;
         line-height: 21px;
         letter-spacing: 1.575px;
         margin: 0px;
@@ -120,20 +118,16 @@
 
       .contct-heading p {
         color: #fff;
-        // font-family: Noto Sans JP;
+        font-family: 'NotoSansJP-Bold';
         font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
         line-height: 28px;
         margin: 12px 0px 24px;
       }
 
       .contct-desc p {
         color: #fff;
-        //   font-family: Noto Sans JP;
+        font-family: 'NotoSansJP-Regular';
         font-size: 13px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 20.8px;
         margin-bottom: 24px;
         text-align: left;
@@ -167,10 +161,8 @@
 
     .side-contact-label {
       color: #fff;
-      // font-family: Noto Sans JP;
+      font-family: 'NotoSansJP-Medium';
       font-size: 12px;
-      font-style: normal;
-      font-weight: 500;
       line-height: 24px;
       opacity: 0.8999999761581421;
     }
@@ -199,7 +191,7 @@
   .section-main-contact-form {
     border-radius: 0px 0px 120px 120px;
     background: #4e4ae6;
-    padding: 260px 0px 120px 0px;
+    padding: 100px 0px 120px 0px;
     position: relative;
     margin-bottom: -160px;
     z-index: 4;
@@ -207,41 +199,33 @@
     .contact-form-title h2 {
       color: #fff;
       text-align: center;
-      // font-family: Roboto Condensed;
+      font-family: 'RobotoCondensed-Regular';
       font-size: 20px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 28px;
       letter-spacing: 2.1px;
+      margin-bottom: 0px;
     }
 
     .contact-form-heading p {
       color: #fff;
       text-align: center;
-      font-family: Noto Sans JP;
+      font-family: 'NotoSansJP-Bold';
       font-size: 32px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 56px;
       letter-spacing: 3.36px;
+      margin: 32px 0px;
     }
 
     .contact-form-desc p {
       color: #fff;
       text-align: center;
-      //    font-family: Noto Sans JP;
+     font-family: 'NotoSansJP-Regular';
       font-size: 15px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 30px;
+      margin-bottom: 48px;
     }
 
     .main-contact-label {
       color: #2c2c2c;
-      font-family: Noto Sans JP;
+      font-family: 'NotoSansJP-Medium';
       font-size: 15px;
-      font-style: normal;
-      font-weight: 500;
       line-height: 20px;
     }
 
@@ -266,10 +250,8 @@
       width: 250px;
       height: 60px;
       color: #fff;
-      font-family: Roboto;
+     font-family: 'Roboto-Bold';
       font-size: 18px;
-      font-style: normal;
-      font-weight: 700;
       line-height: 18px;
       letter-spacing: 0.9px;
       margin: 50px auto 0px auto;
@@ -310,11 +292,8 @@
         button {
           padding-left: 0px;
           color: #333;
-          font-feature-settings: "palt"on;
-          font-family: Noto Sans JP;
+           font-family: 'NotoSansJP-Medium';
           font-size: 16px;
-          font-style: normal;
-          font-weight: 700;
           line-height: normal;
           letter-spacing: 0.8px;
           display: flex;
@@ -343,10 +322,8 @@
           justify-content: center;
           align-items: center;
           color: #fff;
-          font-family: Roboto;
+          font-family: 'Roboto-Bold';
           font-size: 14px;
-          font-style: normal;
-          font-weight: 700;
           line-height: normal;
           letter-spacing: 1.47px;
           margin-right: 16px;
@@ -355,11 +332,8 @@
         .card-body {
           padding: 0.5rem 0px 0.5rem 0;
           color: #333;
-          font-feature-settings: "palt"on;
-          font-family: Noto Sans JP;
+          font-family: 'NotoSansJP-Regular';
           font-size: 16px;
-          font-style: normal;
-          font-weight: 400;
           line-height: normal;
           letter-spacing: 0.8px;
           display: flex;
@@ -393,10 +367,8 @@
         justify-content: center;
         align-items: center;
         color: #fff;
-        font-family: Roboto;
+        font-family: 'Roboto-Bold';
         font-size: 14px;
-        font-style: normal;
-        font-weight: 700;
         line-height: normal;
         letter-spacing: 1.47px;
         margin-right: 16px;
@@ -419,10 +391,8 @@
     .question-section-title h2 {
       color: #0015e2;
       text-align: center;
-      // font-family: Roboto Condensed;
+    font-family: 'RobotoCondensed-Regular';
       font-size: 20px;
-      font-style: normal;
-      font-weight: 500;
       line-height: 28px;
       letter-spacing: 2.1px;
     }
@@ -430,10 +400,8 @@
     .question-section-heading p {
       color: #333;
       text-align: center;
-      // font-family: Noto Sans JP;
+      font-family: 'NotoSansJP-Bold';
       font-size: 32px;
-      font-style: normal;
-      font-weight: 700;
       line-height: 56px;
       letter-spacing: 3.36px;
     }
@@ -469,10 +437,8 @@
 
     .netsologoContent h3 {
       color: #fff;
-      font-family: Roboto;
+     font-family: 'Roboto-Bold';
       font-size: 15px;
-      font-style: normal;
-      font-weight: 700;
       line-height: 15px;
       letter-spacing: 0.75px;
     }
@@ -486,10 +452,8 @@
 
     .development-title p {
       color: #fff;
-      font-family: Roboto;
+     font-family: 'Roboto-Bold';
       font-size: 22px;
-      font-style: normal;
-      font-weight: 700;
       line-height: 22px;
       letter-spacing: 1.1px;
       margin-bottom: 32px;
@@ -497,13 +461,12 @@
 
     .development-sub-title p {
       color: #fff;
-      font-family: Roboto;
+         font-family: 'Roboto-Regular';
       font-size: 11px;
-      font-style: normal;
-      font-weight: 400;
       line-height: 11px;
       letter-spacing: 1.1px;
       opacity: 0.8;
+      margin-bottom: 0px;
     }
 
     .footer-links {
@@ -514,10 +477,8 @@
 
       .footer-link a {
         color: #fff;
-        font-family: Roboto;
+       font-family: 'Roboto-Bold';
         font-size: 15px;
-        font-style: normal;
-        font-weight: 700;
         line-height: 15px;
         letter-spacing: 0.75px;
       }
@@ -546,20 +507,18 @@
       color: #0015e2;
       text-align: center;
       font-size: 20px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 28px;
       letter-spacing: 2.1px;
+       font-family: 'RobotoCondensed-Regular';
+       margin-bottom: 32px;
     }
 
     .section-process-heading p {
+      font-family: 'NotoSansJP-Bold';
       color: #333;
       text-align: center;
       font-size: 32px;
-      font-style: normal;
-      font-weight: 700;
-      line-height: 175%;
       letter-spacing: 3.36px;
+      margin-bottom: 48px;
     }
   }
 
@@ -607,20 +566,16 @@
 
       .step-content-desc p {
         color: #414141;
-        font-family: 'NotoSansJP-Regular';
+         font-family: 'NotoSansJP-Regular';
         font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
         line-height: 30px;
         margin-bottom: 0px;
       }
 
       .process-step h5 {
         color: #0015e2;
-        font-family: Roboto;
+        font-family: 'Roboto-Medium';
         font-size: 15px;
-        font-style: normal;
-        font-weight: 600;
         letter-spacing: 0.75px;
         text-align: center;
         margin-bottom: 0px;
