@@ -1,6 +1,7 @@
 @import "../../assets/styles/variables";
 
 .hero-section {
+
   // padding: 24px 77px 0px 80px;
   //  background-image: url(/assets/images/sdh_mv.png);
   //  background-size: cover;
@@ -10,6 +11,7 @@
     background-color: #4e4ae6;
     border-radius: 120px 0px 0px 0px;
   }
+
   .offshore-title h1 {
     font-family: 'NotoSansJP-Bold';
     color: #0116E0;
@@ -24,7 +26,7 @@
   .population-title p {
     color: $gray;
     font-kerning: none;
-  font-family: 'NotoSansJP-Bold';
+    font-family: 'NotoSansJP-Bold';
     font-size: 25px;
     line-height: 35px;
     letter-spacing: 0.75px;
@@ -41,7 +43,7 @@
 
   .offshore-development-desc p {
     color: $dark-blue;
-     font-family: 'NotoSansJP-Regular';
+    font-family: 'NotoSansJP-Regular';
     font-size: 18px;
     line-height: 28.8px;
     letter-spacing: 0.9px;
@@ -60,7 +62,7 @@
       box-shadow: 0px 4px 30px 0px rgba(27, 183, 193, 0.2);
       border: none;
       color: #FFF;
-     font-family: 'NotoSans-Bold';
+      font-family: 'NotoSans-Bold';
       color: #fff;
       font-size: 16px;
       line-height: 16px;
@@ -176,13 +178,15 @@
     .contact-text-area {
       height: 80px;
     }
-    .contact-announcement-image{
+
+    .contact-announcement-image {
       position: relative;
-    right: -25px;
-    margin-top: 20px;
-    img{
-      width: 100%;
-    }
+      right: -25px;
+      margin-top: 20px;
+
+      img {
+        width: 100%;
+      }
     }
   }
 
@@ -306,7 +310,7 @@
         button {
           padding-left: 0px;
           color: #333;
-          font-feature-settings: "palt" on;
+          font-feature-settings: "palt"on;
           font-family: Noto Sans JP;
           font-size: 16px;
           font-style: normal;
@@ -351,7 +355,7 @@
         .card-body {
           padding: 0.5rem 0px 0.5rem 0;
           color: #333;
-          font-feature-settings: "palt" on;
+          font-feature-settings: "palt"on;
           font-family: Noto Sans JP;
           font-size: 16px;
           font-style: normal;
@@ -401,7 +405,7 @@
       .card-body {
         padding: 0.5rem 0px 0.5rem 0;
         color: #333;
-        font-feature-settings: "palt" on;
+        font-feature-settings: "palt"on;
         font-family: Noto Sans JP;
         font-size: 16px;
         font-style: normal;
@@ -642,13 +646,11 @@
 }
 
 .problemSection {
-  background: linear-gradient(
-    180deg,
-    rgba(68, 82, 219, 0) 0%,
-    rgba(68, 82, 219, 0.4) 8.61%,
-    #4452db 19.45%,
-    #4452db 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(68, 82, 219, 0) 0%,
+      rgba(68, 82, 219, 0.4) 8.61%,
+      #4452db 19.45%,
+      #4452db 100%);
   width: 100%;
   margin-top: -200px;
   z-index: 1;
@@ -669,14 +671,14 @@
   .aboutSdh-subtext {
     color: #D8DBFF;
     font-size: 20px;
-     font-family: 'RobotoCondensed-Regular';
+    font-family: 'RobotoCondensed-Regular';
     line-height: 28px;
     letter-spacing: 2.1px;
   }
 
   .aboutSdh-h2 {
     color: #fff;
-     font-family: 'NotoSans-Bold';
+    font-family: 'NotoSans-Bold';
     font-size: 36px;
     line-height: 50.4px;
     letter-spacing: 1.8px;
@@ -754,7 +756,7 @@
   .problemSub-text {
     color: #D8DBFF;
     text-align: center;
-   font-family: 'RobotoCondensed-Regular';
+    font-family: 'RobotoCondensed-Regular';
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -792,13 +794,13 @@
   }
 
   .solution-subtext {
-   color: #0015E2;
-   text-align: center;
-   font-size: 20px;
-   font-style: normal;
-   font-weight: 500;
-   line-height: 28px;
-   letter-spacing: 2.1px;
+    color: #0015E2;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 2.1px;
     font-family: 'RobotoCondensed-Regular';
   }
 
@@ -836,7 +838,7 @@
     max-width: 72%;
     font-size: 13px;
     line-height: 26px;
-     font-family: 'NotoSansJP-Regular';
+    font-family: 'NotoSansJP-Regular';
   }
 
   .sdhImage {
@@ -850,9 +852,11 @@
   .second-row {
     margin-top: 100px;
   }
+
   .third-row {
     margin-top: 100px;
   }
+
   .sdh-cummination-p {
     padding-right: 50px;
     margin-top: 31px;
@@ -869,6 +873,29 @@
   .sdh-mv {
     height: 900px;
     margin-top: -400px;
+  }
+}
+
+@media only screen and (max-width:1250px) and (min-width: 1050px) {
+
+  .hero-section {
+    .hero-section-content {
+      padding: 24px 45px 0px 45px;
+    }
+
+    .offshore-development-title p {
+      font-size: 30px;
+    }
+
+    .offshore-development-desc p {
+      font-size: 16px;
+    }
+  }
+
+  .solution-section {
+    .custom-padding {
+      padding: 0px 10px;
+    }
   }
 }
 
@@ -928,13 +955,11 @@
     }
 
     .problemSection {
-      background: linear-gradient(
-        180deg,
-        rgba(68, 82, 219, 0) 0%,
-        rgba(68, 82, 219, 0.4) 6.02%,
-        #4452db 15.05%,
-        #4452db 100%
-      );
+      background: linear-gradient(180deg,
+          rgba(68, 82, 219, 0) 0%,
+          rgba(68, 82, 219, 0.4) 6.02%,
+          #4452db 15.05%,
+          #4452db 100%);
 
       margin-top: -400px;
 
@@ -977,6 +1002,7 @@
       .down-arrow img {
         display: none;
       }
+
       // .problemNotes {
       //   color: #081E3A;
       //   font-family: 'NotoSansJP-Medium';
@@ -986,6 +1012,7 @@
       .problemSub-h3 {
         font-size: 22px;
       }
+
       .aboutSdh {
         margin-bottom: 100px;
       }
@@ -994,15 +1021,18 @@
     .solution-section {
       padding: 100px 0px;
       border-radius: 0px 0px 0px 64px;
+
       .solution-h2 {
         font-size: 22px;
         margin-bottom: 48px;
       }
+
       .sdh-h3 {
         font-size: 20px;
         line-height: 30px;
         margin-bottom: 20px;
       }
+
       .sdh-cummination-p {
         margin-bottom: 40px;
       }
@@ -1039,6 +1069,7 @@
     }
 
     footer {
+
       .development-title p,
       .footer-links {
         margin-bottom: 48px;
@@ -1089,6 +1120,7 @@
       }
     }
   }
+
   .solution-section {
     .sdh-left-text {
       margin-bottom: 30px;
@@ -1098,6 +1130,7 @@
       flex-direction: column-reverse;
       margin-top: 64px;
     }
+
     .third-row {
       margin-top: 48px;
     }
@@ -1117,6 +1150,7 @@
     }
   }
 }
+
 @media only screen and (max-width: 475px) {
   .hero-section {
     .sdh-mv {

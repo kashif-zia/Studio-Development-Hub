@@ -90,7 +90,21 @@ header {
 
     }
 }
-
+@media only screen and (max-width:1250px) and (min-width: 1050px)  {
+     header{
+        padding: 32px 15px 0px 15px;
+        .navbar-light .navbar-nav .nav-link {
+            padding: 0px 10px 0px 0px;
+        }
+        .navbar-light .navbar-brand img{
+            max-width: 240px;
+        }
+        .navbar-light .navbar-nav .nav-link:last-child {
+            padding-right: 10px;
+        }
+     }
+     
+}
 @media only screen and (max-width:767px){
     header{
         .navbar {
