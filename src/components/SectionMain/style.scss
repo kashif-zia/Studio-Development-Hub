@@ -6,7 +6,10 @@
   //  background-size: cover;
   //  background-position: 9px 526px;
   //  background-repeat: no-repeat;
-
+  .bg-blue{
+    background-color: #4E4AE6;
+    border-radius: 120px 0px 0px 0px;
+  }
   .offshore-title h1 {
     color: #0116E0;
     font-kerning: none;
@@ -87,6 +90,7 @@
     width: 100%;
     position: relative;
     z-index: 2;
+    max-width: 508px;
   }
 
   .arrow-icon {
@@ -96,6 +100,8 @@
   .hero-section-content {
     padding: 24px 77px 0px 80px;
     background: #F5F4F6;
+    margin-bottom: 75px;
+
   }
 
   .section-contact-form {
@@ -198,6 +204,7 @@
     padding: 260px 0px 120px 0px;
     position: relative;
     margin-bottom: -160px;
+    z-index: 4;
 
     .contact-form-title h2 {
       color: #FFF;
@@ -286,9 +293,8 @@
     border-radius: 120px 0px 0px 120px;
     background: #FFF;
     padding: 120px 0px 160px;
-    margin-bottom: -160px;
     position: relative;
-    z-index: 1;
+    z-index: 5;
 
     .accordian-card {
       width: 100%;
@@ -456,6 +462,8 @@
   footer {
     background: #212D3B;
     padding: 200px 0px 200px 0px;
+    z-index: 3;
+    position: relative;
 
     .footer-logo {
       display: flex;
@@ -959,7 +967,7 @@
     }
 
     }
-
+ 
     .solution-section {
       padding: 100px 0px;
       border-radius: 0px 0px 0px 64px;
@@ -1057,6 +1065,7 @@
         }
       }
     }
+   
   }
 
   .solution-section {
