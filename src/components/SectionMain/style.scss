@@ -43,8 +43,7 @@
     color: $dark-blue;
      font-family: 'NotoSansJP-Regular';
     font-size: 18px;
-    line-height: 160%;
-    /* 28.8px */
+    line-height: 28.8px;
     letter-spacing: 0.9px;
   }
 
@@ -586,7 +585,7 @@
 
       .step-content-title h4 {
         color: #333;
-        // font-family: Noto Sans JP;
+        font-family: 'NotoSansJP-Bold';
         font-size: 20px;
         font-style: normal;
         font-weight: 700;
@@ -596,7 +595,7 @@
 
       .step-content-desc p {
         color: #414141;
-        // font-family: Noto Sans JP;
+        font-family: 'NotoSansJP-Regular';
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
@@ -660,7 +659,11 @@
   }
 
   .aboutSdh-subtext {
-    color: #fff;
+    color: #D8DBFF;
+    font-size: 20px;
+     font-family: 'RobotoCondensed-Regular';
+    line-height: 28px;
+    letter-spacing: 2.1px;
   }
 
   .aboutSdh-h2 {
@@ -672,7 +675,12 @@
   }
 
   .aboutSdh-text {
-    color: #fff;
+    color: #FFF;
+    font-family: 'NotoSansJP-Regular';
+    font-size: 15px;
+    line-height: 200%;
+    /* 30px */
+    letter-spacing: 0.45px;
   }
 
   .aboutSdh-mobileText {
@@ -724,8 +732,11 @@
     display: inline-flex;
     align-items: center;
     padding: 32px 26px;
+
+    color: #081E3A;
+    font-family: 'NotoSansJP-Medium';
     font-size: 20px;
-    color: #081e3a;
+    line-height: 40px;
   }
 
   .problemHeading {
@@ -733,12 +744,23 @@
   }
 
   .problemSub-text {
-    color: #d8dbff;
+    color: #D8DBFF;
+    text-align: center;
+   font-family: 'RobotoCondensed-Regular';
     font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 2.1px;
   }
 
   .problemSub-h3 {
-    color: #fff;
+    color: #FFF;
+    text-align: center;
+    font-family: 'NotoSansJP-Bold';
+    font-size: 32px;
+    line-height: 56px;
+    letter-spacing: 3.36px;
   }
 
   .checkIcon {
@@ -762,15 +784,23 @@
   }
 
   .solution-subtext {
-    text-align: center;
-    font-size: 20px;
-    color: #0015e2;
+   color: #0015E2;
+   text-align: center;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 28px;
+   letter-spacing: 2.1px;
+    font-family: 'RobotoCondensed-Regular';
   }
 
   .solution-h2 {
-    font-size: 32px;
-    color: #081e3a;
+    color: #081E3A;
     text-align: center;
+    font-family: 'NotoSansJP-Bold';
+    font-size: 32px;
+    line-height: 44.8px;
+    letter-spacing: 1.6px;
     margin-bottom: 64px;
   }
 
@@ -784,10 +814,11 @@
   .sdh-h3 {
     margin-top: 0px;
     margin-bottom: 31px;
+    font-family: 'NotoSansJP-Bold';
     color: #3b3b3d;
     font-size: 28px;
     line-height: 42px;
-    font-weight: 700;
+
   }
 
   .sdh-p {
@@ -797,6 +828,7 @@
     max-width: 72%;
     font-size: 13px;
     line-height: 26px;
+     font-family: 'NotoSansJP-Regular';
   }
 
   .sdhImage {
@@ -937,11 +969,12 @@
       .down-arrow img {
         display: none;
       }
-      .problemNotes {
-        font-size: 16px;
-        line-height: 22.4px;
-        padding: 20px 21px;
-      }
+      // .problemNotes {
+      //   color: #081E3A;
+      //   font-family: 'NotoSansJP-Medium';
+      //   font-size: 20px;
+      //   line-height: 40px;
+      // }
       .problemSub-h3 {
         font-size: 22px;
       }

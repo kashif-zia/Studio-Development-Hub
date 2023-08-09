@@ -37,3 +37,15 @@ $dark-blue: #081E3A;
     src: url('/assets/fonts/Noto_Sans_JP/NotoSansJP-Regular.otf') format('truetype');
     font-weight: 400;
 }
+@font-face {
+    font-family: 'NotoSansJP-Medium';
+    src: url('/assets/fonts/Noto_Sans_JP/NotoSansJP-Medium.otf') format('truetype');
+    font-weight: 500;
+}
+// ********** FONT FAMILY ROBOTO CONDENSED *********** //
+
+@font-face {
+    font-family: 'RobotoCondensed-Regular';
+    src: url('/assets/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf') format('truetype');
+    font-weight: 500;
+}
