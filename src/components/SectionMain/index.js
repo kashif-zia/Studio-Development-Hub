@@ -437,10 +437,11 @@ export default function index() {
                       </div>
                     </div>
                   </div>
-                </div>
                   <div className="map-image">
                     <img src={mapImage} alt="map" />
                   </div>
+                </div>
+                
               </div>
             </section>
           </div>

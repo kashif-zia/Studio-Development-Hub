@@ -109,7 +109,7 @@
       .contct-title p {
         color: #fff;
         text-align: center;
-         font-family: 'RobotoCondensed-Regular';
+        font-family: 'RobotoCondensed-Regular';
         font-size: 15px;
         line-height: 21px;
         letter-spacing: 1.575px;
@@ -219,7 +219,7 @@
     .contact-form-desc p {
       color: #fff;
       text-align: center;
-     font-family: 'NotoSansJP-Regular';
+      font-family: 'NotoSansJP-Regular';
       font-size: 15px;
       margin-bottom: 48px;
     }
@@ -252,7 +252,7 @@
       width: 250px;
       height: 60px;
       color: #fff;
-     font-family: 'Roboto-Bold';
+      font-family: 'Roboto-Bold';
       font-size: 18px;
       line-height: 18px;
       letter-spacing: 0.9px;
@@ -294,7 +294,7 @@
         button {
           padding-left: 0px;
           color: #333;
-           font-family: 'NotoSansJP-Medium';
+          font-family: 'NotoSansJP-Medium';
           font-size: 16px;
           line-height: normal;
           letter-spacing: 0.8px;
@@ -393,7 +393,7 @@
     .question-section-title h2 {
       color: #0015e2;
       text-align: center;
-    font-family: 'RobotoCondensed-Regular';
+      font-family: 'RobotoCondensed-Regular';
       font-size: 20px;
       line-height: 28px;
       letter-spacing: 2.1px;
@@ -439,7 +439,7 @@
 
     .netsologoContent h3 {
       color: #fff;
-     font-family: 'Roboto-Bold';
+      font-family: 'Roboto-Bold';
       font-size: 15px;
       line-height: 15px;
       letter-spacing: 0.75px;
@@ -454,7 +454,7 @@
 
     .development-title p {
       color: #fff;
-     font-family: 'Roboto-Bold';
+      font-family: 'Roboto-Bold';
       font-size: 22px;
       line-height: 22px;
       letter-spacing: 1.1px;
@@ -462,14 +462,14 @@
     }
 
     .development-sub-title {
- display: flex;
- justify-content: space-between;
- align-items: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
 
     .development-sub-title p {
       color: #fff;
-         font-family: 'Roboto-Regular';
+      font-family: 'Roboto-Regular';
       font-size: 11px;
       line-height: 11px;
       letter-spacing: 1.1px;
@@ -485,7 +485,7 @@
 
       .footer-link a {
         color: #fff;
-       font-family: 'Roboto-Bold';
+        font-family: 'Roboto-Bold';
         font-size: 15px;
         line-height: 15px;
         letter-spacing: 0.75px;
@@ -500,35 +500,37 @@
       display: inline-flex;
       margin-right: 6px;
     }
-    .footer-lang-button{
-     
-        .lang-button {
-          border-radius: 27.5px;
-          background: #F0F0F0;
-          height: 39px;
-          width: 101px;
-          border: none;
+
+    .footer-lang-button {
+
+      .lang-button {
+        border-radius: 27.5px;
+        background: #F0F0F0;
+        height: 39px;
+        width: 101px;
+        border: none;
+      }
+
+      .lang-button {
+
+        .lang-en,
+        .lang-slash {
+          color: #A9D1D3;
+          font-family: 'Roboto-Bold';
+          font-size: 15px;
+          line-height: 15px;
+          letter-spacing: 0.75px;
         }
 
-        .lang-button {
-          .lang-en,
-          .lang-slash {
-            color: #A9D1D3;
-            font-family: 'Roboto-Bold';
-            font-size: 15px;
-            line-height: 15px;
-            letter-spacing: 0.75px;
-          }
-
-          .lang-jp {
-            color: #0015E2;
-             font-family: 'Roboto-Bold';
-            font-size: 15px;
-            line-height: 100%;
-            letter-spacing: 0.75px;
-          }
+        .lang-jp {
+          color: #0015E2;
+          font-family: 'Roboto-Bold';
+          font-size: 15px;
+          line-height: 100%;
+          letter-spacing: 0.75px;
+        }
+      }
     }
-  }
   }
 }
 
@@ -545,8 +547,8 @@
       text-align: center;
       font-size: 20px;
       letter-spacing: 2.1px;
-       font-family: 'RobotoCondensed-Regular';
-       margin-bottom: 32px;
+      font-family: 'RobotoCondensed-Regular';
+      margin-bottom: 32px;
     }
 
     .section-process-heading p {
@@ -566,6 +568,7 @@
     width: 766px;
     height: auto;
     margin: 0px auto;
+    position: relative;
 
     .line-img {
       display: flex;
@@ -603,7 +606,7 @@
 
       .step-content-desc p {
         color: #414141;
-         font-family: 'NotoSansJP-Regular';
+        font-family: 'NotoSansJP-Regular';
         font-size: 15px;
         line-height: 30px;
         margin-bottom: 0px;
@@ -618,13 +621,14 @@
         margin-bottom: 0px;
       }
     }
-  
+
   }
-    .map-image img {
-      position: absolute;
-      right: 20px;
-      bottom: 0px;
-    }
+
+  .map-image img {
+    position: absolute;
+    right: -170px;
+    bottom: -60px;
+  }
 }
 
 .sdh-mv {
@@ -703,7 +707,7 @@
     display: flex;
     justify-content: center;
     max-width: 991px;
-    margin: 0px auto 100px ;
+    margin: 0px auto 100px;
   }
 
   .down-arrow {
@@ -711,7 +715,7 @@
     width: 100%;
   }
 
-  .down-arrow  a{
+  .down-arrow a {
     z-index: 4;
     position: relative;
     left: 45%;
@@ -901,21 +905,25 @@
     display: none;
   }
 }
-@media only screen and (max-width:900px) and (min-width: 768px)  {
+
+@media only screen and (max-width:900px) and (min-width: 768px) {
   .hero-section {
 
-      .hero-section-content {
-          padding: 24px 50px 0px 50px;
+    .hero-section-content {
+      padding: 24px 50px 0px 50px;
+    }
+
+    .offshore-development-title p {
+      font-size: 28px;
+      line-height: 40px;
+    }
   }
-   .offshore-development-title p{
-    font-size: 28px;
-    line-height: 40px;
-   }
-  }
-  .offshore-development-desc p{
+
+  .offshore-development-desc p {
     font-size: 16px;
   }
 }
+
 @media only screen and (max-width: 767px) {
   .hero-section {
     .offshore-title h1 {
@@ -1129,10 +1137,11 @@
           line-height: 22.75px;
         }
       }
+
       .map-image img {
-       width: 91px;
-        right: 36px;
-        bottom: 53px;
+        width: 91px;
+        right: 16px;
+        bottom: -40px;
       }
     }
   }
