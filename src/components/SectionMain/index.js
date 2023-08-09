@@ -1313,6 +1313,13 @@ export default function index() {
                   </div>
                   <div className="development-sub-title">
                     <p>©Studio Development Hub︎</p>
+                    <div className="footer-lang-button">
+                      <button className='lang-button'>
+                        <span className='lang-en'>EN </span>
+                        <span className='lang-slash'> / </span>
+                        <span className='lang-jp'> JP</span>
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>

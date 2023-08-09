@@ -459,6 +459,12 @@
       margin-bottom: 32px;
     }
 
+    .development-sub-title {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+    }
+
     .development-sub-title p {
       color: #fff;
          font-family: 'Roboto-Regular';
@@ -492,6 +498,35 @@
       display: inline-flex;
       margin-right: 6px;
     }
+    .footer-lang-button{
+     
+        .lang-button {
+          border-radius: 27.5px;
+          background: #F0F0F0;
+          height: 39px;
+          width: 101px;
+          border: none;
+        }
+
+        .lang-button {
+          .lang-en,
+          .lang-slash {
+            color: #A9D1D3;
+            font-family: 'Roboto-Bold';
+            font-size: 15px;
+            line-height: 15px;
+            letter-spacing: 0.75px;
+          }
+
+          .lang-jp {
+            color: #0015E2;
+             font-family: 'Roboto-Bold';
+            font-size: 15px;
+            line-height: 100%;
+            letter-spacing: 0.75px;
+          }
+    }
+  }
   }
 }
 
