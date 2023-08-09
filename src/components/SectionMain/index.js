@@ -472,7 +472,7 @@ export default function index() {
                                 data-target='#collapseOne'
                                 aria-expanded='true'
                                 aria-controls='collapseOne'>
-                                <div>
+                                <div className='d-flex'>
                                   <div className='question'>Q</div>
                                   エンジニアは何人から採用できますか？
                                 </div>
@@ -506,7 +506,7 @@ export default function index() {
                                 data-target='#collapseTwo'
                                 aria-expanded='false'
                                 aria-controls='collapseTwo'>
-                                <div>
+                                <div className='d-flex'>
                                   <div className='question'>Q</div>
                                   契約期間はどれくらいですか？
                                 </div>
@@ -540,7 +540,7 @@ export default function index() {
                                 data-target='#collapseThree'
                                 aria-expanded='false'
                                 aria-controls='collapseThree'>
-                                <div>
+                                <div className='d-flex'>
                                   <div className='question'>Q</div>
                                   どのような業種の人材がいますか？
                                 </div>
@@ -574,7 +574,7 @@ export default function index() {
                                 data-target='#collapseFour'
                                 aria-expanded='false'
                                 aria-controls='collapseFour'>
-                                <div>
+                                <div className='d-flex'>
                                   <div className='question'>Q</div>
                                   月額の人材費用以外にも何かお金は発生しますか？
                                 </div>
@@ -608,7 +608,7 @@ export default function index() {
                                 data-target='#collapseFive'
                                 aria-expanded='false'
                                 aria-controls='collapseFive'>
-                                <div>
+                                <div className='d-flex'>
                                   <div className='question'>Q</div>
                                   契約後キャンセルはできますか？
                                 </div>
@@ -642,7 +642,7 @@ export default function index() {
                                 data-target='#collapseSix'
                                 aria-expanded='false'
                                 aria-controls='collapseSix'>
-                                <div>
+                                <div className='d-flex'>
                                   <div className='question'>Q</div>
                                   どのようなスキルのエンジニアがいますか？
                                 </div>
@@ -676,7 +676,7 @@ export default function index() {
                                 data-target='#collapseSeven'
                                 aria-expanded='false'
                                 aria-controls='collapseSeven'>
-                                <div>
+                                <div className='d-flex'>
                                   <div className='question'>Q</div>
                                   どのような開発技術に対応していますか？
                                 </div>
@@ -710,7 +710,7 @@ export default function index() {
                                 data-target='#collapseEight'
                                 aria-expanded='false'
                                 aria-controls='collapseEight'>
-                                <div>
+                                <div className='d-flex'>
                                   <div className='question'>Q</div>
                                   就業時間は何時から何時ですか？
                                 </div>
@@ -744,7 +744,7 @@ export default function index() {
                                 data-target='#collapseNine'
                                 aria-expanded='false'
                                 aria-controls='collapseNine'>
-                                <div>
+                                <div className='d-flex'>
                                   <div className='question'>Q</div>
                                   月の稼働時間はどれくらいですか？
                                 </div>
@@ -778,7 +778,7 @@ export default function index() {
                                 data-target='#collapseTen'
                                 aria-expanded='false'
                                 aria-controls='collapseTen'>
-                                <div>
+                                <div className='d-flex'>
                                   <div className='question'>Q</div>
                                   24時間・土日対応は可能ですか？
                                 </div>
@@ -812,7 +812,7 @@ export default function index() {
                                 data-target='#collapseEleven'
                                 aria-expanded='false'
                                 aria-controls='collapseEleven'>
-                                <div>
+                                <div className='d-flex'>
                                   <div className='question'>Q</div>
                                   コミュニケーションは何語ですか？
                                 </div>
@@ -846,7 +846,7 @@ export default function index() {
                                 data-target='#collapseTwelve'
                                 aria-expanded='false'
                                 aria-controls='collapseTwelve'>
-                                <div>
+                                <div className='d-flex'>
                                   <div className='question'>Q</div>
                                   定例などはございますか？
                                 </div>
@@ -880,7 +880,7 @@ export default function index() {
                                 data-target='#collapseThirteen'
                                 aria-expanded='false'
                                 aria-controls='collapseThirteen'>
-                                <div>
+                                <div className='d-flex'>
                                   <div className='question'>Q</div>
                                   支払いはどのように行いますか？
                                 </div>
@@ -914,7 +914,7 @@ export default function index() {
                                 data-target='#collapseFourteen'
                                 aria-expanded='false'
                                 aria-controls='collapseFourteen'>
-                                <div>
+                                <div className='d-flex'>
                                   <div className='question'>Q</div>
                                   エンジニアの追加は可能ですか？
                                 </div>
@@ -948,7 +948,7 @@ export default function index() {
                                 data-target='#collapseFifteen'
                                 aria-expanded='false'
                                 aria-controls='collapseFifteen'>
-                                <div>
+                                <div className='d-flex'>
                                   <div className='question'>Q</div>
                                   電話での指示は可能ですか？
                                 </div>
@@ -982,7 +982,7 @@ export default function index() {
                                 data-target='#collapseSixteen'
                                 aria-expanded='false'
                                 aria-controls='collapseSixteen'>
-                                <div>
+                                <div className='d-flex'>
                                   <div className='question'>Q</div>
                                   プロジェクトの管理・進捗はどのように確認できますか？
                                 </div>
