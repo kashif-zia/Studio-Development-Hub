@@ -186,8 +186,9 @@
     width: 100%;
     height: auto;
     aspect-ratio: 16/9;
-    padding: 20px;
+    padding: 10px;
     background-color: #fff;
+    object-fit: contain;
   }
 
   .section-main-contact-form {
