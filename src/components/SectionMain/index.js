@@ -225,7 +225,7 @@ export default function index() {
                   <img src={dancingImage} alt='dancing image' />
                 </div>
                 <div className='about-p'>
-                  <p className='aboutSdh-subtext'>{"{About SDH }"}</p>
+                  <p className='aboutSdh-subtext'>{"{ About SDH }"}</p>
                   <h2 className='aboutSdh-h2'>
                     Studio Development
                     <br />
