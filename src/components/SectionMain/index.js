@@ -333,7 +333,7 @@ export default function index() {
                     </div>
                   </div>
                 </div>
-                <div className='row third-row'>
+                <div className='row second-row'>
                   <div className='col-md-5 custom-padding'>
                     <div className='third-lefttext'>
                       <h3 className='sdh-h3'>
@@ -441,7 +441,7 @@ export default function index() {
           </div>
         </div>
         <div className='row'>
-          <div className='col-md-9 custom-col-9 p-0'>
+          <div className='col-md-9 custom-col-9 p-0 bg-blue'>
             <section className='section-questions'>
               <div className='container'>
                 <div className='row'>

@@ -1,0 +1,12 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52" width="52" height="52">
+	<title>humbger_menu-svg</title>
+	<style>
+		.s0 { fill: #302ca9 } 
+		.s1 { fill: none;stroke: #ffffff;stroke-width: 2 } 
+	</style>
+	<g id="Layer">
+		<path id="Layer" class="s0" d="m26 2c13.3 0 24 10.7 24 24 0 13.3-10.7 24-24 24-13.3 0-24-10.7-24-24 0-13.3 10.7-24 24-24z"/>
+	</g>
+	<path id="Layer" fill-rule="evenodd" class="s1" d="m16 22h20"/>
+	<path id="Layer" fill-rule="evenodd" class="s1" d="m16 30h20"/>
+</svg>

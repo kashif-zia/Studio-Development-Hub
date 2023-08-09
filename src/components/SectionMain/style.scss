@@ -6,14 +6,16 @@
   //  background-size: cover;
   //  background-position: 9px 526px;
   //  background-repeat: no-repeat;
-
+  .bg-blue {
+    background-color: #4e4ae6;
+    border-radius: 120px 0px 0px 0px;
+  }
   .offshore-title h1 {
     font-family: 'NotoSansJP-Bold';
     color: #0116E0;
+    color: #0116e0;
     font-kerning: none;
     font-size: 22px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 33px;
     letter-spacing: 0.66px;
     margin-bottom: 20px;
@@ -55,28 +57,27 @@
       // height: 65px;
       padding: 24.5px 102px;
       border-radius: 43.5px;
-      background: #FF6200;
-      box-shadow: 0px 4px 30px 0px rgba(27, 183, 193, 0.20);
+      background: #ff6200;
+      box-shadow: 0px 4px 30px 0px rgba(27, 183, 193, 0.2);
       border: none;
       color: #FFF;
      font-family: 'NotoSans-Bold';
+      color: #fff;
       font-size: 16px;
       line-height: 16px;
     }
-
   }
 
   .companyLogo-Section {
     position: relative;
     z-index: 2;
-
-
   }
 
   .people-image {
     width: 100%;
     position: relative;
     z-index: 2;
+    max-width: 508px;
   }
 
   .arrow-icon {
@@ -85,7 +86,8 @@
 
   .hero-section-content {
     padding: 24px 77px 0px 80px;
-    background: #F5F4F6;
+    background: #f5f4f6;
+    margin-bottom: 75px;
   }
 
   .section-contact-form {
@@ -94,14 +96,17 @@
 
     .side-contact-form {
       border-radius: 0px 0px 0px 64px;
-      background: #0015E2;
+      background: #0015e2;
       padding: 37px 24px 0px 25px;
       position: fixed;
+      right: 0px;
+      flex: 0 0 21%;
+      max-width: 21%;
     }
 
     .side-contact-form-header {
       .contct-title p {
-        color: #FFF;
+        color: #fff;
         text-align: center;
         // font-family: Roboto Condensed;
         font-size: 15px;
@@ -113,7 +118,7 @@
       }
 
       .contct-heading p {
-        color: #FFF;
+        color: #fff;
         // font-family: Noto Sans JP;
         font-size: 20px;
         font-style: normal;
@@ -123,7 +128,7 @@
       }
 
       .contct-desc p {
-        color: #FFF;
+        color: #fff;
         //   font-family: Noto Sans JP;
         font-size: 13px;
         font-style: normal;
@@ -136,13 +141,13 @@
 
     .contac-submit-button {
       border-radius: 27.5px;
-      background: #FF6200;
-      box-shadow: 0px 4px 30px 0px rgba(27, 183, 193, 0.20);
+      background: #ff6200;
+      box-shadow: 0px 4px 30px 0px rgba(27, 183, 193, 0.2);
       width: 160px;
       height: 36px;
       margin: 0px auto;
       display: block;
-      color: #FFF;
+      color: #fff;
       // font-family: Roboto;
       font-size: 13px;
       font-style: normal;
@@ -153,27 +158,25 @@
 
     .form-control {
       border-radius: 8px;
-      border: 1px solid #C0C0C0;
-      background: #FFF;
+      border: 1px solid #c0c0c0;
+      background: #fff;
       // width: 250px;
       height: 32px;
     }
 
     .side-contact-label {
-      color: #FFF;
+      color: #fff;
       // font-family: Noto Sans JP;
       font-size: 12px;
       font-style: normal;
       font-weight: 500;
       line-height: 24px;
       opacity: 0.8999999761581421;
-
     }
 
     .contact-text-area {
       height: 80px;
     }
-
   }
 
   .brand-img {
@@ -184,13 +187,14 @@
 
   .section-main-contact-form {
     border-radius: 0px 0px 120px 120px;
-    background: #4E4AE6;
+    background: #4e4ae6;
     padding: 260px 0px 120px 0px;
     position: relative;
     margin-bottom: -160px;
+    z-index: 4;
 
     .contact-form-title h2 {
-      color: #FFF;
+      color: #fff;
       text-align: center;
       // font-family: Roboto Condensed;
       font-size: 20px;
@@ -201,7 +205,7 @@
     }
 
     .contact-form-heading p {
-      color: #FFF;
+      color: #fff;
       text-align: center;
       font-family: Noto Sans JP;
       font-size: 32px;
@@ -212,7 +216,7 @@
     }
 
     .contact-form-desc p {
-      color: #FFF;
+      color: #fff;
       text-align: center;
       //    font-family: Noto Sans JP;
       font-size: 15px;
@@ -222,7 +226,7 @@
     }
 
     .main-contact-label {
-      color: #2C2C2C;
+      color: #2c2c2c;
       font-family: Noto Sans JP;
       font-size: 15px;
       font-style: normal;
@@ -233,24 +237,24 @@
     .main-cntct-inputs {
       height: 40px;
       border-radius: 8px;
-      border: 1px solid #DFDFDF;
-      background: #FAFAFA;
+      border: 1px solid #dfdfdf;
+      background: #fafafa;
     }
 
     .contact-form-textarea {
       border-radius: 8px;
-      border: 1px solid #DFDFDF;
-      background: #FAFAFA;
+      border: 1px solid #dfdfdf;
+      background: #fafafa;
       height: 120px;
     }
 
     .main-contact-submit-btn {
       border-radius: 30px;
-      background: #FF6200;
-      box-shadow: 0px 4px 30px 0px rgba(27, 183, 193, 0.20);
+      background: #ff6200;
+      box-shadow: 0px 4px 30px 0px rgba(27, 183, 193, 0.2);
       width: 250px;
       height: 60px;
-      color: #FFF;
+      color: #fff;
       font-family: Roboto;
       font-size: 18px;
       font-style: normal;
@@ -262,28 +266,26 @@
       justify-content: center;
       align-items: center;
     }
-
   }
 
   .main-contact-form {
     padding: 80px;
     border-radius: 48px;
-    background: #FFF;
+    background: #fff;
     box-shadow: 0px 4px 30px 0px rgba(24, 131, 138, 0.15);
   }
 
   .section-questions {
     border-radius: 120px 0px 0px 120px;
-    background: #FFF;
+    background: #fff;
     padding: 120px 0px 160px;
-    margin-bottom: -160px;
     position: relative;
     z-index: 1;
 
     .accordian-card {
       width: 100%;
       // min-width: 952px;
-      border-bottom: 1px solid #DDDDE4;
+      border-bottom: 1px solid #dddde4;
       border-left: 0px;
       border-top: 0px;
       border-right: 0px;
@@ -297,7 +299,7 @@
         button {
           padding-left: 0px;
           color: #333;
-          font-feature-settings: 'palt'on;
+          font-feature-settings: "palt" on;
           font-family: Noto Sans JP;
           font-size: 16px;
           font-style: normal;
@@ -319,7 +321,7 @@
         }
 
         .question {
-          background: #4E4AE6;
+          background: #4e4ae6;
           width: 30px;
           height: 30px;
           padding: 7px;
@@ -329,7 +331,7 @@
           margin: 0px auto;
           justify-content: center;
           align-items: center;
-          color: #FFF;
+          color: #fff;
           font-family: Roboto;
           font-size: 14px;
           font-style: normal;
@@ -342,7 +344,7 @@
         .card-body {
           padding: 0.5rem 0px 0.5rem 0;
           color: #333;
-          font-feature-settings: 'palt'on;
+          font-feature-settings: "palt" on;
           font-family: Noto Sans JP;
           font-size: 16px;
           font-style: normal;
@@ -351,8 +353,6 @@
           letter-spacing: 0.8px;
           display: flex;
         }
-
-
       }
 
       .accordian-card-header [aria-expanded="flase"] .openIcon img {
@@ -372,7 +372,7 @@
       }
 
       .answer {
-        background: #302CA9;
+        background: #302ca9;
         width: 30px;
         height: 30px;
         padding: 7px;
@@ -381,7 +381,7 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        color: #FFF;
+        color: #fff;
         font-family: Roboto;
         font-size: 14px;
         font-style: normal;
@@ -394,7 +394,7 @@
       .card-body {
         padding: 0.5rem 0px 0.5rem 0;
         color: #333;
-        font-feature-settings: 'palt'on;
+        font-feature-settings: "palt" on;
         font-family: Noto Sans JP;
         font-size: 16px;
         font-style: normal;
@@ -406,7 +406,7 @@
     }
 
     .question-section-title h2 {
-      color: #0015E2;
+      color: #0015e2;
       text-align: center;
       // font-family: Roboto Condensed;
       font-size: 20px;
@@ -430,7 +430,7 @@
 
   .contactCatImagePc {
     position: absolute;
-    right: -68px;
+    right: -32px;
     bottom: -90px;
   }
 
@@ -444,8 +444,10 @@
   }
 
   footer {
-    background: #212D3B;
+    background: #212d3b;
     padding: 200px 0px 200px 0px;
+    z-index: 3;
+    position: relative;
 
     .footer-logo {
       display: flex;
@@ -455,7 +457,7 @@
     }
 
     .netsologoContent h3 {
-      color: #FFF;
+      color: #fff;
       font-family: Roboto;
       font-size: 15px;
       font-style: normal;
@@ -472,7 +474,7 @@
     }
 
     .development-title p {
-      color: #FFF;
+      color: #fff;
       font-family: Roboto;
       font-size: 22px;
       font-style: normal;
@@ -483,7 +485,7 @@
     }
 
     .development-sub-title p {
-      color: #FFF;
+      color: #fff;
       font-family: Roboto;
       font-size: 11px;
       font-style: normal;
@@ -500,7 +502,7 @@
       margin-bottom: 32px;
 
       .footer-link a {
-        color: #FFF;
+        color: #fff;
         font-family: Roboto;
         font-size: 15px;
         font-style: normal;
@@ -518,7 +520,6 @@
       display: inline-flex;
       margin-right: 6px;
     }
-
   }
 }
 
@@ -549,7 +550,6 @@
       line-height: 175%;
       letter-spacing: 3.36px;
     }
-
   }
 
   .process-content {
@@ -566,7 +566,6 @@
       margin: 12px 0px;
     }
 
-
     // .process-content-right {
     //   .process-step-content {
     //     margin: 0px 0px 64px 23px;
@@ -578,7 +577,6 @@
 
         .step-title {
           width: 15%;
-
         }
 
         .step-content {
@@ -621,11 +619,11 @@
 }
 
 .sdh-mv {
-  background-image: url('/assets/images/sdh_mv.png');
+  background-image: url("/assets/images/sdh_mv.png");
   height: 730px;
   background-position: top center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   width: 100%;
   z-index: 1;
   position: relative;
@@ -637,7 +635,13 @@
 }
 
 .problemSection {
-  background: linear-gradient(180deg, rgba(68, 82, 219, 0.00) 0%, rgba(68, 82, 219, 0.40) 8.61%, #4452DB 19.45%, #4452DB 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(68, 82, 219, 0) 0%,
+    rgba(68, 82, 219, 0.4) 8.61%,
+    #4452db 19.45%,
+    #4452db 100%
+  );
   width: 100%;
   margin-top: -200px;
   z-index: 1;
@@ -710,7 +714,6 @@
 }
 
 .problemSection {
-
   .problemNotes {
     background-color: #fff;
     border-radius: 20px;
@@ -722,8 +725,7 @@
     align-items: center;
     padding: 32px 26px;
     font-size: 20px;
-    color: #081E3A;
-
+    color: #081e3a;
   }
 
   .problemHeading {
@@ -731,7 +733,7 @@
   }
 
   .problemSub-text {
-    color: #D8DBFF;
+    color: #d8dbff;
     font-size: 20px;
   }
 
@@ -750,7 +752,7 @@
 
 .solution-section {
   padding: 160px 0px 80px;
-  background-color: #EEEFF5;
+  background-color: #eeeff5;
   border-radius: 0px 0px 0px 120px;
 
   .sdh-container {
@@ -762,12 +764,12 @@
   .solution-subtext {
     text-align: center;
     font-size: 20px;
-    color: #0015E2;
+    color: #0015e2;
   }
 
   .solution-h2 {
     font-size: 32px;
-    color: #081E3A;
+    color: #081e3a;
     text-align: center;
     margin-bottom: 64px;
   }
@@ -775,14 +777,14 @@
   .divider {
     width: 64px;
     height: 2px;
-    background-color: #0015E2;
+    background-color: #0015e2;
     display: block;
   }
 
   .sdh-h3 {
     margin-top: 0px;
     margin-bottom: 31px;
-    color: #3B3B3D;
+    color: #3b3b3d;
     font-size: 28px;
     line-height: 42px;
     font-weight: 700;
@@ -795,7 +797,6 @@
     max-width: 72%;
     font-size: 13px;
     line-height: 26px;
-
   }
 
   .sdhImage {
@@ -809,7 +810,7 @@
   .second-row {
     margin-top: 100px;
   }
-  .third-row{
+  .third-row {
     margin-top: 100px;
   }
   .sdh-cummination-p {
@@ -822,34 +823,27 @@
   .custom-padding {
     padding: 0px;
   }
-
-
 }
 
 @media only screen and (max-width: 2100px) and (min-width: 1400px) {
   .sdh-mv {
     height: 900px;
-    margin-top: -380px;
+    margin-top: -400px;
   }
-
-
 }
 
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width: 1200px) {
   .side-contact-form {
     display: none;
   }
 }
 
-@media only screen and (max-width:768px) {
-
-
+@media only screen and (max-width: 768px) {
   .hero-section {
     .offshore-title h1 {
       font-size: 16px;
       margin-bottom: 12px;
       line-height: 24px;
-
     }
 
     .population-title p {
@@ -894,9 +888,15 @@
     }
 
     .problemSection {
-      background: linear-gradient(180deg, rgba(68, 82, 219, 0.00) 0%, rgba(68, 82, 219, 0.40) 6.02%, #4452DB 15.05%, #4452DB 100%);
+      background: linear-gradient(
+        180deg,
+        rgba(68, 82, 219, 0) 0%,
+        rgba(68, 82, 219, 0.4) 6.02%,
+        #4452db 15.05%,
+        #4452db 100%
+      );
 
-      margin-top: -346px;
+      margin-top: -400px;
 
       .aboutSdh {
         flex-direction: row-reverse;
@@ -911,8 +911,6 @@
           margin: auto;
           display: flex;
         }
-       
-
       }
 
       .dancing-img {
@@ -930,7 +928,6 @@
 
       .problemBox {
         flex-direction: column;
-
       }
 
       .fancyListBox {
@@ -940,39 +937,41 @@
       .down-arrow img {
         display: none;
       }
-      .problemNotes{
+      .problemNotes {
         font-size: 16px;
         line-height: 22.4px;
         padding: 20px 21px;
       }
-    .problemSub-h3 {
+      .problemSub-h3 {
         font-size: 22px;
-    }
-    .aboutSdh {
-      margin-bottom: 100px;
-    }
-
+      }
+      .aboutSdh {
+        margin-bottom: 100px;
+      }
     }
 
     .solution-section {
       padding: 100px 0px;
       border-radius: 0px 0px 0px 64px;
-       .solution-h2{
+      .solution-h2 {
         font-size: 22px;
         margin-bottom: 48px;
-       }
-       .sdh-h3 {
+      }
+      .sdh-h3 {
         font-size: 20px;
         line-height: 30px;
         margin-bottom: 20px;
-       }
-       .sdh-cummination-p{
+      }
+      .sdh-cummination-p {
         margin-bottom: 40px;
-       }
+      }
     }
 
     .sdh-mv {
       height: 290px;
+      margin-top: -360px;
+      background-image: url("/assets/images/sdh_mv_mobile.png");
+      background-size: cover;
     }
 
     .main-contact-form {
@@ -980,13 +979,13 @@
       background: transparent;
 
       .main-contact-label {
-        color: #FFF;
+        color: #fff;
       }
     }
 
     .section-main-contact-form {
       border-radius: 0px 0px 64px 64px;
-      background: #4E4AE6;
+      background: #4e4ae6;
       position: relative;
     }
 
@@ -999,7 +998,6 @@
     }
 
     footer {
-
       .development-title p,
       .footer-links {
         margin-bottom: 48px;
@@ -1018,7 +1016,6 @@
         width: 100%;
         padding: 32px 20px 80px 20px;
 
-
         .process-step {
           .step-title {
             margin-right: 19px;
@@ -1034,7 +1031,6 @@
             font-size: 15px;
             line-height: 21px;
           }
-
         }
       }
 
@@ -1052,7 +1048,6 @@
       }
     }
   }
-
   .solution-section {
     .sdh-left-text {
       margin-bottom: 30px;
@@ -1062,7 +1057,7 @@
       flex-direction: column-reverse;
       margin-top: 64px;
     }
-    .third-row{
+    .third-row {
       margin-top: 48px;
     }
 
@@ -1079,6 +1074,13 @@
     .custom-padding {
       padding: 0px 15px;
     }
-
+  }
+}
+@media only screen and (max-width: 475px) {
+  .hero-section {
+    .sdh-mv {
+      height: 290px;
+      margin-top: -360px;
+    }
   }
 }

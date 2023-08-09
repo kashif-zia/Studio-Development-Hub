@@ -21,17 +21,7 @@ header {
         display: flex;
         align-items: center;
     }
-    .navbar-collapse.collapse.show .navbar-nav{
-        padding:80px 0px;
-    }
-    .navbar-collapse.collapse.show .navbar-nav .nav-link{
-        padding: 24px 0px;
-        border-bottom: 1px solid #DDDDE4;
-    }
-    .navbar-collapse.collapse.show .navbar-nav .nav-link:first-child{
-        padding: 24px 0px;
-        border-top: 1px solid #DDDDE4;
-    }
+  
     .navbar-light .navbar-nav .nav-link:last-child {
      padding-right: 36px;
     }
@@ -116,6 +106,18 @@ header {
         .lang-button{
             display: none;
         }
+        .navbar-collapse .navbar-nav{
+            padding:80px 0px;
+        }
+        .navbar-collapse .navbar-nav .nav-link{
+            padding: 24px 0px;
+            border-bottom: 1px solid #DDDDE4;
+        }
+        .navbar-collapse .navbar-nav .nav-link:first-child{
+            padding: 24px 0px;
+            border-top: 1px solid #DDDDE4;
+        }
 
     }
+    
 }
