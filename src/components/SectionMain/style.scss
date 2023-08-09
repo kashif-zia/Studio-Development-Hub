@@ -616,7 +616,13 @@
         margin-bottom: 0px;
       }
     }
+  
   }
+    .map-image img {
+      position: absolute;
+      right: 20px;
+      bottom: 0px;
+    }
 }
 
 .sdh-mv {
@@ -1107,6 +1113,11 @@
           font-size: 13px;
           line-height: 22.75px;
         }
+      }
+      .map-image img {
+       width: 91px;
+        right: 36px;
+        bottom: 53px;
       }
     }
   }
