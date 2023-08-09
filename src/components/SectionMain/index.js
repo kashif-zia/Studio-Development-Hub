@@ -124,6 +124,27 @@ export default function index() {
                 <SwiperSlide>
                   <img className='brand-img' src={yamahaimg} alt='image' />
                 </SwiperSlide>
+                <SwiperSlide>
+                  <img className='brand-img' src={embank} alt='image' />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img className='brand-img' src={haydockfinance} alt='image' />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img className='brand-img' src={ikanobank} alt='image' />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img className='brand-img' src={oricobal} alt='image' />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img className='brand-img' src={maplefinance} alt='image' />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img className='brand-img' src={sellesasecorp} alt='image' />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img className='brand-img' src={yamahaimg} alt='image' />
+                </SwiperSlide>
               </Swiper>
             </div>
           </div>
