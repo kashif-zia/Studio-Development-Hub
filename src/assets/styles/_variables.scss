@@ -10,3 +10,10 @@
 $navlink: #293830;
 $gray: #333;
 $dark-blue: #081E3A;
+
+// ********** FONT FAMILY *********** //
+@font-face {
+    font-family: 'NotoSans-Bold';
+    src: url('/assets/fonts/Noto_Sans/NotoSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
