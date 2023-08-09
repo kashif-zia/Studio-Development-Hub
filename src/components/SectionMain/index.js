@@ -312,7 +312,7 @@ export default function index() {
                     </div>
                   </div>
                 </div>
-                <div className='row second-row'>
+                <div className='row third-row'>
                   <div className='col-md-5 custom-padding'>
                     <div className='third-lefttext'>
                       <h3 className='sdh-h3'>
