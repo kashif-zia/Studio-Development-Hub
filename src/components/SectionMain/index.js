@@ -1077,7 +1077,7 @@ export default function index() {
                   </label>
                   <textarea className='form-control contact-form-textarea' />
                 </div>
-                <div>
+                <div className='formSubmitButton'>
                   <img className='contactCatImageSp' src={contactCatImageSp} alt='image' />
                   <button type='submit' className='btn main-contact-submit-btn'>
                     送信する
