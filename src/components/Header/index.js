@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.scss'
 import mainLogo from 'assets/images/main-logo.svg';
-import humbgermenu from 'assets/images/humbger_menu.svg';
+
 
 export default function Header() {
     return (
@@ -14,7 +14,14 @@ export default function Header() {
                             </a>
                             <button className="navbar-toggler border-0 p-0"  type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                              
-                             <img src={  humbgermenu } alt="Main logo" />
+                             <div className='humbger-bg'>
+                             <input class="checkbox" type="checkbox" name="" id=""></input>
+                             <div class="hamburger-lines">
+                                <span class="line line1"></span>
+                                <span class="line line2"></span>
+                                <span class="line line3"></span>
+                            </div>  
+                            </div>
                             </button>
                             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                                 <div className="navbar-nav">
