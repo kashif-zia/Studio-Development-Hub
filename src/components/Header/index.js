@@ -7,36 +7,35 @@ export default function Header() {
     return (
         <>
             <header>
-                <div className="container-fluid p-0">     
-                        <nav className="navbar navbar-expand-lg navbar-light main-navbar p-0">
-                            <a className="navbar-brand p-0" href="javascript:void(0)">
-                                <img src={mainLogo} alt="Main logo" />
-                            </a>
-                            <button className="navbar-toggler border-0 p-0"  type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                             
-                             <img src={  humbgermenu } alt="Main logo" />
-                            </button>
-                            <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                                <div className="navbar-nav">
+                <div className="container-fluid p-0">
+                    <nav className="navbar navbar-expand-lg navbar-light main-navbar p-0">
+                        <a className="navbar-brand p-0" href="javascript:void(0)">
+                            <img src={mainLogo} alt="Main logo" />
+                        </a>
+                        <button className="navbar-toggler border-0 p-0" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <img src={humbgermenu} alt="Main logo" />
+                        </button>
+                        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div className="navbar-nav">
                                 <a className="nav-link" href="#aboutSdh">
-                                        <span className='dot'></span> SDHとは</a>
+                                    <span className='dot'></span> SDHとは</a>
 
-                                  <a className="nav-link" href="#solution-section">
-                                        <span className='dot'></span>ソリューション</a>
+                                <a className="nav-link" href="#solution-section">
+                                    <span className='dot'></span>ソリューション</a>
 
                                 <a className="nav-link" href="#section-process">
-                                        <span className='dot'></span>ご利用の流れ</a>
+                                    <span className='dot'></span>ご利用の流れ</a>
 
                                 <a className="nav-link" href="#section-questions">
-                                        <span className='dot'></span>よくある質問</a>
-                                </div>
-                                <button className='lang-button'>
-                                    <span className='lang-en'>EN </span>
-                                    <span className='lang-slash'> / </span>
-                                    <span className='lang-jp'> JP</span>
-                                </button>
+                                    <span className='dot'></span>よくある質問</a>
                             </div>
-                        </nav>                   
+                            <button className='lang-button'>
+                                <span className='lang-en'>EN </span>
+                                <span className='lang-slash'> / </span>
+                                <span className='lang-jp'> JP</span>
+                            </button>
+                        </div>
+                    </nav>
                 </div>
             </header>
             {/* <header className='mobile-nav d-none'>
