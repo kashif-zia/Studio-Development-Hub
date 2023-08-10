@@ -336,7 +336,7 @@ export default function index() {
                     </div>
                   </div>
                 </div>
-                <div className='row second-row'>
+                <div className='row third-row'>
                   <div className='col-md-6 custom-padding'>
                     <div className='third-lefttext'>
                       <h3 className='sdh-h3'>
@@ -1093,7 +1093,7 @@ export default function index() {
         <div className='container'>
           <div className='footer-content'>
             <div className='row'>
-              <div className='col-md-12 h-100'>
+              <div className='col-md-12 p-0'>
                 <div className='footer-left-col-content'>
                   <div className='footer-logo'>
                     <div className='netsolLogo'>
