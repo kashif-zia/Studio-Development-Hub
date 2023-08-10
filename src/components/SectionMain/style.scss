@@ -67,6 +67,7 @@
       font-size: 16px;
       line-height: 16px;
     }
+
   }
 
   .companyLogo-Section {
@@ -271,7 +272,12 @@
     background: #fff;
     box-shadow: 0px 4px 30px 0px rgba(24, 131, 138, 0.15);
   }
-
+  .formSubmitButton{
+    position: relative;
+    max-width: 290px;
+    width: 100%;
+    margin: auto;
+  }
   .section-questions {
     border-radius: 120px 0px 0px 120px;
     background: #fff;
@@ -421,7 +427,7 @@
     position: absolute;
     width: 79px;
     height: 112px;
-    left: 11px;
+    left: 0px;
     bottom: -5px;
     display: none;
   }
