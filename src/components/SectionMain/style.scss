@@ -102,7 +102,7 @@
     .side-contact-form {
       border-radius: 0px 0px 0px 64px;
       background: #0015e2;
-      padding: 37px 24px 0px 25px;
+      padding: 16px 16px 0px 16px;
       position: fixed;
       right: 0px;
       flex: 0 0 21%;
@@ -115,7 +115,6 @@
         text-align: center;
         font-family: 'RobotoCondensed-Regular';
         font-size: 15px;
-        line-height: 21px;
         letter-spacing: 1.575px;
         margin: 0px;
       }
@@ -124,17 +123,17 @@
         color: #fff;
         font-family: 'NotoSansJP-Bold';
         font-size: 20px;
-        line-height: 28px;
-        margin: 12px 0px 24px;
+        margin: 12px 0px;
       }
 
       .contct-desc p {
         color: #fff;
         font-family: 'NotoSansJP-Regular';
         font-size: 13px;
-        line-height: 20.8px;
-        margin-bottom: 24px;
+        // line-height: 20.8px;
+        margin-bottom: 12px;
         text-align: left;
+        letter-spacing: 1.5px;
       }
     }
 
@@ -167,8 +166,9 @@
       color: #fff;
       font-family: 'NotoSansJP-Medium';
       font-size: 12px;
-      line-height: 24px;
+      // line-height: 24px;
       opacity: 0.8999999761581421;
+      margin-bottom: 0px;
     }
 
     .contact-text-area {
@@ -182,6 +182,7 @@
 
       img {
         width: 100%;
+        height: 140px;
       }
     }
   }
@@ -422,7 +423,7 @@
 
   .contactCatImagePc {
     position: absolute;
-    right: -32px;
+    right: -15px;
     bottom: -90px;
   }
 
@@ -1059,12 +1060,12 @@
         display: none;
       }
 
-      // .problemNotes {
-      //   color: #081E3A;
-      //   font-family: 'NotoSansJP-Medium';
-      //   font-size: 20px;
-      //   line-height: 40px;
-      // }
+      .problemNotes {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 20px 26px;
+        align-items: flex-start;
+      }
       .problemSub-h3 {
         font-size: 22px;
       }
@@ -1109,13 +1110,16 @@
         color: #fff;
       }
     }
-
     .section-main-contact-form {
       border-radius: 0px 0px 64px 64px;
       background: #4e4ae6;
       position: relative;
+      padding: 80px 0px;
+      margin-top: -120px;
+      .contact-form-desc p {
+        text-align: left;
+      }
     }
-
     .contactCatImagePc {
       display: none;
     }
@@ -1125,7 +1129,7 @@
     }
 
     footer {
-
+      padding: 280px 16px 80px 16px;
       .development-title p,
       .footer-links {
         margin-bottom: 48px;
@@ -1135,10 +1139,14 @@
         column-gap: 32px;
         row-gap: 16px;
       }
+    
+        .footer-logo{
+          display: none;
+        }
     }
 
     .section-process {
-      padding: 120px 16px;
+      padding: 80px 16px 140px 16px;
 
       .process-content {
         width: 100%;
@@ -1181,6 +1189,9 @@
         bottom: -70px;
       }
     }
+  .section-questions{
+padding: 80px 0px 140px;
+  }
   }
 
   .solution-section {

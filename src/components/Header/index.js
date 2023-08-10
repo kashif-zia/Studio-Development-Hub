@@ -26,24 +26,24 @@ export default function Header() {
                             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                                 <div className="navbar-nav">
                                 <a className="nav-link" href="#aboutSdh">
-                                        <span className='dot'></span> SDHとは</a>
+                                    <span className='dot'></span> SDHとは</a>
 
-                                  <a className="nav-link" href="#solution-section">
-                                        <span className='dot'></span>ソリューション</a>
+                                <a className="nav-link" href="#solution-section">
+                                    <span className='dot'></span>ソリューション</a>
 
                                 <a className="nav-link" href="#section-process">
-                                        <span className='dot'></span>ご利用の流れ</a>
+                                    <span className='dot'></span>ご利用の流れ</a>
 
                                 <a className="nav-link" href="#section-questions">
-                                        <span className='dot'></span>よくある質問</a>
-                                </div>
-                                <button className='lang-button'>
-                                    <span className='lang-en'>EN </span>
-                                    <span className='lang-slash'> / </span>
-                                    <span className='lang-jp'> JP</span>
-                                </button>
+                                    <span className='dot'></span>よくある質問</a>
                             </div>
-                        </nav>                   
+                            <button className='lang-button'>
+                                <span className='lang-en'>EN </span>
+                                <span className='lang-slash'> / </span>
+                                <span className='lang-jp'> JP</span>
+                            </button>
+                        </div>
+                    </nav>
                 </div>
             </header>
             {/* <header className='mobile-nav d-none'>
