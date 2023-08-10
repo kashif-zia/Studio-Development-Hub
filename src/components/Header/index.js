@@ -18,7 +18,7 @@ export default function Header() {
                              <input class="checkbox" type="checkbox" name="" id=""></input>
                              <div class="hamburger-lines">
                                 <span class="line line1"></span>
-                                <span class="line line2"></span>
+                                {/* <span class="line line2"></span> */}
                                 <span class="line line3"></span>
                             </div>  
                             </div>

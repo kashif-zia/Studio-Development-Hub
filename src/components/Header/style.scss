@@ -76,10 +76,10 @@ header {
     // }
     .hamburger-lines {
         display: block;
-        height: 26px;
-        width: 32px;
+        height: 20px;
+        width: 34px;
         position: absolute;
-        top: 10px;
+        top: 14px;
         right: 7px;
         z-index: 2;
         display: flex;
@@ -102,7 +102,7 @@ header {
       }
       
       input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
-        transform: rotate(45deg);
+        transform: rotate(30deg);
       }
       
       input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
@@ -110,7 +110,7 @@ header {
       }
       
       input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
-        transform: rotate(-45deg);
+        transform: rotate(-30deg);
       }
        .hamburger-lines .line {
         display: block;
