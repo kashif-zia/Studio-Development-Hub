@@ -1,10 +1,6 @@
 @import "../../assets/styles/variables";
 
-
-
-
 .hero-section {
-
   // padding: 24px 77px 0px 80px;
   //  background-image: url(/assets/images/sdh_mv.png);
   //  background-size: cover;
@@ -16,8 +12,8 @@
   }
 
   .offshore-title h1 {
-    font-family: 'NotoSansJP-Bold';
-    color: #0116E0;
+    font-family: "NotoSansJP-Bold";
+    color: #0116e0;
     color: #0116e0;
     font-kerning: none;
     font-size: 22px;
@@ -29,7 +25,7 @@
   .population-title p {
     color: $gray;
     font-kerning: none;
-    font-family: 'NotoSansJP-Bold';
+    font-family: "NotoSansJP-Bold";
     font-size: 25px;
     line-height: 35px;
     letter-spacing: 0.75px;
@@ -38,7 +34,7 @@
   .offshore-development-title p {
     color: $gray;
     font-kerning: none;
-    font-family: 'NotoSansJP-Bold';
+    font-family: "NotoSansJP-Bold";
     font-size: 40px;
     line-height: 56px;
     letter-spacing: 1.2px;
@@ -46,10 +42,11 @@
 
   .offshore-development-desc p {
     color: $dark-blue;
-    font-family: 'NotoSansJP-Regular';
+    font-family: "NotoSansJP-Regular";
     font-size: 18px;
     line-height: 28.8px;
     letter-spacing: 0.9px;
+    margin-bottom: 40px;
   }
 
   .section-main-contact-button {
@@ -64,13 +61,12 @@
       background: #ff6200;
       box-shadow: 0px 4px 30px 0px rgba(27, 183, 193, 0.2);
       border: none;
-      color: #FFF;
-      font-family: 'NotoSans-Bold';
+      color: #fff;
+      font-family: "NotoSans-Bold";
       color: #fff;
       font-size: 16px;
       line-height: 16px;
     }
-
   }
 
   .companyLogo-Section {
@@ -102,21 +98,31 @@
     .side-contact-form {
       border-radius: 0px 0px 0px 64px;
       background: #0015e2;
-      padding: 16px 16px 0px 16px;
+      padding: 30px 16px 0px 16px;
       position: fixed;
       right: 0px;
       flex: 0 0 21%;
       max-width: 21%;
-      .form-group{
+      height: 100vh;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .form-group {
         margin-bottom: 8px;
       }
+    }
+    ::-webkit-scrollbar {
+      display: none;
     }
 
     .side-contact-form-header {
       .contct-title p {
         color: #fff;
         text-align: center;
-        font-family: 'RobotoCondensed-Regular';
+        font-family: "RobotoCondensed-Regular";
         font-size: 15px;
         letter-spacing: 1.575px;
         margin: 0px;
@@ -124,14 +130,14 @@
 
       .contct-heading p {
         color: #fff;
-        font-family: 'NotoSansJP-Bold';
+        font-family: "NotoSansJP-Bold";
         font-size: 20px;
         margin: 12px 0px;
       }
 
       .contct-desc p {
         color: #fff;
-        font-family: 'NotoSansJP-Regular';
+        font-family: "NotoSansJP-Regular";
         font-size: 13px;
         // line-height: 20.8px;
         margin-bottom: 12px;
@@ -146,7 +152,7 @@
       box-shadow: 0px 4px 30px 0px rgba(27, 183, 193, 0.2);
       width: 160px;
       height: 36px;
-      margin: 0px auto;
+      margin: 25px auto 0px auto;
       display: block;
       color: #fff;
       // font-family: Roboto;
@@ -167,7 +173,7 @@
 
     .side-contact-label {
       color: #fff;
-      font-family: 'NotoSansJP-Medium';
+      font-family: "NotoSansJP-Medium";
       font-size: 12px;
       // line-height: 24px;
       opacity: 0.8999999761581421;
@@ -179,23 +185,40 @@
     }
 
     .contact-announcement-image {
-      position: relative;
-      right: -25px;
+      bottom: 0;
       margin-top: 20px;
+      position: relative;
+      right: -16px;
+      display: flex;
+      justify-content: flex-end;
 
       img {
         width: 100%;
         height: 140px;
       }
     }
+    .contact-announcement-image img {
+      height: 140px;
+      width: 220px;
+    }
   }
-
+  .swiper-slide {
+    width: 100%;
+    // max-width: 180px;
+    height: 74.25px;
+    // margin-right: 12px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .brand-img {
     width: 100%;
-    height: auto;
+    height: 60px;
     aspect-ratio: 16/9;
-    padding: 10px;
-    background-color: #fff;
+    // padding: 10px;
     object-fit: contain;
   }
 
@@ -211,7 +234,7 @@
     .contact-form-title h2 {
       color: #fff;
       text-align: center;
-      font-family: 'RobotoCondensed-Regular';
+      font-family: "RobotoCondensed-Regular";
       font-size: 20px;
       letter-spacing: 2.1px;
       margin-bottom: 0px;
@@ -220,7 +243,7 @@
     .contact-form-heading p {
       color: #fff;
       text-align: center;
-      font-family: 'NotoSansJP-Bold';
+      font-family: "NotoSansJP-Bold";
       font-size: 32px;
       letter-spacing: 3.36px;
       margin: 32px 0px;
@@ -229,14 +252,14 @@
     .contact-form-desc p {
       color: #fff;
       text-align: center;
-      font-family: 'NotoSansJP-Regular';
+      font-family: "NotoSansJP-Regular";
       font-size: 15px;
       margin-bottom: 48px;
     }
 
     .main-contact-label {
       color: #2c2c2c;
-      font-family: 'NotoSansJP-Medium';
+      font-family: "NotoSansJP-Medium";
       font-size: 15px;
       line-height: 20px;
     }
@@ -262,7 +285,7 @@
       width: 250px;
       height: 60px;
       color: #fff;
-      font-family: 'Roboto-Bold';
+      font-family: "Roboto-Bold";
       font-size: 18px;
       line-height: 18px;
       letter-spacing: 0.9px;
@@ -279,7 +302,7 @@
     background: #fff;
     box-shadow: 0px 4px 30px 0px rgba(24, 131, 138, 0.15);
   }
-  .formSubmitButton{
+  .formSubmitButton {
     position: relative;
     max-width: 290px;
     width: 100%;
@@ -309,7 +332,7 @@
         button {
           padding-left: 0px;
           color: #333;
-          font-family: 'NotoSansJP-Medium';
+          font-family: "NotoSansJP-Medium";
           font-size: 16px;
           line-height: normal;
           letter-spacing: 0.8px;
@@ -339,7 +362,7 @@
           justify-content: center;
           align-items: center;
           color: #fff;
-          font-family: 'Roboto-Bold';
+          font-family: "Roboto-Bold";
           font-size: 14px;
           line-height: normal;
           letter-spacing: 1.47px;
@@ -349,7 +372,7 @@
         .card-body {
           padding: 0.5rem 0px 0.5rem 0;
           color: #333;
-          font-family: 'NotoSansJP-Regular';
+          font-family: "NotoSansJP-Regular";
           font-size: 16px;
           line-height: normal;
           letter-spacing: 0.8px;
@@ -384,7 +407,7 @@
         justify-content: center;
         align-items: center;
         color: #fff;
-        font-family: 'Roboto-Bold';
+        font-family: "Roboto-Bold";
         font-size: 14px;
         line-height: normal;
         letter-spacing: 1.47px;
@@ -394,7 +417,7 @@
       .card-body {
         padding: 0.5rem 0px 0.5rem 0;
         color: #333;
-        font-feature-settings: "palt"on;
+        font-feature-settings: "palt" on;
         font-family: Noto Sans JP;
         font-size: 16px;
         font-style: normal;
@@ -408,7 +431,7 @@
     .question-section-title h2 {
       color: #0015e2;
       text-align: center;
-      font-family: 'RobotoCondensed-Regular';
+      font-family: "RobotoCondensed-Regular";
       font-size: 20px;
       line-height: 28px;
       letter-spacing: 2.1px;
@@ -417,7 +440,7 @@
     .question-section-heading p {
       color: #333;
       text-align: center;
-      font-family: 'NotoSansJP-Bold';
+      font-family: "NotoSansJP-Bold";
       font-size: 32px;
       line-height: 56px;
       letter-spacing: 3.36px;
@@ -426,7 +449,7 @@
 
   .contactCatImagePc {
     position: absolute;
-    right: -15px;
+    right: -32px;
     bottom: -90px;
   }
 
@@ -454,7 +477,7 @@
 
     .netsologoContent h3 {
       color: #fff;
-      font-family: 'Roboto-Bold';
+      font-family: "Roboto-Bold";
       font-size: 15px;
       line-height: 15px;
       letter-spacing: 0.75px;
@@ -469,7 +492,7 @@
 
     .development-title p {
       color: #fff;
-      font-family: 'Roboto-Bold';
+      font-family: "Roboto-Bold";
       font-size: 22px;
       line-height: 22px;
       letter-spacing: 1.1px;
@@ -484,7 +507,7 @@
 
     .development-sub-title p {
       color: #fff;
-      font-family: 'Roboto-Regular';
+      font-family: "Roboto-Regular";
       font-size: 11px;
       line-height: 11px;
       letter-spacing: 1.1px;
@@ -500,7 +523,7 @@
 
       .footer-link a {
         color: #fff;
-        font-family: 'Roboto-Bold';
+        font-family: "Roboto-Bold";
         font-size: 15px;
         line-height: 15px;
         letter-spacing: 0.75px;
@@ -517,29 +540,27 @@
     }
 
     .footer-lang-button {
-
       .lang-button {
         border-radius: 27.5px;
-        background: #F0F0F0;
+        background: #f0f0f0;
         height: 39px;
         width: 101px;
         border: none;
       }
 
       .lang-button {
-
         .lang-en,
         .lang-slash {
-          color: #A9D1D3;
-          font-family: 'Roboto-Bold';
+          color: #a9d1d3;
+          font-family: "Roboto-Bold";
           font-size: 15px;
           line-height: 15px;
           letter-spacing: 0.75px;
         }
 
         .lang-jp {
-          color: #0015E2;
-          font-family: 'Roboto-Bold';
+          color: #0015e2;
+          font-family: "Roboto-Bold";
           font-size: 15px;
           line-height: 100%;
           letter-spacing: 0.75px;
@@ -562,12 +583,12 @@
       text-align: center;
       font-size: 20px;
       letter-spacing: 2.1px;
-      font-family: 'RobotoCondensed-Regular';
+      font-family: "RobotoCondensed-Regular";
       margin-bottom: 32px;
     }
 
     .section-process-heading p {
-      font-family: 'NotoSansJP-Bold';
+      font-family: "NotoSansJP-Bold";
       color: #333;
       text-align: center;
       font-size: 32px;
@@ -611,7 +632,7 @@
 
       .step-content-title h4 {
         color: #333;
-        font-family: 'NotoSansJP-Bold';
+        font-family: "NotoSansJP-Bold";
         font-size: 20px;
         font-style: normal;
         font-weight: 700;
@@ -621,7 +642,7 @@
 
       .step-content-desc p {
         color: #414141;
-        font-family: 'NotoSansJP-Regular';
+        font-family: "NotoSansJP-Regular";
         font-size: 15px;
         line-height: 30px;
         margin-bottom: 0px;
@@ -629,14 +650,13 @@
 
       .process-step h5 {
         color: #0015e2;
-        font-family: 'Roboto-Medium';
+        font-family: "Roboto-Medium";
         font-size: 15px;
         letter-spacing: 0.75px;
         text-align: center;
         margin-bottom: 0px;
       }
     }
-
   }
 
   .map-image img {
@@ -663,11 +683,13 @@
 }
 
 .problemSection {
-  background: linear-gradient(180deg,
-      rgba(68, 82, 219, 0) 0%,
-      rgba(68, 82, 219, 0.4) 8.61%,
-      #4452db 19.45%,
-      #4452db 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(68, 82, 219, 0) 0%,
+    rgba(68, 82, 219, 0.4) 8.61%,
+    #4452db 19.45%,
+    #4452db 100%
+  );
   width: 100%;
   margin-top: -230px;
   z-index: 1;
@@ -676,9 +698,8 @@
   .aboutSdh {
     max-width: 838px;
     margin: auto;
-    margin-bottom: 280px;
+    margin-bottom: 120px;
     margin-top: -90px;
-
   }
 
   .aboutSdh {
@@ -686,24 +707,24 @@
   }
 
   .aboutSdh-subtext {
-    color: #D8DBFF;
+    color: #d8dbff;
     font-size: 20px;
-    font-family: 'RobotoCondensed-Regular';
+    font-family: "RobotoCondensed-Regular";
     line-height: 28px;
     letter-spacing: 2.1px;
   }
 
   .aboutSdh-h2 {
     color: #fff;
-    font-family: 'NotoSans-Bold';
+    font-family: "NotoSans-Bold";
     font-size: 36px;
     line-height: 50.4px;
     letter-spacing: 1.8px;
   }
 
   .aboutSdh-text {
-    color: #FFF;
-    font-family: 'NotoSansJP-Regular';
+    color: #fff;
+    font-family: "NotoSansJP-Regular";
     font-size: 15px;
     line-height: 200%;
     /* 30px */
@@ -759,8 +780,8 @@
     display: inline-flex;
     align-items: center;
     padding: 32px 26px;
-    color: #081E3A;
-    font-family: 'NotoSansJP-Medium';
+    color: #081e3a;
+    font-family: "NotoSansJP-Medium";
     font-size: 20px;
     line-height: 40px;
   }
@@ -770,9 +791,9 @@
   }
 
   .problemSub-text {
-    color: #D8DBFF;
+    color: #d8dbff;
     text-align: center;
-    font-family: 'RobotoCondensed-Regular';
+    font-family: "RobotoCondensed-Regular";
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -781,9 +802,9 @@
   }
 
   .problemSub-h3 {
-    color: #FFF;
+    color: #fff;
     text-align: center;
-    font-family: 'NotoSansJP-Bold';
+    font-family: "NotoSansJP-Bold";
     font-size: 32px;
     line-height: 56px;
     letter-spacing: 3.36px;
@@ -810,20 +831,20 @@
   }
 
   .solution-subtext {
-    color: #0015E2;
+    color: #0015e2;
     text-align: center;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 2.1px;
-    font-family: 'RobotoCondensed-Regular';
+    font-family: "RobotoCondensed-Regular";
   }
 
   .solution-h2 {
-    color: #081E3A;
+    color: #081e3a;
     text-align: center;
-    font-family: 'NotoSansJP-Bold';
+    font-family: "NotoSansJP-Bold";
     font-size: 32px;
     line-height: 44.8px;
     letter-spacing: 1.6px;
@@ -840,11 +861,10 @@
   .sdh-h3 {
     margin-top: 0px;
     margin-bottom: 31px;
-    font-family: 'NotoSansJP-Bold';
+    font-family: "NotoSansJP-Bold";
     color: #3b3b3d;
     font-size: 28px;
     line-height: 42px;
-
   }
 
   .sdh-p {
@@ -854,7 +874,7 @@
     max-width: 72%;
     font-size: 13px;
     line-height: 26px;
-    font-family: 'NotoSansJP-Regular';
+    font-family: "NotoSansJP-Regular";
   }
 
   .sdhImage {
@@ -892,8 +912,7 @@
   }
 }
 
-@media only screen and (max-width:1400px) and (min-width: 1050px) {
-
+@media only screen and (max-width: 1400px) and (min-width: 1050px) {
   .hero-section {
     .hero-section-content {
       padding: 24px 45px 0px 45px;
@@ -923,15 +942,8 @@
   }
 }
 
-@media only screen and (max-width: 1050px) {
-  .side-contact-form {
-    display: none;
-  }
-   .companyLogo-Section {
-     padding-right: 0px !important;
-   }
-}
-@media only screen and (max-width:1050px) and (min-width: 900px) {
+
+@media only screen and (max-width: 1050px) and (min-width: 900px) {
   .section-process {
     .map-image img {
       position: absolute;
@@ -942,9 +954,8 @@
   }
 }
 
-@media only screen and (max-width:900px) and (min-width: 768px) {
+@media only screen and (max-width: 900px) and (min-width: 768px) {
   .hero-section {
-
     .hero-section-content {
       padding: 24px 50px 0px 50px;
     }
@@ -953,21 +964,35 @@
       font-size: 28px;
       line-height: 40px;
     }
+
   }
 
   .offshore-development-desc p {
     font-size: 16px;
   }
   .section-process {
-  .map-image img {
-    position: absolute;
-    right: 0px;
-    bottom: -55px;
-    width: 113px;
+    .map-image img {
+      position: absolute;
+      right: 0px;
+      bottom: -55px;
+      width: 113px;
+    }
   }
 }
+@media only screen and (max-width: 1050px) {
+.hero-section{
+  .section-contact-form {
+    .side-contact-form{
+      display: none;
+   }
+  }
 }
 
+  .companyLogo-Section {
+    padding-right: 0px !important;
+    margin: 0px 0px 100px;
+  }
+}
 @media only screen and (max-width: 767px) {
   .hero-section {
     .offshore-title h1 {
@@ -1004,11 +1029,12 @@
 
     .hero-section-content {
       padding: 44px 16px;
+      margin-bottom: 0px;
     }
 
-    .companyLogo-Section {
-      display: none;
-    }
+    // .companyLogo-Section {
+    //   display: none;
+    // }
 
     .hero-section-content {
       .people-image {
@@ -1018,17 +1044,22 @@
     }
 
     .problemSection {
-      background: linear-gradient(180deg,
-          rgba(68, 82, 219, 0) 0%,
-          rgba(68, 82, 219, 0.4) 6.02%,
-          #4452db 15.05%,
-          #4452db 100%);
-
-      margin-top: -400px;
+      background: linear-gradient(
+        180deg,
+        rgba(68, 82, 219, 0) 0%,
+        rgba(68, 82, 219, 0.4) 6.02%,
+        #4452db 15.05%,
+        #4452db 100%
+      );
+      position: relative;
+      padding-bottom: 0px;
+      margin-top: -450px;
 
       .aboutSdh {
         flex-direction: row-reverse;
-        margin-top: 340px;
+        margin-top: 450px;
+        margin-bottom: 100px;
+      
 
         .aboutSdh-mobileText {
           color: #fff;
@@ -1062,8 +1093,15 @@
         width: 100%;
       }
 
+      .down-arrow{
+        position: relative;
+      }
       .down-arrow img {
-        display: none;
+       left: 50%;
+       transform: translateX(-50%);
+      }
+      .down-arrow a {
+       left: 50%;
       }
 
       .problemNotes {
@@ -1076,9 +1114,6 @@
         font-size: 22px;
       }
 
-      .aboutSdh {
-        margin-bottom: 100px;
-      }
     }
 
     .solution-section {
@@ -1145,10 +1180,10 @@
         column-gap: 32px;
         row-gap: 16px;
       }
-    
-        .footer-logo{
-          display: none;
-        }
+
+      .footer-logo {
+        display: none;
+      }
     }
 
     .section-process {
@@ -1195,9 +1230,9 @@
         bottom: -70px;
       }
     }
-  .section-questions{
-padding: 80px 0px 140px;
-  }
+    .section-questions {
+      padding: 80px 0px 140px;
+    }
   }
 
   .solution-section {

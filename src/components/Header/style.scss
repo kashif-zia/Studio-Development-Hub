@@ -103,6 +103,8 @@ header {
       
       input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
         transform: rotate(30deg);
+        left: 4px;
+        position: relative;
       }
       
       input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
@@ -111,6 +113,8 @@ header {
       
       input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
         transform: rotate(-30deg);
+          left: 4px;
+        position: relative;
       }
        .hamburger-lines .line {
         display: block;

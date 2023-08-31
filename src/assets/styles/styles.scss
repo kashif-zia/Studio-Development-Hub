@@ -1,5 +1,7 @@
 @import "./variables";
-
+html{
+    scroll-behavior: smooth;
+}
 *,
 ::before,
 ::after {
@@ -21,7 +23,7 @@ a {
 
 a:hover {
     color: initial;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .custom-col-3 {

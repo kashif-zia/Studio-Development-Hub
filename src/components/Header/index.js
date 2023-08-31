@@ -9,17 +9,17 @@ export default function Header() {
             <header>
                 <div className="container-fluid p-0">     
                         <nav className="navbar navbar-expand-lg navbar-light main-navbar p-0">
-                            <a className="navbar-brand p-0" href="javascript:void(0)">
+                            <a href="/" className="navbar-brand p-0">
                                 <img src={mainLogo} alt="Main logo" />
                             </a>
                             <button className="navbar-toggler border-0 p-0"  type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                              
                              <div className='humbger-bg'>
-                             <input class="checkbox" type="checkbox" name="" id=""></input>
-                             <div class="hamburger-lines">
-                                <span class="line line1"></span>
-                                {/* <span class="line line2"></span> */}
-                                <span class="line line3"></span>
+                             <input className="checkbox" type="checkbox" name="" id=""></input>
+                             <div className="hamburger-lines">
+                                <span className="line line1"></span>
+                                {/* <span className="line line2"></span> */}
+                                <span className="line line3"></span>
                             </div>  
                             </div>
                             </button>

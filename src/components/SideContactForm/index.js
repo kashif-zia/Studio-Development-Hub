@@ -49,7 +49,7 @@ export default function index() {
                     </div>
                     <button type="submit" className="btn contac-submit-button">送信する</button>
                     <div className='contact-announcement-image'>
-                        <img src={catImage} alt="image" />                        
+                        <img src={catImage} alt="cat" />                        
                     </div>
                 </form>
             </section>

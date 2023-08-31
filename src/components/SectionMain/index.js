@@ -63,28 +63,34 @@ export default function index() {
                         <br /> システム開発をサポートするサイト
                       </p>
                     </div>
+                    <a href='#section-main-contact-form'>
                     <div className='section-main-contact-button'>
                       <button className='main-contact-btn'>お問い合わせ</button>
                       <span className='arrow-icon'>
                         <img src={rigtharrow} className='arrow-image' alt='rightarrow' />
                       </span>
                     </div>
+                    </a>
                   </div>
                 </div>
                 <div className='col-md-6'>
-                  <img src={peopleImage} className='people-image' alt='peopleImage' />
+                  <img src={peopleImage} className='people-image' alt='people' />
                 </div>
               </div>
             </div>
             <div className='companyLogo-Section pr-4'>
               <Swiper
                 slidesPerView={5}
-                spaceBetween={60}
+                spaceBetween={12}
                 loop={true}
                 autoplay={{
                   delay: 2500,
                 }}
                 breakpoints={{
+                  375: {
+                    slidesPerView: 3,
+                    spaceBetween: 12,
+                  },
                   640: {
                     slidesPerView: 2,
                     spaceBetween: 20,
@@ -95,11 +101,11 @@ export default function index() {
                   },
                   1024: {
                     slidesPerView: 4,
-                    spaceBetween: 60,
+                    spaceBetween: 12,
                   },
-                  1500: {
-                    slidesPerView: 5,
-                    spaceBetween: 60,
+                  1440: {
+                    slidesPerView: 6,
+                    spaceBetween: 12,
                   },
                 }}
                 modules={[Autoplay]}
@@ -152,66 +158,68 @@ export default function index() {
           <div className='col-md-3 custom-col-3 p-0'>
             <section className='section-contact-form'>
               <form className='side-contact-form'>
-                <div className='side-contact-form-header text-center'>
-                  <div className='contct-title'>
-                    <p>{"{ Contact }"}</p>
+                <div className='te'>
+                  <div className='side-contact-form-header text-center'>
+                    <div className='contct-title'>
+                      <p>{"{ Contact }"}</p>
+                    </div>
+                    <div className='contct-heading'>
+                      <p>まずは無料で相談！</p>
+                    </div>
+                    <div className='contct-desc'>
+                      <p>
+                        サービスに関するご質問、ご相談など、お気軽にご相談ください。内容確認後、担当者よりご連絡いたします。
+                      </p>
+                    </div>
                   </div>
-                  <div className='contct-heading'>
-                    <p>まずは無料で相談！</p>
+                  <div className='form-group'>
+                    <label className='side-contact-label' htmlFor='maidenName'>
+                      氏名
+                    </label>
+                    <input type='text' className='form-control' id='maidenName' />
                   </div>
-                  <div className='contct-desc'>
-                    <p>
-                      サービスに関するご質問、ご相談など、お気軽にご相談ください。内容確認後、担当者よりご連絡いたします。
-                    </p>
+                  <div className='form-group'>
+                    <label className='side-contact-label' htmlFor='phoneNumber'>
+                      電話番号
+                    </label>
+                    <input type='text' className='form-control' id='phoneNumber' />
                   </div>
+                  <div className='form-group'>
+                    <label className='side-contact-label' htmlFor='exampleInputEmail1'>
+                      メールアドレス
+                    </label>
+                    <input type='email' className='form-control' id='exampleInputEmail1' />
+                  </div>
+                  <div className='form-group'>
+                    <label className='side-contact-label' htmlFor='companyName'>
+                      会社名
+                    </label>
+                    <input type='text' className='form-control' id='companyName' />
+                  </div>
+                  <div className='form-group'>
+                    <label className='side-contact-label' htmlFor='department'>
+                      部署
+                    </label>
+                    <input type='text' className='form-control' id='department' />
+                  </div>
+                  <div className='form-group'>
+                    <label className='side-contact-label' htmlFor='department'>
+                      役所
+                    </label>
+                    <input type='text' className='form-control' id='department' />
+                  </div>
+                  <div className='form-group'>
+                    <label className='side-contact-label' htmlFor='message'>
+                      ご相談内容
+                    </label>
+                    <textarea className='form-control contact-text-area' rows='' cols=''></textarea>
+                  </div>
+                  <button type='submit' className='btn contac-submit-button'>
+                    送信する
+                  </button>
                 </div>
-                <div className='form-group'>
-                  <label className='side-contact-label' htmlFor='maidenName'>
-                    氏名
-                  </label>
-                  <input type='text' className='form-control' id='maidenName' />
-                </div>
-                <div className='form-group'>
-                  <label className='side-contact-label' htmlFor='phoneNumber'>
-                    電話番号
-                  </label>
-                  <input type='text' className='form-control' id='phoneNumber' />
-                </div>
-                <div className='form-group'>
-                  <label className='side-contact-label' htmlFor='exampleInputEmail1'>
-                    メールアドレス
-                  </label>
-                  <input type='email' className='form-control' id='exampleInputEmail1' />
-                </div>
-                <div className='form-group'>
-                  <label className='side-contact-label' htmlFor='companyName'>
-                    会社名
-                  </label>
-                  <input type='text' className='form-control' id='companyName' />
-                </div>
-                <div className='form-group'>
-                  <label className='side-contact-label' htmlFor='department'>
-                    部署
-                  </label>
-                  <input type='text' className='form-control' id='department' />
-                </div>
-                <div className='form-group'>
-                  <label className='side-contact-label' htmlFor='department'>
-                    役所
-                  </label>
-                  <input type='text' className='form-control' id='department' />
-                </div>
-                <div className='form-group'>
-                  <label className='side-contact-label' htmlFor='message'>
-                    ご相談内容
-                  </label>
-                  <textarea className='form-control contact-text-area' rows='' cols=''></textarea>
-                </div>
-                <button type='submit' className='btn contac-submit-button'>
-                  送信する
-                </button>
                 <div className='contact-announcement-image'>
-                  <img src={catImage} alt='image' />
+                  <img src={catImage} alt='cat' />
                 </div>
               </form>
             </section>
@@ -221,9 +229,9 @@ export default function index() {
           <div className='sdh-mv'></div>
           <div className='problemSection'>
             <div className='col-md-9 custom-col-9'>
-              <div className='aboutSdh' id="aboutSdh">
+              <div className='aboutSdh' id='aboutSdh'>
                 <div className='dancing-img'>
-                  <img src={dancingImage} alt='dancing image' />
+                  <img src={dancingImage} alt='dancing' />
                 </div>
                 <div className='about-p'>
                   <p className='aboutSdh-subtext'>{"{ About SDH }"}</p>
@@ -275,7 +283,7 @@ export default function index() {
                     </div>
                   </div>
                   <div className='twoPersonImage'>
-                    <img src={problemImage} alt='problemImage' />
+                    <img src={problemImage} alt='problem' />
                   </div>
                 </div>
               </div>
@@ -363,7 +371,7 @@ export default function index() {
 
         <div className='row'>
           <div className='col-md-9 custom-col-9 p-0'>
-            <section className='section-process' id="section-process">
+            <section className='section-process' id='section-process'>
               <div className='section-process-content'>
                 <div className='section-process-header'>
                   <div className='section-process-title'>
@@ -379,7 +387,7 @@ export default function index() {
                       <div className='step-title'>
                         <h5>step 01</h5>
                         <div className='line-img'>
-                          <img src={lineImage} alt='image' />
+                          <img src={lineImage} alt='lineimag' />
                         </div>
                       </div>
                       <div className='step-content'>
@@ -395,7 +403,7 @@ export default function index() {
                       <div className='step-title'>
                         <h5>step 02</h5>
                         <div className='line-img'>
-                          <img src={lineImage} alt='image' />
+                          <img src={lineImage} alt='lineimag' />
                         </div>
                       </div>
                       <div className='step-content'>
@@ -411,7 +419,7 @@ export default function index() {
                       <div className='step-title'>
                         <h5>step 03</h5>
                         <div className='line-img'>
-                          <img src={lineImage} alt='image' />
+                          <img src={lineImage} alt='lineimag' />
                         </div>
                       </div>
                       <div className='step-content'>
@@ -437,18 +445,17 @@ export default function index() {
                       </div>
                     </div>
                   </div>
-                  <div className="map-image">
-                    <img src={mapImage} alt="map" />
+                  <div className='map-image'>
+                    <img src={mapImage} alt='map' />
                   </div>
                 </div>
-                
               </div>
             </section>
           </div>
         </div>
         <div className='row'>
           <div className='col-md-9 custom-col-9 p-0 bg-blue'>
-            <section className='section-questions' id="section-questions">
+            <section className='section-questions' id='section-questions'>
               <div className='container'>
                 <div className='row'>
                   <div className='col-md-10 mx-auto'>
@@ -1015,7 +1022,7 @@ export default function index() {
           </div>
         </div>
       </div>
-      <section className='section-main-contact-form'>
+      <section className='section-main-contact-form' id='section-main-contact-form'>
         <div className='container'>
           <div className='row'>
             <div className='col-md-12 mx-auto'>
@@ -1097,7 +1104,7 @@ export default function index() {
                 <div className='footer-left-col-content'>
                   <div className='footer-logo'>
                     <div className='netsolLogo'>
-                      <img src={netsoIcon} alt='image' />
+                      <img src={netsoIcon} alt='icon' />
                     </div>
                     <div className='netsologoContent'>
                       <h3>IDENBRIDはNETSOLと提携しています</h3>
@@ -1107,23 +1114,23 @@ export default function index() {
                     <p>Studio Development Hub</p>
                     <div className='footer-links'>
                       <div className='footer-link'>
-                        <a href="#aboutSdh">
+                        <a href='#aboutSdh'>
                           <span className='footer-link-dot'></span> SDHとは
                         </a>
                       </div>
                       <div className='footer-link'>
-                        <a href="#solution-section">
+                        <a href='#solution-section'>
                           <span className='footer-link-dot'></span>
                           ソリューション
                         </a>
                       </div>
                       <div className='footer-link'>
-                        <a href="#section-process">
+                        <a href='#section-process'>
                           <span className='footer-link-dot'></span> ご利用の流れ
                         </a>
                       </div>
                       <div className='footer-link'>
-                        <a href="#section-questions">
+                        <a href='#section-questions'>
                           <span className='footer-link-dot'></span> よくある質問
                         </a>
                       </div>
